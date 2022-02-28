@@ -1,0 +1,81 @@
+#
+# What is this file?
+# This file is a General Sprites Metadata and all sprites listed here will be loaded
+# Format:
+# [sprite_location]:[True or False, transparency]
+#
+/icon.png:True
+/icon2.png:True
+/window/resize.png:True
+/window/minimize_0.png:False
+/window/minimize_1.png:False
+/cursors/0.png:True
+/cursors/1.png:True
+/cursors/2.png:True
+/cursors/3.png:True
+/cursors/4.png:True
+/cursors/5.png:True
+#
+# -- Load Tilesets -- #
+# Tileset 0
+/map/0/0.png:False
+/map/0/1.png:False
+/map/0/2.png:False
+/map/0/3.png:False
+
+
+# -- Item ID -2 -- #
+/Item/-2/0.png:True
+/Item/-2/1.png:True
+
+
+# -- Item ID -1 -- #
+/Item/-1/0.png:True
+/Item/-1/1.png:True
+
+
+# -- Item ID 0 -- #
+/Item/0/0.png:True
+/Item/0/1.png:True
+/Item/0/2.png:True
+/Item/0/3.png:True
+/Item/0/4.png:True
+
+# -- Planet Icons -- #
+/icons/planet/id_0.png:True
+
+# -- Loading animation -- #
+/anim/loading/1.png:True
+/anim/loading/2.png:True
+/anim/loading/3.png:True
+/anim/loading/4.png:True
+/anim/loading/5.png:True
+/anim/loading/6.png:True
+/anim/loading/7.png:True
+/anim/loading/8.png:True
+/anim/loading/9.png:True
+/anim/loading/10.png:True
+/anim/loading/11.png:True
+/anim/loading/12.png:True
+/anim/loading/13.png:True
+/anim/loading/14.png:True
+/anim/loading/15.png:True
+/anim/loading/16.png:True
+/anim/loading/17.png:True
+/anim/loading/18.png:True
+/anim/loading/19.png:True
+/anim/loading/20.png:True
+/anim/loading/21.png:True
+/anim/loading/22.png:True
+/anim/loading/23.png:True
+/anim/loading/24.png:True
+/anim/loading/25.png:True
+/anim/loading/26.png:True
+/anim/loading/27.png:True
+/anim/loading/28.png:True
+/anim/loading/29.png:True
+/anim/loading/30.png:True
+/anim/loading/31.png:True
+/anim/loading/32.png:True
+/anim/loading/33.png:True 
+

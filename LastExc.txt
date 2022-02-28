@@ -1,0 +1,35 @@
+-- Taiyou Crash File--
+This log file has been written on:
+2022-02-28 01:57:48.975322
+
+Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\main.py", line 26, in <module>
+    Taiyou.Run()
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\ENGINE\MAIN\__init__.py", line 217, in Run
+    GameObject.Update()
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\__init__.py", line 184, in Update
+    CurrentUpdate.Update()
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\Screens\MainMenu\__init__.py", line 121, in Update
+    tipsWindow.Update()
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\Window\Tips\__init__.py", line 80, in Update
+    gameMain.DefaultCnt.Write_RegKey("/strings/main_menu/EMW/first_message", "False")
+  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\ENGINE\CONTENT_MANAGER\__init__.py", line 399, in Write_RegKey
+    Index = self.reg_keys.index(keyName)
+ValueError: '/strings/main_menu/EMW/first_message' is not in list
+
+
+Modules Version:
+Runtime: 3.0
+
+AppData: 1.0
+
+ContentManager: 2.4
+
+Fx: 1.0
+
+Main: 3.3
+
+Shape: 2.0
+
+Utils: 1.9

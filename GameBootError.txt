@@ -1,0 +1,24 @@
+-- TaiyouGameEngine has failed while booting an Application. --
+This log file has been written on:
+2022-02-28 01:38:24.531518
+
+Traceback:
+NoneType: None
+
+
+Taiyou Game Engine Modules Version:
+Runtime: 3.0
+
+AppData: 1.0
+
+ContentManager: 2.4
+
+Fx: 1.0
+
+Main: 3.3
+
+Shape: 2.0
+
+Utils: 1.9
+
+Main: 1.2

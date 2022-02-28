@@ -1,0 +1,140 @@
+
+Taiyou General version 17.3
+
+
+pygame 2.1.0 (SDL 2.0.16, Python 3.9.10)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+TaiyouGameEngineUtils version 1.9
+Taiyou ContentManager version 2.4
+Taiyou AppData version 1.0
+Taiyou FX version 1.0
+Taiyou SHAPE version: 2.0
+Taiyou Main version 3.3
+Taiyou.GameExecution.Initialize : Initializing Taiyou...
+Taiyou.Runtime.InitEngine : Disable font rendering set to:False
+Taiyou.Runtime.InitEngine : Disable sprite rendering set to:False
+Taiyou.Runtime.InitEngine : Disable rectangle rendering set to:False
+Taiyou.Runtime.InitEngine : Disable sound system set to:False
+Taiyou.Runtime.InitEngine : Disable sound system set to:False
+Taiyou.Runtime.InitEngine : Video Driver was set to:x11
+Taiyou.Runtime.InitEngine : VideoX11CenterWindow was set to:True
+Taiyou.Runtime.InitEngine : VideoX11DGAMouse was set to:True
+Taiyou.Runtime.InitEngine : VideoX11YUV_HWACCEL was set to:True
+Taiyou.Runtime.InitEngine : InputMouseDriver was set to:fbcon
+Taiyou.Runtime.InitEngine : InputDisableMouse was set to:False
+Taiyou.Runtime.InitEngine : Audio Driver was set to:alsa
+Taiyou.Runtime.InitEngine : Audio Frequency was set to:96000
+Taiyou.Runtime.InitEngine : Audio Size was set to:-16
+Taiyou.Runtime.InitEngine : Audio Channels was set to:2
+Taiyou.Runtime.InitEngine : Audio Buffer Size was set to:1500
+Taiyou.Runtime.InitEngine : Run in Fullscreen was set to:False
+Taiyou.Runtime.InitEngine : ThrowException was set to:True
+Taiyou.Runtime.InitEngine : SmoothScaleBackend was set to:MMX
+Taiyou.Runtime.InitEngine : FastEvent was set to:True
+Taiyou.Runtime.InitEngine : SDL2 Parameters has been disabled
+Taiyou.GameExecution.SetGameObject : Loading Module: [Taiyou.Bootloader.MAIN]
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+ContentManager.LoadSpritesInFolder : Loading all Sprites...
+[Taiyou\Bootloader\RES/img/logo.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/logo.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/background.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/background.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/cursor.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursor.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/warning.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/warning.png]; Index[-1] Transparent: True
+
+Sprite.LoadFonts : Directory does not have Font Packs to be installed.
+ContentManager.LoadSpritesInFolder : Operation Completed.
+Taiyou.ContentManager.UnloadRegistry : Unloading Registry
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.ContentManager.LoadRegistry : Loading Registry...
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_end_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_next_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_speed]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\aragubas]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\game_boot_error]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\no_game_selected]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\skip_intro]
+Taiyou.ContentManager.LoadRegistry : Total of 7 registry keys loaded. In 0.0190 seconds.
+Taiyou.Utils.GC_COLLECT : Function Called
+ContentManager.LoadSoundsInFolder : Loading Sounds
+
+ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\intro.wav] detected; Index[0]
+ContentManager.LoadSoundsInFolder : ItemAdded[\intro.wav]; Index[0]
+
+
+ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\notify.wav] detected; Index[1]
+ContentManager.LoadSoundsInFolder : ItemAdded[\notify.wav]; Index[1]
+
+ContentManager.LoadSoundsInFolder : Operation Completed
+Sounds Loaded
+{'\\intro.wav': <Sound object at 0x0000023401247F60>, '\\notify.wav': <Sound object at 0x0000023401247EA0>}
+Initialize Called
+Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:60
+TaiyouMessage: Command Processed:
+'0' with Argument: '60'
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.GameExecution.Initialize : Initialization complete.
+Taiyou\Bootloader\RES/font\Ubuntu_Bold.ttf
+Taiyou.GameExecution.SetGameObject : Loading Module: [HelloWorld.MAIN]
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.GameExecution.SetGameObject : Loading Module: [Taiyou.Bootloader.MAIN]
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+ContentManager.LoadSpritesInFolder : Loading all Sprites...
+[Taiyou\Bootloader\RES/img/logo.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/logo.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/background.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/background.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/cursor.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursor.png]; Index[-1] Transparent: True
+
+[Taiyou\Bootloader\RES/img/warning.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/warning.png]; Index[-1] Transparent: True
+
+Sprite.LoadFonts : Directory does not have Font Packs to be installed.
+ContentManager.LoadSpritesInFolder : Operation Completed.
+Taiyou.ContentManager.UnloadRegistry : Unloading Registry
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.ContentManager.LoadRegistry : Loading Registry...
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_end_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_next_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_speed]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\aragubas]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\game_boot_error]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\no_game_selected]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\skip_intro]
+Taiyou.ContentManager.LoadRegistry : Total of 7 registry keys loaded. In 0.0170 seconds.
+Taiyou.Utils.GC_COLLECT : Function Called
+ContentManager.LoadSoundsInFolder : Loading Sounds
+
+ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\intro.wav] detected; Index[0]
+ContentManager.LoadSoundsInFolder : ItemAdded[\intro.wav]; Index[0]
+
+
+ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\notify.wav] detected; Index[1]
+ContentManager.LoadSoundsInFolder : ItemAdded[\notify.wav]; Index[1]
+
+ContentManager.LoadSoundsInFolder : Operation Completed
+Sounds Loaded
+{'\\intro.wav': <Sound object at 0x0000023401247C00>, '\\notify.wav': <Sound object at 0x0000023401247C30>}
+Initialize Called
+Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:60
+TaiyouMessage: Command Processed:
+'0' with Argument: '60'
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou\Bootloader\RES/font\Ubuntu_Bold.ttf

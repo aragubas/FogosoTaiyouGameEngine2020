@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/abacate/Projetos/Python/Taiyou Game Engine/Fogoso/MAIN/__init__.py", line 176, in Update
+    CurrentUpdate.Update()
+  File "/home/abacate/Projetos/Python/Taiyou Game Engine/Fogoso/MAIN/Screens/Game/__init__.py", line 268, in Update
+    gameClock.Update()
+  File "/home/abacate/Projetos/Python/Taiyou Game Engine/Fogoso/MAIN/Screens/Game/GameClock/__init__.py", line 72, in Update
+    print(0 / 0)
+ZeroDivisionError: division by zero
