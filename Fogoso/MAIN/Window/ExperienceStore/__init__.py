@@ -15,7 +15,7 @@
 #
 #
 
-from ENGINE import APPDATA as reg
+from ENGINE import APPDATA as reg, SHAPES
 from ENGINE import UTILS as utils
 from Fogoso.MAIN.Screens.Game import IncomingLog as IncomingLog
 from Fogoso.MAIN import ClassesUtils as gameObjs
@@ -84,14 +84,14 @@ def Render(DISPLAY):
             SelectedItemPrice = gameItems.GetItemUpgradePrice_ByID(SelectedItemID)
 
             # -- Down Panel Background -- #
-            CONTENT_MANAGER.Shape_Rectangle(DrawnSurface, (0, 0, 0, 100), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset, DrawnSurface.get_width(), DownBar_BuyPanelYOffset))
-            CONTENT_MANAGER.Shape_Rectangle(DrawnSurface, (16, 166, 152), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset - 1, DrawnSurface.get_width(), 1))
+            SHAPES.Shape_Rectangle(DrawnSurface, (0, 0, 0, 100), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset, DrawnSurface.get_width(), DownBar_BuyPanelYOffset))
+            SHAPES.Shape_Rectangle(DrawnSurface, (16, 166, 152), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset - 1, DrawnSurface.get_width(), 1))
 
             # -- Draw the Buy Button -- #
             BuyButton.Render(DrawnSurface)
 
             # -- Draw the Item Title -- #
-            CONTENT_MANAGER.FontRender(DrawnSurface, "/PressStart2P.ttf", 15, ListItems.LastItemClicked, (250, 250, 250), 10, DrawnSurface.get_height() - DownBar_BuyPanelYOffset + 5, gameMain.DefaultCnt.Get_RegKey("/OPTIONS/font_aa"))
+            gameMain.DefaultCnt.FontRender(DrawnSurface, "/PressStart2P.ttf", 15, ListItems.LastItemClicked, (250, 250, 250), 10, DrawnSurface.get_height() - DownBar_BuyPanelYOffset + 5, gameMain.DefaultCnt.Get_RegKey("/OPTIONS/font_aa"))
 
             # -- Draw the Item Price -- #
             PriceTextOpacity = 255
@@ -101,7 +101,7 @@ def Render(DISPLAY):
                 if PriceTextOpacity <= 100:
                     PriceTextOpacity = 100
 
-            CONTENT_MANAGER.FontRender(DrawnSurface, "/PressStart2P.ttf", 8, "€xp" + str(utils.FormatNumber(SelectedItemPrice)), (PriceTextOpacity, PriceTextOpacity, PriceTextOpacity), 10, DrawnSurface.get_height() - DownBar_BuyPanelYOffset + 20, gameMain.DefaultCnt.Get_RegKey("/OPTIONS/font_aa"), Opacity=PriceTextOpacity)
+            gameMain.DefaultCnt.FontRender(DrawnSurface, "/PressStart2P.ttf", 8, "Exp" + str(utils.FormatNumber(SelectedItemPrice)), (PriceTextOpacity, PriceTextOpacity, PriceTextOpacity), 10, DrawnSurface.get_height() - DownBar_BuyPanelYOffset + 20, gameMain.DefaultCnt.Get_RegKey("/OPTIONS/font_aa"), Opacity=PriceTextOpacity)
 
     WindowObject.Render(DISPLAY) # -- Render Window Border
     DISPLAY.blit(DrawnSurface, (WindowObject.WindowSurface_Rect[0], WindowObject.WindowSurface_Rect[1]))  # -- Render Window Objects

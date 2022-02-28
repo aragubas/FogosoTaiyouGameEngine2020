@@ -62,7 +62,7 @@ Taiyou.ContentManager.LoadRegistry : KeyLoaded[\aragubas]
 Taiyou.ContentManager.LoadRegistry : KeyLoaded[\game_boot_error]
 Taiyou.ContentManager.LoadRegistry : KeyLoaded[\no_game_selected]
 Taiyou.ContentManager.LoadRegistry : KeyLoaded[\skip_intro]
-Taiyou.ContentManager.LoadRegistry : Total of 7 registry keys loaded. In 0.0190 seconds.
+Taiyou.ContentManager.LoadRegistry : Total of 7 registry keys loaded. In 0.0150 seconds.
 Taiyou.Utils.GC_COLLECT : Function Called
 ContentManager.LoadSoundsInFolder : Loading Sounds
 
@@ -75,7 +75,7 @@ ContentManager.LoadSoundsInFolder : ItemAdded[\notify.wav]; Index[1]
 
 ContentManager.LoadSoundsInFolder : Operation Completed
 Sounds Loaded
-{'\\intro.wav': <Sound object at 0x0000023401247F60>, '\\notify.wav': <Sound object at 0x0000023401247EA0>}
+{'\\intro.wav': <Sound object at 0x000001BADEC16F90>, '\\notify.wav': <Sound object at 0x000001BADEC16ED0>}
 Initialize Called
 Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:60
 TaiyouMessage: Command Processed:
@@ -83,27 +83,10553 @@ TaiyouMessage: Command Processed:
 Taiyou.Utils.GC_COLLECT : Function Called
 Taiyou.GameExecution.Initialize : Initialization complete.
 Taiyou\Bootloader\RES/font\Ubuntu_Bold.ttf
-Taiyou.GameExecution.SetGameObject : Loading Module: [HelloWorld.MAIN]
+Taiyou.GameExecution.SetGameObject : Loading Module: [Fogoso.MAIN]
 Taiyou.Utils.GC_COLLECT : Function Called
 Taiyou.Utils.GC_COLLECT : Function Called
 Taiyou.Utils.GC_COLLECT : Function Called
+Game : Classes Utils v1.1
+Fogoso Screens Transtion, version 1.0
+Fogoso Maintenance , version 1.3
+Fogoso Experience Store Window, Version 1.0
+Fogoso Variables Management, version 1.7
+Fogoso Store Window, Version 1.2
+Fogoso Infos Window, Version 1.4
 Taiyou.Utils.GC_COLLECT : Function Called
-Taiyou.GameExecution.SetGameObject : Loading Module: [Taiyou.Bootloader.MAIN]
-Taiyou.Utils.GC_COLLECT : Function Called
-Taiyou.Utils.GC_COLLECT : Function Called
-Taiyou.Utils.GC_COLLECT : Function Called
-Taiyou.Utils.GC_COLLECT : Function Called
+Fogoso : Game Initialization Called
 ContentManager.LoadSpritesInFolder : Loading all Sprites...
-[Taiyou\Bootloader\RES/img/logo.png]
-ContentManager.LoadSpritesInFolder : ItemAdded[/logo.png]; Index[-1] Transparent: True
+[Fogoso\Data/SPRITE/icon.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/icon.png]; Index[-1] Transparent: True
 
-[Taiyou\Bootloader\RES/img/background.png]
+[Fogoso\Data/SPRITE/icon2.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/icon2.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/window/resize.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/window/resize.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/window/minimize_0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/window/minimize_0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/window/minimize_1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/window/minimize_1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/2.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/2.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/3.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/3.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/4.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/4.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/cursors/5.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/cursors/5.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/map/0/0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/map/0/0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/map/0/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/map/0/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/map/0/2.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/map/0/2.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/map/0/3.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/map/0/3.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/-2/0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/-2/0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/-2/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/-2/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/-1/0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/-1/0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/-1/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/-1/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/0/0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/0/0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/0/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/0/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/0/2.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/0/2.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/0/3.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/0/3.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/Item/0/4.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/Item/0/4.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/icons/planet/id_0.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/icons/planet/id_0.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/1.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/1.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/2.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/2.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/3.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/3.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/4.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/4.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/5.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/5.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/6.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/6.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/7.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/7.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/8.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/8.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/9.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/9.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/10.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/10.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/11.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/11.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/12.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/12.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/13.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/13.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/14.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/14.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/15.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/15.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/16.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/16.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/17.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/17.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/18.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/18.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/19.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/19.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/20.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/20.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/21.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/21.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/22.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/22.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/23.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/23.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/24.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/24.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/25.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/25.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/26.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/26.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/27.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/27.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/28.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/28.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/29.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/29.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/30.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/30.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/31.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/31.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/32.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/32.png]; Index[-1] Transparent: True
+
+[Fogoso\Data/SPRITE/anim/loading/33.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/anim/loading/33.png]; Index[-1] Transparent: True
+
+Sprite.LoadFonts : Directory does not have Font Packs to be installed.
+ContentManager.LoadSpritesInFolder : Operation Completed.
+Taiyou.ContentManager.UnloadRegistry : Unloading Registry
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.ContentManager.LoadRegistry : Loading Registry...
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\0\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\0\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\1\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\1\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\2\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\2\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\3\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\3\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\4\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\4\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\5\h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\CursorSize\5\w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\gameTitle]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\IsFirstInitialization]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\is_buyable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\is_unlocker]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\is_upgradeable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\is_visible]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_0_activation_sec]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_0_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_0_exp_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_0_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_0_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_1_activation_sec]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_1_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_1_exp_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_1_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-1\lv_1_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\is_buyable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\is_unlocker]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\is_upgradeable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_0_activation_sec]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_0_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_0_exp_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_0_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_0_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_1_activation_sec]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_1_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_1_exp_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_1_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\-2\lv_1_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\is_buyable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\is_unlocker]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\is_upgradeable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\is_visible]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_0_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_0_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_0_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_0_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_1_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_1_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_1_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_1_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_2_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_2_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_2_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_2_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_3_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_3_cost_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_3_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\0\lv_3_upgrade_price]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\all]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\minimum]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\name\-1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\name\-2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\name\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\-1_level_0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\-1_level_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\-1_level_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\-2_level_0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\-2_level_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\0_level_0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\0_level_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\0_level_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\0_level_3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\sprite\0_level_4]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\store\-1_description]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\store\-1_name]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\store\0_description]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\store\0_name]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\store\buyAmount]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-1_description_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-1_description_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-1_name_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-1_name_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-2_description_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\-2_name_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_description_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_description_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_description_3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_description_4]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_name_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_name_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_name_3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\ItemData\upgrade\0_name_4]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Initialize)]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Initialize)]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Initialize)_0.0.0. 0,0,0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Update)]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Update)]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Update)_2020.0.04. 15,34,38]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Update)_2020.0.04. 15,35,17]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\LOG\crash_func(Update)_2020.0.04. 15,38,55]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\lower_money_warning]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\debug_enabled]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\desc\fade_flash\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\desc\fade_flash\1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\desc\fade_flash\2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\desc\fade_flash\3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\fade_flash_speed]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\fade_flash_style]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\font_aa]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\format_numbers]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\maxFPS]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\props\fade_flash_speed_max]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\props\fade_flash_style_max]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\random_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\scanline_effect]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\sprite_aa]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\tutorial_enabled]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_blur_ammount]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_blur_ammount_max]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_blur_enabled]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_contrast]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_Pixelate]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\UI_WindowIndicator]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\OPTIONS\Windows_transitions]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\planets\name_by_id\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\CurrentScreen]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\default_resH]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\default_resW]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\error_message_delay_max]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\error_message_text_size]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\intro_adder]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\intro_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\intro_end_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\MainMenu\next_screen_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\settings_max_category]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\expecience_store\last_h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\expecience_store\last_w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\infos\last_h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\infos\last_w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\store\last_h]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\props\window\store\last_w]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\down_arrow]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\experience_store]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\infos]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\main_menu]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\options]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\save]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\store]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\button\game\up_arrow]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\dialog\no_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\dialog\ok_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\dialog\yes_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_0_text]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_0_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_1_text]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_1_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_2_text]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\bankrupt_2_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\calendar]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\clock]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\experience]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\game_items_view]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\GeneralMaintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\items_info]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\money]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\money_per_secound]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\receiving_log]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\save_reset]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\save_screen\message]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\game\save_screen\title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\10]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\11]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\12]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\13]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\14]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\15]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\16]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\17]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\18]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\19]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\20]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\21]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\22]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\23]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\24]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\25]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\26]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\27]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\28]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\29]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\30]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\4]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\5]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\6]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\7]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\8]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\9]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\gme_wt\all]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\intro\license_text]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\intro\text]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\about]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\0_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\10]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\10_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\1_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\2_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\3_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\4]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\4_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\5]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\5_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\6]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\6_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\7]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\7_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\8]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\8_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\9]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\9_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\first]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\first_message]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\first_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\EMW\total_messages]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\game_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\message_window\next_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\message_window\window_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\play_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\main_menu\settings_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\back_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\category\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\category\1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\category\2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\debug_mode]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\desc\fade_flash\0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\desc\fade_flash\1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\desc\fade_flash\2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\desc\fade_flash\3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\flash_anim_speed]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\flash_anim_style]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\font_aa]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\max_fps]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\number_formatting]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\random_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\sprite_aa]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\toggle_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\ui_blur]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\ui_blur_enabled]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\ui_pixelate]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\settings\windows_transitions]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\clicking_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\expstore_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\infos_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\new_savegame]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\store]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\store_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title_clicking_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title_expstore_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title_infos_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title_new_savegame]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\tutorial\title_store_window_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\expecience_store\buy_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\expecience_store\item_not_upgradable]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\expecience_store\item_upgrade]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\expecience_store\window_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\category_0]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\category_1]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\category_2]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\category_3]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\category_max]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_items_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_maintenance]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_maintenance_base]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_maintenance_delay]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_money_minimum]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_money_per_click]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_previuos_best]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\txt_total_of_items]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\infos\window_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\store\buy_button]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\store\cant_buy_item]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\store\item_bought]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\store\item_not_bought]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\strings\window\store\window_title]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\VersionStatus]
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\welcome_message_triggered]
+Taiyou.ContentManager.LoadRegistry : Total of 298 registry keys loaded. In 0.0880 seconds.
+Taiyou.Utils.GC_COLLECT : Function Called
+ContentManager.LoadSoundsInFolder : Loading Sounds
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\hit_1.wav] detected; Index[0]
+ContentManager.LoadSoundsInFolder : ItemAdded[\hit_1.wav]; Index[0]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\hit_2.wav] detected; Index[1]
+ContentManager.LoadSoundsInFolder : ItemAdded[\hit_2.wav]; Index[1]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Click.wav] detected; Index[2]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Click.wav]; Index[2]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Confirm.wav] detected; Index[3]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Confirm.wav]; Index[3]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Decline.wav] detected; Index[4]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Decline.wav]; Index[4]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Error.wav] detected; Index[5]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Error.wav]; Index[5]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_In.wav] detected; Index[6]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_In.wav]; Index[6]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_ListEnd.wav] detected; Index[7]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_ListEnd.wav]; Index[7]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Notify.wav] detected; Index[8]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Notify.wav]; Index[8]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Out.wav] detected; Index[9]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Out.wav]; Index[9]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\HUD_Select.wav] detected; Index[10]
+ContentManager.LoadSoundsInFolder : ItemAdded[\HUD_Select.wav]; Index[10]
+
+
+ContentManager.LoadSoundsInFolder : File[Fogoso\Data/SOUND\teclado.wav] detected; Index[11]
+ContentManager.LoadSoundsInFolder : ItemAdded[\teclado.wav]; Index[11]
+
+ContentManager.LoadSoundsInFolder : Operation Completed
+LoadOptions : Init
+LoadOptions : Data loading complete
+Taiyou.GameExecution.ReceiveCommand : Set Resolution to: 1024x520
+TaiyouMessage: Command Processed:
+'1' with Argument: '1024x520'
+Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:70
+TaiyouMessage: Command Processed:
+'0' with Argument: '70'
+ScreenLogos : Initialize.
+Fogoso\Data/FONT\PressStart2P.ttf
+GameMenu : Initialize
+Fogoso\Data/FONT\PressStart2P.ttf
+Fogoso\Data/FONT\PressStart2P.ttf
+Fogoso\Data/FONT\PressStart2P.ttf
+LoadGame : Init
+Fogoso.SaveManager : Loading Save Data...
+LoadItems ; Loading ItemID: -2
+LoadItems ; AllItemsLoaded: 0
+Fogoso.SaveManager : Loading Store Items...
+RestartItems : Clear Item Data...
+LoadItems ; Loading ItemID: -2
+LoadItems ; AllItemsLoaded: 0
+ReloadItemsList : Add Store Items
+ReloadItemsList : CurrentItem[/ItemData/upgrade/-2_]
+ReloadItemsList : CurrentItem[/ItemData/upgrade/-1_]
+ReloadItemsList : CurrentItem[/ItemData/upgrade/0_]
+ReloadItemsList : Add Store Items
+Fogoso.SaveManager : Operation Completed!
+LoadGame : Game Loaded Sucefully
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+; -- MAP INFO -- ;
+tileset:0
+Tileset set to: [0].
+tile_size:36
+Tilesize set to: [36].
+map_width:64
+Map Width set to: [64].
+map_height:64
+Map Height set to: [64].
+Map Info Loaded, Loading Map Data...
+# -- BEGIN MAP DATA -- #
+0,0,2
+Fill Map Data:
+0,1,2
+Fill Map Data:
+0,2,1
+Fill Map Data:
+0,3,1
+Fill Map Data:
+0,4,1
+Fill Map Data:
+0,5,1
+Fill Map Data:
+0,6,1
+Fill Map Data:
+0,7,2
+Fill Map Data:
+0,8,2
+Fill Map Data:
+0,9,1
+Fill Map Data:
+0,10,1
+Fill Map Data:
+0,11,2
+Fill Map Data:
+0,12,1
+Fill Map Data:
+0,13,1
+Fill Map Data:
+0,14,0
+Fill Map Data:
+0,15,1
+Fill Map Data:
+0,16,0
+Fill Map Data:
+0,17,1
+Fill Map Data:
+0,18,1
+Fill Map Data:
+0,19,1
+Fill Map Data:
+0,20,1
+Fill Map Data:
+0,21,1
+Fill Map Data:
+0,22,1
+Fill Map Data:
+0,23,1
+Fill Map Data:
+0,24,1
+Fill Map Data:
+0,25,1
+Fill Map Data:
+0,26,1
+Fill Map Data:
+0,27,1
+Fill Map Data:
+0,28,1
+Fill Map Data:
+0,29,1
+Fill Map Data:
+0,30,1
+Fill Map Data:
+0,31,0
+Fill Map Data:
+0,32,0
+Fill Map Data:
+0,33,1
+Fill Map Data:
+0,34,1
+Fill Map Data:
+0,35,1
+Fill Map Data:
+0,36,1
+Fill Map Data:
+0,37,1
+Fill Map Data:
+0,38,0
+Fill Map Data:
+0,39,0
+Fill Map Data:
+0,40,1
+Fill Map Data:
+0,41,0
+Fill Map Data:
+0,42,0
+Fill Map Data:
+0,43,1
+Fill Map Data:
+0,44,1
+Fill Map Data:
+0,45,1
+Fill Map Data:
+0,46,1
+Fill Map Data:
+0,47,1
+Fill Map Data:
+0,48,1
+Fill Map Data:
+0,49,1
+Fill Map Data:
+0,50,1
+Fill Map Data:
+0,51,1
+Fill Map Data:
+0,52,1
+Fill Map Data:
+0,53,1
+Fill Map Data:
+0,54,0
+Fill Map Data:
+0,55,0
+Fill Map Data:
+0,56,0
+Fill Map Data:
+0,57,1
+Fill Map Data:
+0,58,1
+Fill Map Data:
+0,59,1
+Fill Map Data:
+0,60,0
+Fill Map Data:
+0,61,0
+Fill Map Data:
+0,62,1
+Fill Map Data:
+0,63,0
+Fill Map Data:
+1,0,2
+Fill Map Data:
+1,1,1
+Fill Map Data:
+1,2,2
+Fill Map Data:
+1,3,2
+Fill Map Data:
+1,4,1
+Fill Map Data:
+1,5,2
+Fill Map Data:
+1,6,2
+Fill Map Data:
+1,7,1
+Fill Map Data:
+1,8,2
+Fill Map Data:
+1,9,1
+Fill Map Data:
+1,10,1
+Fill Map Data:
+1,11,2
+Fill Map Data:
+1,12,1
+Fill Map Data:
+1,13,1
+Fill Map Data:
+1,14,2
+Fill Map Data:
+1,15,1
+Fill Map Data:
+1,16,1
+Fill Map Data:
+1,17,1
+Fill Map Data:
+1,18,0
+Fill Map Data:
+1,19,1
+Fill Map Data:
+1,20,1
+Fill Map Data:
+1,21,1
+Fill Map Data:
+1,22,1
+Fill Map Data:
+1,23,1
+Fill Map Data:
+1,24,1
+Fill Map Data:
+1,25,1
+Fill Map Data:
+1,26,1
+Fill Map Data:
+1,27,1
+Fill Map Data:
+1,28,1
+Fill Map Data:
+1,29,1
+Fill Map Data:
+1,30,0
+Fill Map Data:
+1,31,1
+Fill Map Data:
+1,32,1
+Fill Map Data:
+1,33,0
+Fill Map Data:
+1,34,1
+Fill Map Data:
+1,35,0
+Fill Map Data:
+1,36,0
+Fill Map Data:
+1,37,1
+Fill Map Data:
+1,38,0
+Fill Map Data:
+1,39,1
+Fill Map Data:
+1,40,0
+Fill Map Data:
+1,41,0
+Fill Map Data:
+1,42,1
+Fill Map Data:
+1,43,0
+Fill Map Data:
+1,44,1
+Fill Map Data:
+1,45,1
+Fill Map Data:
+1,46,0
+Fill Map Data:
+1,47,1
+Fill Map Data:
+1,48,0
+Fill Map Data:
+1,49,0
+Fill Map Data:
+1,50,1
+Fill Map Data:
+1,51,0
+Fill Map Data:
+1,52,0
+Fill Map Data:
+1,53,1
+Fill Map Data:
+1,54,0
+Fill Map Data:
+1,55,0
+Fill Map Data:
+1,56,0
+Fill Map Data:
+1,57,0
+Fill Map Data:
+1,58,0
+Fill Map Data:
+1,59,1
+Fill Map Data:
+1,60,1
+Fill Map Data:
+1,61,1
+Fill Map Data:
+1,62,1
+Fill Map Data:
+1,63,1
+Fill Map Data:
+2,0,2
+Fill Map Data:
+2,1,2
+Fill Map Data:
+2,2,1
+Fill Map Data:
+2,3,1
+Fill Map Data:
+2,4,2
+Fill Map Data:
+2,5,2
+Fill Map Data:
+2,6,2
+Fill Map Data:
+2,7,2
+Fill Map Data:
+2,8,2
+Fill Map Data:
+2,9,1
+Fill Map Data:
+2,10,1
+Fill Map Data:
+2,11,1
+Fill Map Data:
+2,12,1
+Fill Map Data:
+2,13,2
+Fill Map Data:
+2,14,1
+Fill Map Data:
+2,15,1
+Fill Map Data:
+2,16,1
+Fill Map Data:
+2,17,1
+Fill Map Data:
+2,18,1
+Fill Map Data:
+2,19,1
+Fill Map Data:
+2,20,1
+Fill Map Data:
+2,21,1
+Fill Map Data:
+2,22,1
+Fill Map Data:
+2,23,1
+Fill Map Data:
+2,24,1
+Fill Map Data:
+2,25,2
+Fill Map Data:
+2,26,2
+Fill Map Data:
+2,27,1
+Fill Map Data:
+2,28,1
+Fill Map Data:
+2,29,1
+Fill Map Data:
+2,30,1
+Fill Map Data:
+2,31,0
+Fill Map Data:
+2,32,0
+Fill Map Data:
+2,33,0
+Fill Map Data:
+2,34,0
+Fill Map Data:
+2,35,1
+Fill Map Data:
+2,36,0
+Fill Map Data:
+2,37,1
+Fill Map Data:
+2,38,0
+Fill Map Data:
+2,39,0
+Fill Map Data:
+2,40,1
+Fill Map Data:
+2,41,0
+Fill Map Data:
+2,42,0
+Fill Map Data:
+2,43,0
+Fill Map Data:
+2,44,0
+Fill Map Data:
+2,45,1
+Fill Map Data:
+2,46,1
+Fill Map Data:
+2,47,0
+Fill Map Data:
+2,48,1
+Fill Map Data:
+2,49,1
+Fill Map Data:
+2,50,0
+Fill Map Data:
+2,51,1
+Fill Map Data:
+2,52,0
+Fill Map Data:
+2,53,0
+Fill Map Data:
+2,54,1
+Fill Map Data:
+2,55,0
+Fill Map Data:
+2,56,1
+Fill Map Data:
+2,57,0
+Fill Map Data:
+2,58,0
+Fill Map Data:
+2,59,1
+Fill Map Data:
+2,60,1
+Fill Map Data:
+2,61,0
+Fill Map Data:
+2,62,0
+Fill Map Data:
+2,63,0
+Fill Map Data:
+3,0,2
+Fill Map Data:
+3,1,2
+Fill Map Data:
+3,2,1
+Fill Map Data:
+3,3,1
+Fill Map Data:
+3,4,2
+Fill Map Data:
+3,5,2
+Fill Map Data:
+3,6,2
+Fill Map Data:
+3,7,1
+Fill Map Data:
+3,8,2
+Fill Map Data:
+3,9,1
+Fill Map Data:
+3,10,2
+Fill Map Data:
+3,11,2
+Fill Map Data:
+3,12,2
+Fill Map Data:
+3,13,0
+Fill Map Data:
+3,14,1
+Fill Map Data:
+3,15,1
+Fill Map Data:
+3,16,2
+Fill Map Data:
+3,17,1
+Fill Map Data:
+3,18,1
+Fill Map Data:
+3,19,2
+Fill Map Data:
+3,20,0
+Fill Map Data:
+3,21,1
+Fill Map Data:
+3,22,1
+Fill Map Data:
+3,23,1
+Fill Map Data:
+3,24,1
+Fill Map Data:
+3,25,2
+Fill Map Data:
+3,26,1
+Fill Map Data:
+3,27,1
+Fill Map Data:
+3,28,1
+Fill Map Data:
+3,29,1
+Fill Map Data:
+3,30,0
+Fill Map Data:
+3,31,1
+Fill Map Data:
+3,32,1
+Fill Map Data:
+3,33,1
+Fill Map Data:
+3,34,1
+Fill Map Data:
+3,35,1
+Fill Map Data:
+3,36,1
+Fill Map Data:
+3,37,0
+Fill Map Data:
+3,38,1
+Fill Map Data:
+3,39,1
+Fill Map Data:
+3,40,0
+Fill Map Data:
+3,41,1
+Fill Map Data:
+3,42,0
+Fill Map Data:
+3,43,1
+Fill Map Data:
+3,44,1
+Fill Map Data:
+3,45,0
+Fill Map Data:
+3,46,0
+Fill Map Data:
+3,47,1
+Fill Map Data:
+3,48,1
+Fill Map Data:
+3,49,0
+Fill Map Data:
+3,50,1
+Fill Map Data:
+3,51,0
+Fill Map Data:
+3,52,1
+Fill Map Data:
+3,53,1
+Fill Map Data:
+3,54,1
+Fill Map Data:
+3,55,1
+Fill Map Data:
+3,56,0
+Fill Map Data:
+3,57,0
+Fill Map Data:
+3,58,1
+Fill Map Data:
+3,59,1
+Fill Map Data:
+3,60,1
+Fill Map Data:
+3,61,1
+Fill Map Data:
+3,62,1
+Fill Map Data:
+3,63,0
+Fill Map Data:
+4,0,1
+Fill Map Data:
+4,1,2
+Fill Map Data:
+4,2,0
+Fill Map Data:
+4,3,1
+Fill Map Data:
+4,4,2
+Fill Map Data:
+4,5,2
+Fill Map Data:
+4,6,1
+Fill Map Data:
+4,7,1
+Fill Map Data:
+4,8,1
+Fill Map Data:
+4,9,0
+Fill Map Data:
+4,10,1
+Fill Map Data:
+4,11,1
+Fill Map Data:
+4,12,1
+Fill Map Data:
+4,13,1
+Fill Map Data:
+4,14,0
+Fill Map Data:
+4,15,0
+Fill Map Data:
+4,16,2
+Fill Map Data:
+4,17,1
+Fill Map Data:
+4,18,1
+Fill Map Data:
+4,19,1
+Fill Map Data:
+4,20,1
+Fill Map Data:
+4,21,1
+Fill Map Data:
+4,22,1
+Fill Map Data:
+4,23,1
+Fill Map Data:
+4,24,1
+Fill Map Data:
+4,25,2
+Fill Map Data:
+4,26,2
+Fill Map Data:
+4,27,2
+Fill Map Data:
+4,28,0
+Fill Map Data:
+4,29,1
+Fill Map Data:
+4,30,1
+Fill Map Data:
+4,31,0
+Fill Map Data:
+4,32,1
+Fill Map Data:
+4,33,0
+Fill Map Data:
+4,34,1
+Fill Map Data:
+4,35,1
+Fill Map Data:
+4,36,0
+Fill Map Data:
+4,37,0
+Fill Map Data:
+4,38,0
+Fill Map Data:
+4,39,1
+Fill Map Data:
+4,40,1
+Fill Map Data:
+4,41,1
+Fill Map Data:
+4,42,0
+Fill Map Data:
+4,43,0
+Fill Map Data:
+4,44,1
+Fill Map Data:
+4,45,1
+Fill Map Data:
+4,46,1
+Fill Map Data:
+4,47,0
+Fill Map Data:
+4,48,0
+Fill Map Data:
+4,49,1
+Fill Map Data:
+4,50,1
+Fill Map Data:
+4,51,1
+Fill Map Data:
+4,52,1
+Fill Map Data:
+4,53,1
+Fill Map Data:
+4,54,0
+Fill Map Data:
+4,55,0
+Fill Map Data:
+4,56,0
+Fill Map Data:
+4,57,1
+Fill Map Data:
+4,58,0
+Fill Map Data:
+4,59,1
+Fill Map Data:
+4,60,1
+Fill Map Data:
+4,61,1
+Fill Map Data:
+4,62,1
+Fill Map Data:
+4,63,0
+Fill Map Data:
+5,0,2
+Fill Map Data:
+5,1,2
+Fill Map Data:
+5,2,2
+Fill Map Data:
+5,3,1
+Fill Map Data:
+5,4,1
+Fill Map Data:
+5,5,1
+Fill Map Data:
+5,6,2
+Fill Map Data:
+5,7,1
+Fill Map Data:
+5,8,2
+Fill Map Data:
+5,9,2
+Fill Map Data:
+5,10,2
+Fill Map Data:
+5,11,2
+Fill Map Data:
+5,12,2
+Fill Map Data:
+5,13,1
+Fill Map Data:
+5,14,2
+Fill Map Data:
+5,15,1
+Fill Map Data:
+5,16,1
+Fill Map Data:
+5,17,0
+Fill Map Data:
+5,18,1
+Fill Map Data:
+5,19,1
+Fill Map Data:
+5,20,1
+Fill Map Data:
+5,21,2
+Fill Map Data:
+5,22,1
+Fill Map Data:
+5,23,1
+Fill Map Data:
+5,24,1
+Fill Map Data:
+5,25,1
+Fill Map Data:
+5,26,1
+Fill Map Data:
+5,27,1
+Fill Map Data:
+5,28,1
+Fill Map Data:
+5,29,1
+Fill Map Data:
+5,30,0
+Fill Map Data:
+5,31,1
+Fill Map Data:
+5,32,1
+Fill Map Data:
+5,33,0
+Fill Map Data:
+5,34,1
+Fill Map Data:
+5,35,1
+Fill Map Data:
+5,36,1
+Fill Map Data:
+5,37,0
+Fill Map Data:
+5,38,0
+Fill Map Data:
+5,39,1
+Fill Map Data:
+5,40,1
+Fill Map Data:
+5,41,1
+Fill Map Data:
+5,42,1
+Fill Map Data:
+5,43,0
+Fill Map Data:
+5,44,1
+Fill Map Data:
+5,45,0
+Fill Map Data:
+5,46,0
+Fill Map Data:
+5,47,1
+Fill Map Data:
+5,48,0
+Fill Map Data:
+5,49,0
+Fill Map Data:
+5,50,0
+Fill Map Data:
+5,51,0
+Fill Map Data:
+5,52,0
+Fill Map Data:
+5,53,0
+Fill Map Data:
+5,54,1
+Fill Map Data:
+5,55,0
+Fill Map Data:
+5,56,0
+Fill Map Data:
+5,57,0
+Fill Map Data:
+5,58,0
+Fill Map Data:
+5,59,1
+Fill Map Data:
+5,60,1
+Fill Map Data:
+5,61,0
+Fill Map Data:
+5,62,1
+Fill Map Data:
+5,63,1
+Fill Map Data:
+6,0,2
+Fill Map Data:
+6,1,2
+Fill Map Data:
+6,2,1
+Fill Map Data:
+6,3,2
+Fill Map Data:
+6,4,2
+Fill Map Data:
+6,5,2
+Fill Map Data:
+6,6,2
+Fill Map Data:
+6,7,1
+Fill Map Data:
+6,8,1
+Fill Map Data:
+6,9,2
+Fill Map Data:
+6,10,2
+Fill Map Data:
+6,11,1
+Fill Map Data:
+6,12,2
+Fill Map Data:
+6,13,1
+Fill Map Data:
+6,14,0
+Fill Map Data:
+6,15,1
+Fill Map Data:
+6,16,1
+Fill Map Data:
+6,17,1
+Fill Map Data:
+6,18,0
+Fill Map Data:
+6,19,1
+Fill Map Data:
+6,20,1
+Fill Map Data:
+6,21,1
+Fill Map Data:
+6,22,1
+Fill Map Data:
+6,23,2
+Fill Map Data:
+6,24,0
+Fill Map Data:
+6,25,2
+Fill Map Data:
+6,26,1
+Fill Map Data:
+6,27,1
+Fill Map Data:
+6,28,2
+Fill Map Data:
+6,29,1
+Fill Map Data:
+6,30,1
+Fill Map Data:
+6,31,1
+Fill Map Data:
+6,32,1
+Fill Map Data:
+6,33,0
+Fill Map Data:
+6,34,0
+Fill Map Data:
+6,35,1
+Fill Map Data:
+6,36,0
+Fill Map Data:
+6,37,0
+Fill Map Data:
+6,38,0
+Fill Map Data:
+6,39,0
+Fill Map Data:
+6,40,0
+Fill Map Data:
+6,41,0
+Fill Map Data:
+6,42,0
+Fill Map Data:
+6,43,0
+Fill Map Data:
+6,44,0
+Fill Map Data:
+6,45,0
+Fill Map Data:
+6,46,0
+Fill Map Data:
+6,47,0
+Fill Map Data:
+6,48,0
+Fill Map Data:
+6,49,0
+Fill Map Data:
+6,50,0
+Fill Map Data:
+6,51,0
+Fill Map Data:
+6,52,0
+Fill Map Data:
+6,53,0
+Fill Map Data:
+6,54,0
+Fill Map Data:
+6,55,1
+Fill Map Data:
+6,56,1
+Fill Map Data:
+6,57,1
+Fill Map Data:
+6,58,1
+Fill Map Data:
+6,59,0
+Fill Map Data:
+6,60,0
+Fill Map Data:
+6,61,0
+Fill Map Data:
+6,62,1
+Fill Map Data:
+6,63,1
+Fill Map Data:
+7,0,1
+Fill Map Data:
+7,1,2
+Fill Map Data:
+7,2,2
+Fill Map Data:
+7,3,2
+Fill Map Data:
+7,4,2
+Fill Map Data:
+7,5,2
+Fill Map Data:
+7,6,2
+Fill Map Data:
+7,7,1
+Fill Map Data:
+7,8,2
+Fill Map Data:
+7,9,2
+Fill Map Data:
+7,10,2
+Fill Map Data:
+7,11,1
+Fill Map Data:
+7,12,2
+Fill Map Data:
+7,13,1
+Fill Map Data:
+7,14,2
+Fill Map Data:
+7,15,1
+Fill Map Data:
+7,16,1
+Fill Map Data:
+7,17,0
+Fill Map Data:
+7,18,1
+Fill Map Data:
+7,19,1
+Fill Map Data:
+7,20,1
+Fill Map Data:
+7,21,1
+Fill Map Data:
+7,22,1
+Fill Map Data:
+7,23,1
+Fill Map Data:
+7,24,1
+Fill Map Data:
+7,25,1
+Fill Map Data:
+7,26,1
+Fill Map Data:
+7,27,1
+Fill Map Data:
+7,28,1
+Fill Map Data:
+7,29,0
+Fill Map Data:
+7,30,0
+Fill Map Data:
+7,31,0
+Fill Map Data:
+7,32,0
+Fill Map Data:
+7,33,0
+Fill Map Data:
+7,34,0
+Fill Map Data:
+7,35,0
+Fill Map Data:
+7,36,0
+Fill Map Data:
+7,37,0
+Fill Map Data:
+7,38,0
+Fill Map Data:
+7,39,0
+Fill Map Data:
+7,40,0
+Fill Map Data:
+7,41,0
+Fill Map Data:
+7,42,0
+Fill Map Data:
+7,43,0
+Fill Map Data:
+7,44,0
+Fill Map Data:
+7,45,0
+Fill Map Data:
+7,46,0
+Fill Map Data:
+7,47,0
+Fill Map Data:
+7,48,0
+Fill Map Data:
+7,49,0
+Fill Map Data:
+7,50,0
+Fill Map Data:
+7,51,0
+Fill Map Data:
+7,52,3
+Fill Map Data:
+7,53,0
+Fill Map Data:
+7,54,0
+Fill Map Data:
+7,55,0
+Fill Map Data:
+7,56,0
+Fill Map Data:
+7,57,0
+Fill Map Data:
+7,58,0
+Fill Map Data:
+7,59,0
+Fill Map Data:
+7,60,1
+Fill Map Data:
+7,61,1
+Fill Map Data:
+7,62,1
+Fill Map Data:
+7,63,1
+Fill Map Data:
+8,0,1
+Fill Map Data:
+8,1,1
+Fill Map Data:
+8,2,2
+Fill Map Data:
+8,3,2
+Fill Map Data:
+8,4,1
+Fill Map Data:
+8,5,2
+Fill Map Data:
+8,6,1
+Fill Map Data:
+8,7,1
+Fill Map Data:
+8,8,2
+Fill Map Data:
+8,9,2
+Fill Map Data:
+8,10,2
+Fill Map Data:
+8,11,2
+Fill Map Data:
+8,12,1
+Fill Map Data:
+8,13,1
+Fill Map Data:
+8,14,1
+Fill Map Data:
+8,15,2
+Fill Map Data:
+8,16,1
+Fill Map Data:
+8,17,1
+Fill Map Data:
+8,18,0
+Fill Map Data:
+8,19,1
+Fill Map Data:
+8,20,0
+Fill Map Data:
+8,21,1
+Fill Map Data:
+8,22,1
+Fill Map Data:
+8,23,1
+Fill Map Data:
+8,24,0
+Fill Map Data:
+8,25,0
+Fill Map Data:
+8,26,0
+Fill Map Data:
+8,27,0
+Fill Map Data:
+8,28,0
+Fill Map Data:
+8,29,0
+Fill Map Data:
+8,30,0
+Fill Map Data:
+8,31,0
+Fill Map Data:
+8,32,0
+Fill Map Data:
+8,33,0
+Fill Map Data:
+8,34,0
+Fill Map Data:
+8,35,0
+Fill Map Data:
+8,36,0
+Fill Map Data:
+8,37,0
+Fill Map Data:
+8,38,0
+Fill Map Data:
+8,39,0
+Fill Map Data:
+8,40,0
+Fill Map Data:
+8,41,0
+Fill Map Data:
+8,42,0
+Fill Map Data:
+8,43,0
+Fill Map Data:
+8,44,0
+Fill Map Data:
+8,45,3
+Fill Map Data:
+8,46,0
+Fill Map Data:
+8,47,0
+Fill Map Data:
+8,48,0
+Fill Map Data:
+8,49,0
+Fill Map Data:
+8,50,0
+Fill Map Data:
+8,51,0
+Fill Map Data:
+8,52,0
+Fill Map Data:
+8,53,0
+Fill Map Data:
+8,54,0
+Fill Map Data:
+8,55,0
+Fill Map Data:
+8,56,0
+Fill Map Data:
+8,57,0
+Fill Map Data:
+8,58,0
+Fill Map Data:
+8,59,0
+Fill Map Data:
+8,60,0
+Fill Map Data:
+8,61,1
+Fill Map Data:
+8,62,1
+Fill Map Data:
+8,63,0
+Fill Map Data:
+9,0,1
+Fill Map Data:
+9,1,1
+Fill Map Data:
+9,2,2
+Fill Map Data:
+9,3,2
+Fill Map Data:
+9,4,1
+Fill Map Data:
+9,5,1
+Fill Map Data:
+9,6,1
+Fill Map Data:
+9,7,1
+Fill Map Data:
+9,8,2
+Fill Map Data:
+9,9,2
+Fill Map Data:
+9,10,2
+Fill Map Data:
+9,11,2
+Fill Map Data:
+9,12,1
+Fill Map Data:
+9,13,1
+Fill Map Data:
+9,14,0
+Fill Map Data:
+9,15,1
+Fill Map Data:
+9,16,1
+Fill Map Data:
+9,17,0
+Fill Map Data:
+9,18,1
+Fill Map Data:
+9,19,1
+Fill Map Data:
+9,20,0
+Fill Map Data:
+9,21,0
+Fill Map Data:
+9,22,0
+Fill Map Data:
+9,23,0
+Fill Map Data:
+9,24,0
+Fill Map Data:
+9,25,0
+Fill Map Data:
+9,26,0
+Fill Map Data:
+9,27,0
+Fill Map Data:
+9,28,0
+Fill Map Data:
+9,29,0
+Fill Map Data:
+9,30,0
+Fill Map Data:
+9,31,0
+Fill Map Data:
+9,32,0
+Fill Map Data:
+9,33,0
+Fill Map Data:
+9,34,0
+Fill Map Data:
+9,35,0
+Fill Map Data:
+9,36,0
+Fill Map Data:
+9,37,0
+Fill Map Data:
+9,38,0
+Fill Map Data:
+9,39,0
+Fill Map Data:
+9,40,0
+Fill Map Data:
+9,41,0
+Fill Map Data:
+9,42,0
+Fill Map Data:
+9,43,0
+Fill Map Data:
+9,44,0
+Fill Map Data:
+9,45,0
+Fill Map Data:
+9,46,0
+Fill Map Data:
+9,47,0
+Fill Map Data:
+9,48,0
+Fill Map Data:
+9,49,0
+Fill Map Data:
+9,50,3
+Fill Map Data:
+9,51,0
+Fill Map Data:
+9,52,0
+Fill Map Data:
+9,53,0
+Fill Map Data:
+9,54,0
+Fill Map Data:
+9,55,0
+Fill Map Data:
+9,56,0
+Fill Map Data:
+9,57,0
+Fill Map Data:
+9,58,0
+Fill Map Data:
+9,59,0
+Fill Map Data:
+9,60,0
+Fill Map Data:
+9,61,1
+Fill Map Data:
+9,62,1
+Fill Map Data:
+9,63,0
+Fill Map Data:
+10,0,1
+Fill Map Data:
+10,1,1
+Fill Map Data:
+10,2,2
+Fill Map Data:
+10,3,2
+Fill Map Data:
+10,4,2
+Fill Map Data:
+10,5,2
+Fill Map Data:
+10,6,1
+Fill Map Data:
+10,7,1
+Fill Map Data:
+10,8,2
+Fill Map Data:
+10,9,2
+Fill Map Data:
+10,10,1
+Fill Map Data:
+10,11,2
+Fill Map Data:
+10,12,1
+Fill Map Data:
+10,13,1
+Fill Map Data:
+10,14,0
+Fill Map Data:
+10,15,1
+Fill Map Data:
+10,16,1
+Fill Map Data:
+10,17,1
+Fill Map Data:
+10,18,1
+Fill Map Data:
+10,19,0
+Fill Map Data:
+10,20,0
+Fill Map Data:
+10,21,0
+Fill Map Data:
+10,22,0
+Fill Map Data:
+10,23,0
+Fill Map Data:
+10,24,0
+Fill Map Data:
+10,25,0
+Fill Map Data:
+10,26,0
+Fill Map Data:
+10,27,0
+Fill Map Data:
+10,28,0
+Fill Map Data:
+10,29,0
+Fill Map Data:
+10,30,0
+Fill Map Data:
+10,31,0
+Fill Map Data:
+10,32,0
+Fill Map Data:
+10,33,0
+Fill Map Data:
+10,34,0
+Fill Map Data:
+10,35,0
+Fill Map Data:
+10,36,0
+Fill Map Data:
+10,37,0
+Fill Map Data:
+10,38,0
+Fill Map Data:
+10,39,0
+Fill Map Data:
+10,40,0
+Fill Map Data:
+10,41,0
+Fill Map Data:
+10,42,0
+Fill Map Data:
+10,43,0
+Fill Map Data:
+10,44,0
+Fill Map Data:
+10,45,0
+Fill Map Data:
+10,46,0
+Fill Map Data:
+10,47,0
+Fill Map Data:
+10,48,0
+Fill Map Data:
+10,49,0
+Fill Map Data:
+10,50,0
+Fill Map Data:
+10,51,0
+Fill Map Data:
+10,52,0
+Fill Map Data:
+10,53,0
+Fill Map Data:
+10,54,0
+Fill Map Data:
+10,55,0
+Fill Map Data:
+10,56,0
+Fill Map Data:
+10,57,0
+Fill Map Data:
+10,58,0
+Fill Map Data:
+10,59,0
+Fill Map Data:
+10,60,0
+Fill Map Data:
+10,61,1
+Fill Map Data:
+10,62,1
+Fill Map Data:
+10,63,1
+Fill Map Data:
+11,0,1
+Fill Map Data:
+11,1,1
+Fill Map Data:
+11,2,2
+Fill Map Data:
+11,3,2
+Fill Map Data:
+11,4,2
+Fill Map Data:
+11,5,1
+Fill Map Data:
+11,6,2
+Fill Map Data:
+11,7,1
+Fill Map Data:
+11,8,1
+Fill Map Data:
+11,9,0
+Fill Map Data:
+11,10,2
+Fill Map Data:
+11,11,1
+Fill Map Data:
+11,12,2
+Fill Map Data:
+11,13,1
+Fill Map Data:
+11,14,1
+Fill Map Data:
+11,15,1
+Fill Map Data:
+11,16,1
+Fill Map Data:
+11,17,0
+Fill Map Data:
+11,18,1
+Fill Map Data:
+11,19,0
+Fill Map Data:
+11,20,0
+Fill Map Data:
+11,21,0
+Fill Map Data:
+11,22,0
+Fill Map Data:
+11,23,0
+Fill Map Data:
+11,24,0
+Fill Map Data:
+11,25,0
+Fill Map Data:
+11,26,0
+Fill Map Data:
+11,27,0
+Fill Map Data:
+11,28,0
+Fill Map Data:
+11,29,0
+Fill Map Data:
+11,30,0
+Fill Map Data:
+11,31,0
+Fill Map Data:
+11,32,0
+Fill Map Data:
+11,33,0
+Fill Map Data:
+11,34,0
+Fill Map Data:
+11,35,0
+Fill Map Data:
+11,36,0
+Fill Map Data:
+11,37,0
+Fill Map Data:
+11,38,0
+Fill Map Data:
+11,39,0
+Fill Map Data:
+11,40,0
+Fill Map Data:
+11,41,0
+Fill Map Data:
+11,42,0
+Fill Map Data:
+11,43,0
+Fill Map Data:
+11,44,3
+Fill Map Data:
+11,45,0
+Fill Map Data:
+11,46,0
+Fill Map Data:
+11,47,3
+Fill Map Data:
+11,48,0
+Fill Map Data:
+11,49,0
+Fill Map Data:
+11,50,0
+Fill Map Data:
+11,51,3
+Fill Map Data:
+11,52,0
+Fill Map Data:
+11,53,0
+Fill Map Data:
+11,54,0
+Fill Map Data:
+11,55,0
+Fill Map Data:
+11,56,3
+Fill Map Data:
+11,57,0
+Fill Map Data:
+11,58,0
+Fill Map Data:
+11,59,0
+Fill Map Data:
+11,60,0
+Fill Map Data:
+11,61,1
+Fill Map Data:
+11,62,1
+Fill Map Data:
+11,63,1
+Fill Map Data:
+12,0,2
+Fill Map Data:
+12,1,2
+Fill Map Data:
+12,2,1
+Fill Map Data:
+12,3,2
+Fill Map Data:
+12,4,2
+Fill Map Data:
+12,5,1
+Fill Map Data:
+12,6,2
+Fill Map Data:
+12,7,1
+Fill Map Data:
+12,8,1
+Fill Map Data:
+12,9,2
+Fill Map Data:
+12,10,2
+Fill Map Data:
+12,11,0
+Fill Map Data:
+12,12,0
+Fill Map Data:
+12,13,2
+Fill Map Data:
+12,14,0
+Fill Map Data:
+12,15,0
+Fill Map Data:
+12,16,1
+Fill Map Data:
+12,17,1
+Fill Map Data:
+12,18,0
+Fill Map Data:
+12,19,1
+Fill Map Data:
+12,20,0
+Fill Map Data:
+12,21,0
+Fill Map Data:
+12,22,0
+Fill Map Data:
+12,23,0
+Fill Map Data:
+12,24,0
+Fill Map Data:
+12,25,0
+Fill Map Data:
+12,26,0
+Fill Map Data:
+12,27,0
+Fill Map Data:
+12,28,0
+Fill Map Data:
+12,29,0
+Fill Map Data:
+12,30,0
+Fill Map Data:
+12,31,0
+Fill Map Data:
+12,32,0
+Fill Map Data:
+12,33,0
+Fill Map Data:
+12,34,0
+Fill Map Data:
+12,35,0
+Fill Map Data:
+12,36,0
+Fill Map Data:
+12,37,0
+Fill Map Data:
+12,38,0
+Fill Map Data:
+12,39,0
+Fill Map Data:
+12,40,0
+Fill Map Data:
+12,41,0
+Fill Map Data:
+12,42,0
+Fill Map Data:
+12,43,0
+Fill Map Data:
+12,44,0
+Fill Map Data:
+12,45,0
+Fill Map Data:
+12,46,0
+Fill Map Data:
+12,47,0
+Fill Map Data:
+12,48,0
+Fill Map Data:
+12,49,0
+Fill Map Data:
+12,50,0
+Fill Map Data:
+12,51,0
+Fill Map Data:
+12,52,0
+Fill Map Data:
+12,53,0
+Fill Map Data:
+12,54,0
+Fill Map Data:
+12,55,0
+Fill Map Data:
+12,56,0
+Fill Map Data:
+12,57,0
+Fill Map Data:
+12,58,0
+Fill Map Data:
+12,59,0
+Fill Map Data:
+12,60,0
+Fill Map Data:
+12,61,0
+Fill Map Data:
+12,62,1
+Fill Map Data:
+12,63,0
+Fill Map Data:
+13,0,2
+Fill Map Data:
+13,1,1
+Fill Map Data:
+13,2,1
+Fill Map Data:
+13,3,2
+Fill Map Data:
+13,4,1
+Fill Map Data:
+13,5,2
+Fill Map Data:
+13,6,1
+Fill Map Data:
+13,7,2
+Fill Map Data:
+13,8,1
+Fill Map Data:
+13,9,2
+Fill Map Data:
+13,10,0
+Fill Map Data:
+13,11,0
+Fill Map Data:
+13,12,0
+Fill Map Data:
+13,13,0
+Fill Map Data:
+13,14,0
+Fill Map Data:
+13,15,1
+Fill Map Data:
+13,16,0
+Fill Map Data:
+13,17,1
+Fill Map Data:
+13,18,0
+Fill Map Data:
+13,19,0
+Fill Map Data:
+13,20,0
+Fill Map Data:
+13,21,0
+Fill Map Data:
+13,22,0
+Fill Map Data:
+13,23,0
+Fill Map Data:
+13,24,0
+Fill Map Data:
+13,25,0
+Fill Map Data:
+13,26,0
+Fill Map Data:
+13,27,0
+Fill Map Data:
+13,28,0
+Fill Map Data:
+13,29,0
+Fill Map Data:
+13,30,0
+Fill Map Data:
+13,31,0
+Fill Map Data:
+13,32,0
+Fill Map Data:
+13,33,0
+Fill Map Data:
+13,34,0
+Fill Map Data:
+13,35,0
+Fill Map Data:
+13,36,0
+Fill Map Data:
+13,37,0
+Fill Map Data:
+13,38,0
+Fill Map Data:
+13,39,0
+Fill Map Data:
+13,40,0
+Fill Map Data:
+13,41,0
+Fill Map Data:
+13,42,0
+Fill Map Data:
+13,43,0
+Fill Map Data:
+13,44,0
+Fill Map Data:
+13,45,0
+Fill Map Data:
+13,46,0
+Fill Map Data:
+13,47,3
+Fill Map Data:
+13,48,0
+Fill Map Data:
+13,49,0
+Fill Map Data:
+13,50,0
+Fill Map Data:
+13,51,0
+Fill Map Data:
+13,52,0
+Fill Map Data:
+13,53,0
+Fill Map Data:
+13,54,0
+Fill Map Data:
+13,55,0
+Fill Map Data:
+13,56,0
+Fill Map Data:
+13,57,0
+Fill Map Data:
+13,58,0
+Fill Map Data:
+13,59,0
+Fill Map Data:
+13,60,0
+Fill Map Data:
+13,61,0
+Fill Map Data:
+13,62,1
+Fill Map Data:
+13,63,1
+Fill Map Data:
+14,0,2
+Fill Map Data:
+14,1,2
+Fill Map Data:
+14,2,2
+Fill Map Data:
+14,3,2
+Fill Map Data:
+14,4,0
+Fill Map Data:
+14,5,2
+Fill Map Data:
+14,6,2
+Fill Map Data:
+14,7,1
+Fill Map Data:
+14,8,1
+Fill Map Data:
+14,9,0
+Fill Map Data:
+14,10,0
+Fill Map Data:
+14,11,0
+Fill Map Data:
+14,12,0
+Fill Map Data:
+14,13,0
+Fill Map Data:
+14,14,0
+Fill Map Data:
+14,15,3
+Fill Map Data:
+14,16,3
+Fill Map Data:
+14,17,3
+Fill Map Data:
+14,18,1
+Fill Map Data:
+14,19,0
+Fill Map Data:
+14,20,0
+Fill Map Data:
+14,21,0
+Fill Map Data:
+14,22,0
+Fill Map Data:
+14,23,0
+Fill Map Data:
+14,24,0
+Fill Map Data:
+14,25,0
+Fill Map Data:
+14,26,0
+Fill Map Data:
+14,27,0
+Fill Map Data:
+14,28,0
+Fill Map Data:
+14,29,0
+Fill Map Data:
+14,30,0
+Fill Map Data:
+14,31,0
+Fill Map Data:
+14,32,0
+Fill Map Data:
+14,33,0
+Fill Map Data:
+14,34,0
+Fill Map Data:
+14,35,0
+Fill Map Data:
+14,36,3
+Fill Map Data:
+14,37,0
+Fill Map Data:
+14,38,0
+Fill Map Data:
+14,39,0
+Fill Map Data:
+14,40,0
+Fill Map Data:
+14,41,0
+Fill Map Data:
+14,42,0
+Fill Map Data:
+14,43,0
+Fill Map Data:
+14,44,3
+Fill Map Data:
+14,45,0
+Fill Map Data:
+14,46,0
+Fill Map Data:
+14,47,0
+Fill Map Data:
+14,48,0
+Fill Map Data:
+14,49,0
+Fill Map Data:
+14,50,0
+Fill Map Data:
+14,51,0
+Fill Map Data:
+14,52,0
+Fill Map Data:
+14,53,0
+Fill Map Data:
+14,54,0
+Fill Map Data:
+14,55,0
+Fill Map Data:
+14,56,0
+Fill Map Data:
+14,57,0
+Fill Map Data:
+14,58,0
+Fill Map Data:
+14,59,0
+Fill Map Data:
+14,60,0
+Fill Map Data:
+14,61,1
+Fill Map Data:
+14,62,0
+Fill Map Data:
+14,63,1
+Fill Map Data:
+15,0,2
+Fill Map Data:
+15,1,1
+Fill Map Data:
+15,2,1
+Fill Map Data:
+15,3,1
+Fill Map Data:
+15,4,1
+Fill Map Data:
+15,5,1
+Fill Map Data:
+15,6,2
+Fill Map Data:
+15,7,1
+Fill Map Data:
+15,8,1
+Fill Map Data:
+15,9,1
+Fill Map Data:
+15,10,0
+Fill Map Data:
+15,11,0
+Fill Map Data:
+15,12,0
+Fill Map Data:
+15,13,0
+Fill Map Data:
+15,14,0
+Fill Map Data:
+15,15,1
+Fill Map Data:
+15,16,3
+Fill Map Data:
+15,17,3
+Fill Map Data:
+15,18,0
+Fill Map Data:
+15,19,0
+Fill Map Data:
+15,20,0
+Fill Map Data:
+15,21,0
+Fill Map Data:
+15,22,0
+Fill Map Data:
+15,23,0
+Fill Map Data:
+15,24,0
+Fill Map Data:
+15,25,0
+Fill Map Data:
+15,26,0
+Fill Map Data:
+15,27,0
+Fill Map Data:
+15,28,0
+Fill Map Data:
+15,29,0
+Fill Map Data:
+15,30,0
+Fill Map Data:
+15,31,0
+Fill Map Data:
+15,32,0
+Fill Map Data:
+15,33,0
+Fill Map Data:
+15,34,0
+Fill Map Data:
+15,35,0
+Fill Map Data:
+15,36,0
+Fill Map Data:
+15,37,0
+Fill Map Data:
+15,38,0
+Fill Map Data:
+15,39,0
+Fill Map Data:
+15,40,0
+Fill Map Data:
+15,41,0
+Fill Map Data:
+15,42,0
+Fill Map Data:
+15,43,0
+Fill Map Data:
+15,44,0
+Fill Map Data:
+15,45,0
+Fill Map Data:
+15,46,0
+Fill Map Data:
+15,47,0
+Fill Map Data:
+15,48,0
+Fill Map Data:
+15,49,0
+Fill Map Data:
+15,50,0
+Fill Map Data:
+15,51,0
+Fill Map Data:
+15,52,0
+Fill Map Data:
+15,53,0
+Fill Map Data:
+15,54,0
+Fill Map Data:
+15,55,0
+Fill Map Data:
+15,56,0
+Fill Map Data:
+15,57,0
+Fill Map Data:
+15,58,0
+Fill Map Data:
+15,59,0
+Fill Map Data:
+15,60,1
+Fill Map Data:
+15,61,1
+Fill Map Data:
+15,62,1
+Fill Map Data:
+15,63,1
+Fill Map Data:
+16,0,2
+Fill Map Data:
+16,1,1
+Fill Map Data:
+16,2,1
+Fill Map Data:
+16,3,2
+Fill Map Data:
+16,4,2
+Fill Map Data:
+16,5,2
+Fill Map Data:
+16,6,2
+Fill Map Data:
+16,7,1
+Fill Map Data:
+16,8,1
+Fill Map Data:
+16,9,0
+Fill Map Data:
+16,10,0
+Fill Map Data:
+16,11,0
+Fill Map Data:
+16,12,0
+Fill Map Data:
+16,13,0
+Fill Map Data:
+16,14,0
+Fill Map Data:
+16,15,1
+Fill Map Data:
+16,16,3
+Fill Map Data:
+16,17,1
+Fill Map Data:
+16,18,0
+Fill Map Data:
+16,19,0
+Fill Map Data:
+16,20,0
+Fill Map Data:
+16,21,0
+Fill Map Data:
+16,22,0
+Fill Map Data:
+16,23,0
+Fill Map Data:
+16,24,0
+Fill Map Data:
+16,25,0
+Fill Map Data:
+16,26,0
+Fill Map Data:
+16,27,0
+Fill Map Data:
+16,28,0
+Fill Map Data:
+16,29,0
+Fill Map Data:
+16,30,0
+Fill Map Data:
+16,31,0
+Fill Map Data:
+16,32,0
+Fill Map Data:
+16,33,0
+Fill Map Data:
+16,34,0
+Fill Map Data:
+16,35,0
+Fill Map Data:
+16,36,0
+Fill Map Data:
+16,37,0
+Fill Map Data:
+16,38,0
+Fill Map Data:
+16,39,0
+Fill Map Data:
+16,40,0
+Fill Map Data:
+16,41,0
+Fill Map Data:
+16,42,0
+Fill Map Data:
+16,43,0
+Fill Map Data:
+16,44,0
+Fill Map Data:
+16,45,0
+Fill Map Data:
+16,46,0
+Fill Map Data:
+16,47,0
+Fill Map Data:
+16,48,0
+Fill Map Data:
+16,49,0
+Fill Map Data:
+16,50,0
+Fill Map Data:
+16,51,0
+Fill Map Data:
+16,52,0
+Fill Map Data:
+16,53,3
+Fill Map Data:
+16,54,0
+Fill Map Data:
+16,55,3
+Fill Map Data:
+16,56,0
+Fill Map Data:
+16,57,0
+Fill Map Data:
+16,58,0
+Fill Map Data:
+16,59,0
+Fill Map Data:
+16,60,0
+Fill Map Data:
+16,61,1
+Fill Map Data:
+16,62,1
+Fill Map Data:
+16,63,0
+Fill Map Data:
+17,0,0
+Fill Map Data:
+17,1,2
+Fill Map Data:
+17,2,1
+Fill Map Data:
+17,3,2
+Fill Map Data:
+17,4,2
+Fill Map Data:
+17,5,1
+Fill Map Data:
+17,6,1
+Fill Map Data:
+17,7,1
+Fill Map Data:
+17,8,1
+Fill Map Data:
+17,9,0
+Fill Map Data:
+17,10,0
+Fill Map Data:
+17,11,0
+Fill Map Data:
+17,12,0
+Fill Map Data:
+17,13,0
+Fill Map Data:
+17,14,0
+Fill Map Data:
+17,15,3
+Fill Map Data:
+17,16,1
+Fill Map Data:
+17,17,1
+Fill Map Data:
+17,18,0
+Fill Map Data:
+17,19,0
+Fill Map Data:
+17,20,0
+Fill Map Data:
+17,21,0
+Fill Map Data:
+17,22,0
+Fill Map Data:
+17,23,0
+Fill Map Data:
+17,24,0
+Fill Map Data:
+17,25,0
+Fill Map Data:
+17,26,0
+Fill Map Data:
+17,27,0
+Fill Map Data:
+17,28,0
+Fill Map Data:
+17,29,0
+Fill Map Data:
+17,30,0
+Fill Map Data:
+17,31,0
+Fill Map Data:
+17,32,0
+Fill Map Data:
+17,33,0
+Fill Map Data:
+17,34,0
+Fill Map Data:
+17,35,0
+Fill Map Data:
+17,36,0
+Fill Map Data:
+17,37,0
+Fill Map Data:
+17,38,0
+Fill Map Data:
+17,39,0
+Fill Map Data:
+17,40,0
+Fill Map Data:
+17,41,0
+Fill Map Data:
+17,42,0
+Fill Map Data:
+17,43,0
+Fill Map Data:
+17,44,0
+Fill Map Data:
+17,45,0
+Fill Map Data:
+17,46,0
+Fill Map Data:
+17,47,1
+Fill Map Data:
+17,48,0
+Fill Map Data:
+17,49,0
+Fill Map Data:
+17,50,0
+Fill Map Data:
+17,51,0
+Fill Map Data:
+17,52,0
+Fill Map Data:
+17,53,0
+Fill Map Data:
+17,54,0
+Fill Map Data:
+17,55,0
+Fill Map Data:
+17,56,0
+Fill Map Data:
+17,57,0
+Fill Map Data:
+17,58,1
+Fill Map Data:
+17,59,0
+Fill Map Data:
+17,60,1
+Fill Map Data:
+17,61,0
+Fill Map Data:
+17,62,1
+Fill Map Data:
+17,63,1
+Fill Map Data:
+18,0,1
+Fill Map Data:
+18,1,2
+Fill Map Data:
+18,2,1
+Fill Map Data:
+18,3,2
+Fill Map Data:
+18,4,2
+Fill Map Data:
+18,5,1
+Fill Map Data:
+18,6,1
+Fill Map Data:
+18,7,1
+Fill Map Data:
+18,8,1
+Fill Map Data:
+18,9,0
+Fill Map Data:
+18,10,0
+Fill Map Data:
+18,11,0
+Fill Map Data:
+18,12,0
+Fill Map Data:
+18,13,0
+Fill Map Data:
+18,14,1
+Fill Map Data:
+18,15,1
+Fill Map Data:
+18,16,0
+Fill Map Data:
+18,17,1
+Fill Map Data:
+18,18,0
+Fill Map Data:
+18,19,0
+Fill Map Data:
+18,20,0
+Fill Map Data:
+18,21,0
+Fill Map Data:
+18,22,0
+Fill Map Data:
+18,23,0
+Fill Map Data:
+18,24,0
+Fill Map Data:
+18,25,0
+Fill Map Data:
+18,26,0
+Fill Map Data:
+18,27,0
+Fill Map Data:
+18,28,0
+Fill Map Data:
+18,29,0
+Fill Map Data:
+18,30,0
+Fill Map Data:
+18,31,0
+Fill Map Data:
+18,32,0
+Fill Map Data:
+18,33,0
+Fill Map Data:
+18,34,0
+Fill Map Data:
+18,35,0
+Fill Map Data:
+18,36,0
+Fill Map Data:
+18,37,0
+Fill Map Data:
+18,38,0
+Fill Map Data:
+18,39,0
+Fill Map Data:
+18,40,0
+Fill Map Data:
+18,41,0
+Fill Map Data:
+18,42,0
+Fill Map Data:
+18,43,0
+Fill Map Data:
+18,44,0
+Fill Map Data:
+18,45,0
+Fill Map Data:
+18,46,0
+Fill Map Data:
+18,47,0
+Fill Map Data:
+18,48,0
+Fill Map Data:
+18,49,0
+Fill Map Data:
+18,50,3
+Fill Map Data:
+18,51,0
+Fill Map Data:
+18,52,0
+Fill Map Data:
+18,53,0
+Fill Map Data:
+18,54,0
+Fill Map Data:
+18,55,0
+Fill Map Data:
+18,56,0
+Fill Map Data:
+18,57,0
+Fill Map Data:
+18,58,3
+Fill Map Data:
+18,59,0
+Fill Map Data:
+18,60,1
+Fill Map Data:
+18,61,1
+Fill Map Data:
+18,62,0
+Fill Map Data:
+18,63,1
+Fill Map Data:
+19,0,2
+Fill Map Data:
+19,1,2
+Fill Map Data:
+19,2,1
+Fill Map Data:
+19,3,2
+Fill Map Data:
+19,4,2
+Fill Map Data:
+19,5,2
+Fill Map Data:
+19,6,1
+Fill Map Data:
+19,7,1
+Fill Map Data:
+19,8,1
+Fill Map Data:
+19,9,0
+Fill Map Data:
+19,10,0
+Fill Map Data:
+19,11,0
+Fill Map Data:
+19,12,0
+Fill Map Data:
+19,13,0
+Fill Map Data:
+19,14,0
+Fill Map Data:
+19,15,0
+Fill Map Data:
+19,16,0
+Fill Map Data:
+19,17,0
+Fill Map Data:
+19,18,0
+Fill Map Data:
+19,19,0
+Fill Map Data:
+19,20,0
+Fill Map Data:
+19,21,0
+Fill Map Data:
+19,22,0
+Fill Map Data:
+19,23,0
+Fill Map Data:
+19,24,0
+Fill Map Data:
+19,25,0
+Fill Map Data:
+19,26,0
+Fill Map Data:
+19,27,0
+Fill Map Data:
+19,28,0
+Fill Map Data:
+19,29,0
+Fill Map Data:
+19,30,0
+Fill Map Data:
+19,31,0
+Fill Map Data:
+19,32,0
+Fill Map Data:
+19,33,1
+Fill Map Data:
+19,34,1
+Fill Map Data:
+19,35,1
+Fill Map Data:
+19,36,0
+Fill Map Data:
+19,37,0
+Fill Map Data:
+19,38,0
+Fill Map Data:
+19,39,0
+Fill Map Data:
+19,40,0
+Fill Map Data:
+19,41,0
+Fill Map Data:
+19,42,0
+Fill Map Data:
+19,43,0
+Fill Map Data:
+19,44,0
+Fill Map Data:
+19,45,0
+Fill Map Data:
+19,46,0
+Fill Map Data:
+19,47,0
+Fill Map Data:
+19,48,0
+Fill Map Data:
+19,49,0
+Fill Map Data:
+19,50,0
+Fill Map Data:
+19,51,0
+Fill Map Data:
+19,52,0
+Fill Map Data:
+19,53,1
+Fill Map Data:
+19,54,0
+Fill Map Data:
+19,55,0
+Fill Map Data:
+19,56,0
+Fill Map Data:
+19,57,0
+Fill Map Data:
+19,58,0
+Fill Map Data:
+19,59,0
+Fill Map Data:
+19,60,0
+Fill Map Data:
+19,61,1
+Fill Map Data:
+19,62,1
+Fill Map Data:
+19,63,1
+Fill Map Data:
+20,0,2
+Fill Map Data:
+20,1,1
+Fill Map Data:
+20,2,1
+Fill Map Data:
+20,3,2
+Fill Map Data:
+20,4,2
+Fill Map Data:
+20,5,2
+Fill Map Data:
+20,6,1
+Fill Map Data:
+20,7,1
+Fill Map Data:
+20,8,0
+Fill Map Data:
+20,9,0
+Fill Map Data:
+20,10,0
+Fill Map Data:
+20,11,0
+Fill Map Data:
+20,12,0
+Fill Map Data:
+20,13,0
+Fill Map Data:
+20,14,0
+Fill Map Data:
+20,15,1
+Fill Map Data:
+20,16,1
+Fill Map Data:
+20,17,0
+Fill Map Data:
+20,18,0
+Fill Map Data:
+20,19,0
+Fill Map Data:
+20,20,0
+Fill Map Data:
+20,21,0
+Fill Map Data:
+20,22,0
+Fill Map Data:
+20,23,0
+Fill Map Data:
+20,24,0
+Fill Map Data:
+20,25,0
+Fill Map Data:
+20,26,0
+Fill Map Data:
+20,27,0
+Fill Map Data:
+20,28,0
+Fill Map Data:
+20,29,0
+Fill Map Data:
+20,30,0
+Fill Map Data:
+20,31,0
+Fill Map Data:
+20,32,1
+Fill Map Data:
+20,33,1
+Fill Map Data:
+20,34,0
+Fill Map Data:
+20,35,0
+Fill Map Data:
+20,36,1
+Fill Map Data:
+20,37,0
+Fill Map Data:
+20,38,0
+Fill Map Data:
+20,39,0
+Fill Map Data:
+20,40,0
+Fill Map Data:
+20,41,0
+Fill Map Data:
+20,42,0
+Fill Map Data:
+20,43,0
+Fill Map Data:
+20,44,0
+Fill Map Data:
+20,45,0
+Fill Map Data:
+20,46,0
+Fill Map Data:
+20,47,0
+Fill Map Data:
+20,48,0
+Fill Map Data:
+20,49,0
+Fill Map Data:
+20,50,1
+Fill Map Data:
+20,51,0
+Fill Map Data:
+20,52,0
+Fill Map Data:
+20,53,0
+Fill Map Data:
+20,54,1
+Fill Map Data:
+20,55,0
+Fill Map Data:
+20,56,0
+Fill Map Data:
+20,57,0
+Fill Map Data:
+20,58,0
+Fill Map Data:
+20,59,0
+Fill Map Data:
+20,60,0
+Fill Map Data:
+20,61,1
+Fill Map Data:
+20,62,1
+Fill Map Data:
+20,63,1
+Fill Map Data:
+21,0,1
+Fill Map Data:
+21,1,1
+Fill Map Data:
+21,2,1
+Fill Map Data:
+21,3,1
+Fill Map Data:
+21,4,1
+Fill Map Data:
+21,5,1
+Fill Map Data:
+21,6,2
+Fill Map Data:
+21,7,1
+Fill Map Data:
+21,8,0
+Fill Map Data:
+21,9,0
+Fill Map Data:
+21,10,0
+Fill Map Data:
+21,11,2
+Fill Map Data:
+21,12,0
+Fill Map Data:
+21,13,0
+Fill Map Data:
+21,14,0
+Fill Map Data:
+21,15,0
+Fill Map Data:
+21,16,0
+Fill Map Data:
+21,17,0
+Fill Map Data:
+21,18,0
+Fill Map Data:
+21,19,0
+Fill Map Data:
+21,20,0
+Fill Map Data:
+21,21,0
+Fill Map Data:
+21,22,0
+Fill Map Data:
+21,23,0
+Fill Map Data:
+21,24,0
+Fill Map Data:
+21,25,0
+Fill Map Data:
+21,26,0
+Fill Map Data:
+21,27,0
+Fill Map Data:
+21,28,0
+Fill Map Data:
+21,29,0
+Fill Map Data:
+21,30,0
+Fill Map Data:
+21,31,1
+Fill Map Data:
+21,32,0
+Fill Map Data:
+21,33,1
+Fill Map Data:
+21,34,1
+Fill Map Data:
+21,35,2
+Fill Map Data:
+21,36,2
+Fill Map Data:
+21,37,1
+Fill Map Data:
+21,38,0
+Fill Map Data:
+21,39,0
+Fill Map Data:
+21,40,0
+Fill Map Data:
+21,41,0
+Fill Map Data:
+21,42,0
+Fill Map Data:
+21,43,0
+Fill Map Data:
+21,44,0
+Fill Map Data:
+21,45,0
+Fill Map Data:
+21,46,0
+Fill Map Data:
+21,47,0
+Fill Map Data:
+21,48,0
+Fill Map Data:
+21,49,0
+Fill Map Data:
+21,50,0
+Fill Map Data:
+21,51,0
+Fill Map Data:
+21,52,0
+Fill Map Data:
+21,53,0
+Fill Map Data:
+21,54,0
+Fill Map Data:
+21,55,0
+Fill Map Data:
+21,56,0
+Fill Map Data:
+21,57,0
+Fill Map Data:
+21,58,0
+Fill Map Data:
+21,59,0
+Fill Map Data:
+21,60,0
+Fill Map Data:
+21,61,1
+Fill Map Data:
+21,62,0
+Fill Map Data:
+21,63,1
+Fill Map Data:
+22,0,0
+Fill Map Data:
+22,1,1
+Fill Map Data:
+22,2,1
+Fill Map Data:
+22,3,2
+Fill Map Data:
+22,4,1
+Fill Map Data:
+22,5,1
+Fill Map Data:
+22,6,1
+Fill Map Data:
+22,7,1
+Fill Map Data:
+22,8,0
+Fill Map Data:
+22,9,0
+Fill Map Data:
+22,10,0
+Fill Map Data:
+22,11,0
+Fill Map Data:
+22,12,0
+Fill Map Data:
+22,13,0
+Fill Map Data:
+22,14,0
+Fill Map Data:
+22,15,0
+Fill Map Data:
+22,16,0
+Fill Map Data:
+22,17,0
+Fill Map Data:
+22,18,0
+Fill Map Data:
+22,19,0
+Fill Map Data:
+22,20,0
+Fill Map Data:
+22,21,0
+Fill Map Data:
+22,22,0
+Fill Map Data:
+22,23,0
+Fill Map Data:
+22,24,0
+Fill Map Data:
+22,25,0
+Fill Map Data:
+22,26,0
+Fill Map Data:
+22,27,0
+Fill Map Data:
+22,28,0
+Fill Map Data:
+22,29,0
+Fill Map Data:
+22,30,0
+Fill Map Data:
+22,31,0
+Fill Map Data:
+22,32,0
+Fill Map Data:
+22,33,2
+Fill Map Data:
+22,34,2
+Fill Map Data:
+22,35,2
+Fill Map Data:
+22,36,1
+Fill Map Data:
+22,37,1
+Fill Map Data:
+22,38,1
+Fill Map Data:
+22,39,0
+Fill Map Data:
+22,40,0
+Fill Map Data:
+22,41,0
+Fill Map Data:
+22,42,0
+Fill Map Data:
+22,43,0
+Fill Map Data:
+22,44,0
+Fill Map Data:
+22,45,0
+Fill Map Data:
+22,46,0
+Fill Map Data:
+22,47,0
+Fill Map Data:
+22,48,0
+Fill Map Data:
+22,49,0
+Fill Map Data:
+22,50,0
+Fill Map Data:
+22,51,0
+Fill Map Data:
+22,52,1
+Fill Map Data:
+22,53,0
+Fill Map Data:
+22,54,0
+Fill Map Data:
+22,55,0
+Fill Map Data:
+22,56,0
+Fill Map Data:
+22,57,0
+Fill Map Data:
+22,58,0
+Fill Map Data:
+22,59,0
+Fill Map Data:
+22,60,0
+Fill Map Data:
+22,61,0
+Fill Map Data:
+22,62,1
+Fill Map Data:
+22,63,1
+Fill Map Data:
+23,0,1
+Fill Map Data:
+23,1,1
+Fill Map Data:
+23,2,1
+Fill Map Data:
+23,3,1
+Fill Map Data:
+23,4,1
+Fill Map Data:
+23,5,1
+Fill Map Data:
+23,6,0
+Fill Map Data:
+23,7,0
+Fill Map Data:
+23,8,0
+Fill Map Data:
+23,9,0
+Fill Map Data:
+23,10,0
+Fill Map Data:
+23,11,0
+Fill Map Data:
+23,12,0
+Fill Map Data:
+23,13,0
+Fill Map Data:
+23,14,0
+Fill Map Data:
+23,15,0
+Fill Map Data:
+23,16,0
+Fill Map Data:
+23,17,0
+Fill Map Data:
+23,18,0
+Fill Map Data:
+23,19,0
+Fill Map Data:
+23,20,0
+Fill Map Data:
+23,21,0
+Fill Map Data:
+23,22,0
+Fill Map Data:
+23,23,0
+Fill Map Data:
+23,24,0
+Fill Map Data:
+23,25,0
+Fill Map Data:
+23,26,0
+Fill Map Data:
+23,27,0
+Fill Map Data:
+23,28,0
+Fill Map Data:
+23,29,0
+Fill Map Data:
+23,30,0
+Fill Map Data:
+23,31,0
+Fill Map Data:
+23,32,1
+Fill Map Data:
+23,33,2
+Fill Map Data:
+23,34,1
+Fill Map Data:
+23,35,1
+Fill Map Data:
+23,36,1
+Fill Map Data:
+23,37,1
+Fill Map Data:
+23,38,1
+Fill Map Data:
+23,39,0
+Fill Map Data:
+23,40,0
+Fill Map Data:
+23,41,0
+Fill Map Data:
+23,42,0
+Fill Map Data:
+23,43,0
+Fill Map Data:
+23,44,3
+Fill Map Data:
+23,45,0
+Fill Map Data:
+23,46,0
+Fill Map Data:
+23,47,0
+Fill Map Data:
+23,48,0
+Fill Map Data:
+23,49,0
+Fill Map Data:
+23,50,0
+Fill Map Data:
+23,51,0
+Fill Map Data:
+23,52,0
+Fill Map Data:
+23,53,0
+Fill Map Data:
+23,54,0
+Fill Map Data:
+23,55,0
+Fill Map Data:
+23,56,0
+Fill Map Data:
+23,57,0
+Fill Map Data:
+23,58,0
+Fill Map Data:
+23,59,0
+Fill Map Data:
+23,60,0
+Fill Map Data:
+23,61,1
+Fill Map Data:
+23,62,1
+Fill Map Data:
+23,63,1
+Fill Map Data:
+24,0,0
+Fill Map Data:
+24,1,1
+Fill Map Data:
+24,2,1
+Fill Map Data:
+24,3,1
+Fill Map Data:
+24,4,1
+Fill Map Data:
+24,5,1
+Fill Map Data:
+24,6,1
+Fill Map Data:
+24,7,0
+Fill Map Data:
+24,8,0
+Fill Map Data:
+24,9,0
+Fill Map Data:
+24,10,0
+Fill Map Data:
+24,11,0
+Fill Map Data:
+24,12,0
+Fill Map Data:
+24,13,0
+Fill Map Data:
+24,14,0
+Fill Map Data:
+24,15,0
+Fill Map Data:
+24,16,0
+Fill Map Data:
+24,17,0
+Fill Map Data:
+24,18,0
+Fill Map Data:
+24,19,0
+Fill Map Data:
+24,20,0
+Fill Map Data:
+24,21,0
+Fill Map Data:
+24,22,0
+Fill Map Data:
+24,23,0
+Fill Map Data:
+24,24,0
+Fill Map Data:
+24,25,0
+Fill Map Data:
+24,26,0
+Fill Map Data:
+24,27,0
+Fill Map Data:
+24,28,0
+Fill Map Data:
+24,29,0
+Fill Map Data:
+24,30,0
+Fill Map Data:
+24,31,1
+Fill Map Data:
+24,32,1
+Fill Map Data:
+24,33,1
+Fill Map Data:
+24,34,2
+Fill Map Data:
+24,35,1
+Fill Map Data:
+24,36,1
+Fill Map Data:
+24,37,2
+Fill Map Data:
+24,38,2
+Fill Map Data:
+24,39,0
+Fill Map Data:
+24,40,0
+Fill Map Data:
+24,41,0
+Fill Map Data:
+24,42,0
+Fill Map Data:
+24,43,0
+Fill Map Data:
+24,44,0
+Fill Map Data:
+24,45,0
+Fill Map Data:
+24,46,3
+Fill Map Data:
+24,47,0
+Fill Map Data:
+24,48,0
+Fill Map Data:
+24,49,0
+Fill Map Data:
+24,50,0
+Fill Map Data:
+24,51,3
+Fill Map Data:
+24,52,0
+Fill Map Data:
+24,53,0
+Fill Map Data:
+24,54,0
+Fill Map Data:
+24,55,3
+Fill Map Data:
+24,56,0
+Fill Map Data:
+24,57,0
+Fill Map Data:
+24,58,3
+Fill Map Data:
+24,59,0
+Fill Map Data:
+24,60,0
+Fill Map Data:
+24,61,1
+Fill Map Data:
+24,62,0
+Fill Map Data:
+24,63,1
+Fill Map Data:
+25,0,1
+Fill Map Data:
+25,1,1
+Fill Map Data:
+25,2,1
+Fill Map Data:
+25,3,1
+Fill Map Data:
+25,4,1
+Fill Map Data:
+25,5,1
+Fill Map Data:
+25,6,0
+Fill Map Data:
+25,7,0
+Fill Map Data:
+25,8,0
+Fill Map Data:
+25,9,0
+Fill Map Data:
+25,10,0
+Fill Map Data:
+25,11,0
+Fill Map Data:
+25,12,0
+Fill Map Data:
+25,13,0
+Fill Map Data:
+25,14,0
+Fill Map Data:
+25,15,0
+Fill Map Data:
+25,16,0
+Fill Map Data:
+25,17,0
+Fill Map Data:
+25,18,0
+Fill Map Data:
+25,19,0
+Fill Map Data:
+25,20,0
+Fill Map Data:
+25,21,0
+Fill Map Data:
+25,22,0
+Fill Map Data:
+25,23,0
+Fill Map Data:
+25,24,0
+Fill Map Data:
+25,25,0
+Fill Map Data:
+25,26,0
+Fill Map Data:
+25,27,0
+Fill Map Data:
+25,28,0
+Fill Map Data:
+25,29,0
+Fill Map Data:
+25,30,0
+Fill Map Data:
+25,31,0
+Fill Map Data:
+25,32,1
+Fill Map Data:
+25,33,2
+Fill Map Data:
+25,34,1
+Fill Map Data:
+25,35,0
+Fill Map Data:
+25,36,1
+Fill Map Data:
+25,37,1
+Fill Map Data:
+25,38,2
+Fill Map Data:
+25,39,0
+Fill Map Data:
+25,40,0
+Fill Map Data:
+25,41,0
+Fill Map Data:
+25,42,0
+Fill Map Data:
+25,43,0
+Fill Map Data:
+25,44,0
+Fill Map Data:
+25,45,0
+Fill Map Data:
+25,46,0
+Fill Map Data:
+25,47,0
+Fill Map Data:
+25,48,0
+Fill Map Data:
+25,49,0
+Fill Map Data:
+25,50,0
+Fill Map Data:
+25,51,0
+Fill Map Data:
+25,52,0
+Fill Map Data:
+25,53,0
+Fill Map Data:
+25,54,0
+Fill Map Data:
+25,55,0
+Fill Map Data:
+25,56,0
+Fill Map Data:
+25,57,0
+Fill Map Data:
+25,58,0
+Fill Map Data:
+25,59,0
+Fill Map Data:
+25,60,0
+Fill Map Data:
+25,61,1
+Fill Map Data:
+25,62,1
+Fill Map Data:
+25,63,1
+Fill Map Data:
+26,0,1
+Fill Map Data:
+26,1,1
+Fill Map Data:
+26,2,1
+Fill Map Data:
+26,3,1
+Fill Map Data:
+26,4,1
+Fill Map Data:
+26,5,1
+Fill Map Data:
+26,6,1
+Fill Map Data:
+26,7,0
+Fill Map Data:
+26,8,0
+Fill Map Data:
+26,9,0
+Fill Map Data:
+26,10,0
+Fill Map Data:
+26,11,0
+Fill Map Data:
+26,12,0
+Fill Map Data:
+26,13,0
+Fill Map Data:
+26,14,0
+Fill Map Data:
+26,15,0
+Fill Map Data:
+26,16,0
+Fill Map Data:
+26,17,0
+Fill Map Data:
+26,18,0
+Fill Map Data:
+26,19,0
+Fill Map Data:
+26,20,0
+Fill Map Data:
+26,21,0
+Fill Map Data:
+26,22,0
+Fill Map Data:
+26,23,0
+Fill Map Data:
+26,24,0
+Fill Map Data:
+26,25,0
+Fill Map Data:
+26,26,0
+Fill Map Data:
+26,27,0
+Fill Map Data:
+26,28,0
+Fill Map Data:
+26,29,0
+Fill Map Data:
+26,30,0
+Fill Map Data:
+26,31,1
+Fill Map Data:
+26,32,0
+Fill Map Data:
+26,33,1
+Fill Map Data:
+26,34,1
+Fill Map Data:
+26,35,0
+Fill Map Data:
+26,36,0
+Fill Map Data:
+26,37,1
+Fill Map Data:
+26,38,1
+Fill Map Data:
+26,39,0
+Fill Map Data:
+26,40,0
+Fill Map Data:
+26,41,0
+Fill Map Data:
+26,42,0
+Fill Map Data:
+26,43,0
+Fill Map Data:
+26,44,0
+Fill Map Data:
+26,45,0
+Fill Map Data:
+26,46,0
+Fill Map Data:
+26,47,0
+Fill Map Data:
+26,48,0
+Fill Map Data:
+26,49,0
+Fill Map Data:
+26,50,0
+Fill Map Data:
+26,51,0
+Fill Map Data:
+26,52,0
+Fill Map Data:
+26,53,0
+Fill Map Data:
+26,54,0
+Fill Map Data:
+26,55,0
+Fill Map Data:
+26,56,0
+Fill Map Data:
+26,57,0
+Fill Map Data:
+26,58,0
+Fill Map Data:
+26,59,0
+Fill Map Data:
+26,60,3
+Fill Map Data:
+26,61,1
+Fill Map Data:
+26,62,1
+Fill Map Data:
+26,63,1
+Fill Map Data:
+27,0,1
+Fill Map Data:
+27,1,1
+Fill Map Data:
+27,2,1
+Fill Map Data:
+27,3,0
+Fill Map Data:
+27,4,1
+Fill Map Data:
+27,5,1
+Fill Map Data:
+27,6,1
+Fill Map Data:
+27,7,1
+Fill Map Data:
+27,8,0
+Fill Map Data:
+27,9,0
+Fill Map Data:
+27,10,0
+Fill Map Data:
+27,11,0
+Fill Map Data:
+27,12,0
+Fill Map Data:
+27,13,0
+Fill Map Data:
+27,14,0
+Fill Map Data:
+27,15,0
+Fill Map Data:
+27,16,0
+Fill Map Data:
+27,17,0
+Fill Map Data:
+27,18,0
+Fill Map Data:
+27,19,0
+Fill Map Data:
+27,20,0
+Fill Map Data:
+27,21,0
+Fill Map Data:
+27,22,0
+Fill Map Data:
+27,23,0
+Fill Map Data:
+27,24,0
+Fill Map Data:
+27,25,0
+Fill Map Data:
+27,26,0
+Fill Map Data:
+27,27,0
+Fill Map Data:
+27,28,0
+Fill Map Data:
+27,29,0
+Fill Map Data:
+27,30,0
+Fill Map Data:
+27,31,0
+Fill Map Data:
+27,32,1
+Fill Map Data:
+27,33,1
+Fill Map Data:
+27,34,1
+Fill Map Data:
+27,35,1
+Fill Map Data:
+27,36,1
+Fill Map Data:
+27,37,2
+Fill Map Data:
+27,38,2
+Fill Map Data:
+27,39,1
+Fill Map Data:
+27,40,0
+Fill Map Data:
+27,41,0
+Fill Map Data:
+27,42,0
+Fill Map Data:
+27,43,0
+Fill Map Data:
+27,44,0
+Fill Map Data:
+27,45,0
+Fill Map Data:
+27,46,0
+Fill Map Data:
+27,47,0
+Fill Map Data:
+27,48,0
+Fill Map Data:
+27,49,0
+Fill Map Data:
+27,50,0
+Fill Map Data:
+27,51,0
+Fill Map Data:
+27,52,0
+Fill Map Data:
+27,53,0
+Fill Map Data:
+27,54,0
+Fill Map Data:
+27,55,0
+Fill Map Data:
+27,56,0
+Fill Map Data:
+27,57,0
+Fill Map Data:
+27,58,3
+Fill Map Data:
+27,59,0
+Fill Map Data:
+27,60,0
+Fill Map Data:
+27,61,1
+Fill Map Data:
+27,62,1
+Fill Map Data:
+27,63,1
+Fill Map Data:
+28,0,0
+Fill Map Data:
+28,1,0
+Fill Map Data:
+28,2,0
+Fill Map Data:
+28,3,0
+Fill Map Data:
+28,4,0
+Fill Map Data:
+28,5,0
+Fill Map Data:
+28,6,0
+Fill Map Data:
+28,7,0
+Fill Map Data:
+28,8,0
+Fill Map Data:
+28,9,0
+Fill Map Data:
+28,10,0
+Fill Map Data:
+28,11,0
+Fill Map Data:
+28,12,0
+Fill Map Data:
+28,13,0
+Fill Map Data:
+28,14,0
+Fill Map Data:
+28,15,0
+Fill Map Data:
+28,16,0
+Fill Map Data:
+28,17,0
+Fill Map Data:
+28,18,0
+Fill Map Data:
+28,19,0
+Fill Map Data:
+28,20,0
+Fill Map Data:
+28,21,0
+Fill Map Data:
+28,22,0
+Fill Map Data:
+28,23,0
+Fill Map Data:
+28,24,0
+Fill Map Data:
+28,25,3
+Fill Map Data:
+28,26,3
+Fill Map Data:
+28,27,3
+Fill Map Data:
+28,28,3
+Fill Map Data:
+28,29,3
+Fill Map Data:
+28,30,0
+Fill Map Data:
+28,31,1
+Fill Map Data:
+28,32,0
+Fill Map Data:
+28,33,1
+Fill Map Data:
+28,34,1
+Fill Map Data:
+28,35,1
+Fill Map Data:
+28,36,1
+Fill Map Data:
+28,37,2
+Fill Map Data:
+28,38,0
+Fill Map Data:
+28,39,0
+Fill Map Data:
+28,40,0
+Fill Map Data:
+28,41,0
+Fill Map Data:
+28,42,0
+Fill Map Data:
+28,43,0
+Fill Map Data:
+28,44,0
+Fill Map Data:
+28,45,0
+Fill Map Data:
+28,46,0
+Fill Map Data:
+28,47,0
+Fill Map Data:
+28,48,0
+Fill Map Data:
+28,49,1
+Fill Map Data:
+28,50,0
+Fill Map Data:
+28,51,0
+Fill Map Data:
+28,52,0
+Fill Map Data:
+28,53,0
+Fill Map Data:
+28,54,0
+Fill Map Data:
+28,55,0
+Fill Map Data:
+28,56,0
+Fill Map Data:
+28,57,0
+Fill Map Data:
+28,58,0
+Fill Map Data:
+28,59,0
+Fill Map Data:
+28,60,0
+Fill Map Data:
+28,61,1
+Fill Map Data:
+28,62,1
+Fill Map Data:
+28,63,1
+Fill Map Data:
+29,0,0
+Fill Map Data:
+29,1,0
+Fill Map Data:
+29,2,0
+Fill Map Data:
+29,3,0
+Fill Map Data:
+29,4,0
+Fill Map Data:
+29,5,0
+Fill Map Data:
+29,6,0
+Fill Map Data:
+29,7,0
+Fill Map Data:
+29,8,0
+Fill Map Data:
+29,9,0
+Fill Map Data:
+29,10,0
+Fill Map Data:
+29,11,0
+Fill Map Data:
+29,12,0
+Fill Map Data:
+29,13,3
+Fill Map Data:
+29,14,0
+Fill Map Data:
+29,15,0
+Fill Map Data:
+29,16,0
+Fill Map Data:
+29,17,0
+Fill Map Data:
+29,18,0
+Fill Map Data:
+29,19,0
+Fill Map Data:
+29,20,0
+Fill Map Data:
+29,21,0
+Fill Map Data:
+29,22,0
+Fill Map Data:
+29,23,0
+Fill Map Data:
+29,24,0
+Fill Map Data:
+29,25,0
+Fill Map Data:
+29,26,0
+Fill Map Data:
+29,27,0
+Fill Map Data:
+29,28,0
+Fill Map Data:
+29,29,0
+Fill Map Data:
+29,30,0
+Fill Map Data:
+29,31,0
+Fill Map Data:
+29,32,1
+Fill Map Data:
+29,33,1
+Fill Map Data:
+29,34,1
+Fill Map Data:
+29,35,2
+Fill Map Data:
+29,36,2
+Fill Map Data:
+29,37,0
+Fill Map Data:
+29,38,1
+Fill Map Data:
+29,39,0
+Fill Map Data:
+29,40,0
+Fill Map Data:
+29,41,0
+Fill Map Data:
+29,42,0
+Fill Map Data:
+29,43,0
+Fill Map Data:
+29,44,0
+Fill Map Data:
+29,45,0
+Fill Map Data:
+29,46,0
+Fill Map Data:
+29,47,3
+Fill Map Data:
+29,48,0
+Fill Map Data:
+29,49,0
+Fill Map Data:
+29,50,0
+Fill Map Data:
+29,51,0
+Fill Map Data:
+29,52,0
+Fill Map Data:
+29,53,0
+Fill Map Data:
+29,54,3
+Fill Map Data:
+29,55,0
+Fill Map Data:
+29,56,0
+Fill Map Data:
+29,57,0
+Fill Map Data:
+29,58,0
+Fill Map Data:
+29,59,0
+Fill Map Data:
+29,60,0
+Fill Map Data:
+29,61,1
+Fill Map Data:
+29,62,1
+Fill Map Data:
+29,63,0
+Fill Map Data:
+30,0,1
+Fill Map Data:
+30,1,1
+Fill Map Data:
+30,2,1
+Fill Map Data:
+30,3,1
+Fill Map Data:
+30,4,1
+Fill Map Data:
+30,5,1
+Fill Map Data:
+30,6,1
+Fill Map Data:
+30,7,0
+Fill Map Data:
+30,8,0
+Fill Map Data:
+30,9,0
+Fill Map Data:
+30,10,0
+Fill Map Data:
+30,11,0
+Fill Map Data:
+30,12,0
+Fill Map Data:
+30,13,3
+Fill Map Data:
+30,14,0
+Fill Map Data:
+30,15,0
+Fill Map Data:
+30,16,0
+Fill Map Data:
+30,17,0
+Fill Map Data:
+30,18,0
+Fill Map Data:
+30,19,0
+Fill Map Data:
+30,20,0
+Fill Map Data:
+30,21,0
+Fill Map Data:
+30,22,0
+Fill Map Data:
+30,23,0
+Fill Map Data:
+30,24,0
+Fill Map Data:
+30,25,0
+Fill Map Data:
+30,26,0
+Fill Map Data:
+30,27,0
+Fill Map Data:
+30,28,0
+Fill Map Data:
+30,29,0
+Fill Map Data:
+30,30,0
+Fill Map Data:
+30,31,0
+Fill Map Data:
+30,32,0
+Fill Map Data:
+30,33,2
+Fill Map Data:
+30,34,2
+Fill Map Data:
+30,35,2
+Fill Map Data:
+30,36,0
+Fill Map Data:
+30,37,1
+Fill Map Data:
+30,38,0
+Fill Map Data:
+30,39,0
+Fill Map Data:
+30,40,0
+Fill Map Data:
+30,41,0
+Fill Map Data:
+30,42,0
+Fill Map Data:
+30,43,0
+Fill Map Data:
+30,44,0
+Fill Map Data:
+30,45,0
+Fill Map Data:
+30,46,0
+Fill Map Data:
+30,47,0
+Fill Map Data:
+30,48,0
+Fill Map Data:
+30,49,0
+Fill Map Data:
+30,50,0
+Fill Map Data:
+30,51,0
+Fill Map Data:
+30,52,0
+Fill Map Data:
+30,53,0
+Fill Map Data:
+30,54,0
+Fill Map Data:
+30,55,0
+Fill Map Data:
+30,56,0
+Fill Map Data:
+30,57,3
+Fill Map Data:
+30,58,0
+Fill Map Data:
+30,59,0
+Fill Map Data:
+30,60,0
+Fill Map Data:
+30,61,0
+Fill Map Data:
+30,62,1
+Fill Map Data:
+30,63,1
+Fill Map Data:
+31,0,0
+Fill Map Data:
+31,1,1
+Fill Map Data:
+31,2,1
+Fill Map Data:
+31,3,1
+Fill Map Data:
+31,4,1
+Fill Map Data:
+31,5,1
+Fill Map Data:
+31,6,1
+Fill Map Data:
+31,7,0
+Fill Map Data:
+31,8,0
+Fill Map Data:
+31,9,0
+Fill Map Data:
+31,10,0
+Fill Map Data:
+31,11,0
+Fill Map Data:
+31,12,0
+Fill Map Data:
+31,13,3
+Fill Map Data:
+31,14,0
+Fill Map Data:
+31,15,0
+Fill Map Data:
+31,16,0
+Fill Map Data:
+31,17,0
+Fill Map Data:
+31,18,0
+Fill Map Data:
+31,19,0
+Fill Map Data:
+31,20,0
+Fill Map Data:
+31,21,0
+Fill Map Data:
+31,22,0
+Fill Map Data:
+31,23,0
+Fill Map Data:
+31,24,0
+Fill Map Data:
+31,25,0
+Fill Map Data:
+31,26,0
+Fill Map Data:
+31,27,0
+Fill Map Data:
+31,28,0
+Fill Map Data:
+31,29,0
+Fill Map Data:
+31,30,0
+Fill Map Data:
+31,31,0
+Fill Map Data:
+31,32,0
+Fill Map Data:
+31,33,1
+Fill Map Data:
+31,34,1
+Fill Map Data:
+31,35,1
+Fill Map Data:
+31,36,0
+Fill Map Data:
+31,37,1
+Fill Map Data:
+31,38,0
+Fill Map Data:
+31,39,0
+Fill Map Data:
+31,40,0
+Fill Map Data:
+31,41,0
+Fill Map Data:
+31,42,0
+Fill Map Data:
+31,43,0
+Fill Map Data:
+31,44,0
+Fill Map Data:
+31,45,0
+Fill Map Data:
+31,46,0
+Fill Map Data:
+31,47,0
+Fill Map Data:
+31,48,0
+Fill Map Data:
+31,49,0
+Fill Map Data:
+31,50,0
+Fill Map Data:
+31,51,0
+Fill Map Data:
+31,52,0
+Fill Map Data:
+31,53,0
+Fill Map Data:
+31,54,0
+Fill Map Data:
+31,55,0
+Fill Map Data:
+31,56,0
+Fill Map Data:
+31,57,0
+Fill Map Data:
+31,58,0
+Fill Map Data:
+31,59,0
+Fill Map Data:
+31,60,0
+Fill Map Data:
+31,61,1
+Fill Map Data:
+31,62,1
+Fill Map Data:
+31,63,1
+Fill Map Data:
+32,0,0
+Fill Map Data:
+32,1,1
+Fill Map Data:
+32,2,1
+Fill Map Data:
+32,3,1
+Fill Map Data:
+32,4,1
+Fill Map Data:
+32,5,1
+Fill Map Data:
+32,6,1
+Fill Map Data:
+32,7,0
+Fill Map Data:
+32,8,0
+Fill Map Data:
+32,9,0
+Fill Map Data:
+32,10,0
+Fill Map Data:
+32,11,0
+Fill Map Data:
+32,12,0
+Fill Map Data:
+32,13,0
+Fill Map Data:
+32,14,0
+Fill Map Data:
+32,15,0
+Fill Map Data:
+32,16,0
+Fill Map Data:
+32,17,0
+Fill Map Data:
+32,18,0
+Fill Map Data:
+32,19,0
+Fill Map Data:
+32,20,0
+Fill Map Data:
+32,21,0
+Fill Map Data:
+32,22,0
+Fill Map Data:
+32,23,0
+Fill Map Data:
+32,24,0
+Fill Map Data:
+32,25,0
+Fill Map Data:
+32,26,0
+Fill Map Data:
+32,27,0
+Fill Map Data:
+32,28,0
+Fill Map Data:
+32,29,0
+Fill Map Data:
+32,30,0
+Fill Map Data:
+32,31,0
+Fill Map Data:
+32,32,0
+Fill Map Data:
+32,33,0
+Fill Map Data:
+32,34,0
+Fill Map Data:
+32,35,0
+Fill Map Data:
+32,36,0
+Fill Map Data:
+32,37,0
+Fill Map Data:
+32,38,0
+Fill Map Data:
+32,39,0
+Fill Map Data:
+32,40,0
+Fill Map Data:
+32,41,0
+Fill Map Data:
+32,42,0
+Fill Map Data:
+32,43,0
+Fill Map Data:
+32,44,0
+Fill Map Data:
+32,45,0
+Fill Map Data:
+32,46,0
+Fill Map Data:
+32,47,0
+Fill Map Data:
+32,48,0
+Fill Map Data:
+32,49,0
+Fill Map Data:
+32,50,0
+Fill Map Data:
+32,51,0
+Fill Map Data:
+32,52,0
+Fill Map Data:
+32,53,0
+Fill Map Data:
+32,54,0
+Fill Map Data:
+32,55,0
+Fill Map Data:
+32,56,0
+Fill Map Data:
+32,57,0
+Fill Map Data:
+32,58,0
+Fill Map Data:
+32,59,0
+Fill Map Data:
+32,60,0
+Fill Map Data:
+32,61,0
+Fill Map Data:
+32,62,0
+Fill Map Data:
+32,63,1
+Fill Map Data:
+33,0,1
+Fill Map Data:
+33,1,1
+Fill Map Data:
+33,2,1
+Fill Map Data:
+33,3,1
+Fill Map Data:
+33,4,1
+Fill Map Data:
+33,5,1
+Fill Map Data:
+33,6,1
+Fill Map Data:
+33,7,0
+Fill Map Data:
+33,8,0
+Fill Map Data:
+33,9,0
+Fill Map Data:
+33,10,0
+Fill Map Data:
+33,11,0
+Fill Map Data:
+33,12,0
+Fill Map Data:
+33,13,0
+Fill Map Data:
+33,14,0
+Fill Map Data:
+33,15,0
+Fill Map Data:
+33,16,0
+Fill Map Data:
+33,17,0
+Fill Map Data:
+33,18,0
+Fill Map Data:
+33,19,0
+Fill Map Data:
+33,20,0
+Fill Map Data:
+33,21,0
+Fill Map Data:
+33,22,0
+Fill Map Data:
+33,23,0
+Fill Map Data:
+33,24,0
+Fill Map Data:
+33,25,0
+Fill Map Data:
+33,26,0
+Fill Map Data:
+33,27,0
+Fill Map Data:
+33,28,0
+Fill Map Data:
+33,29,0
+Fill Map Data:
+33,30,0
+Fill Map Data:
+33,31,0
+Fill Map Data:
+33,32,0
+Fill Map Data:
+33,33,0
+Fill Map Data:
+33,34,0
+Fill Map Data:
+33,35,0
+Fill Map Data:
+33,36,0
+Fill Map Data:
+33,37,0
+Fill Map Data:
+33,38,0
+Fill Map Data:
+33,39,0
+Fill Map Data:
+33,40,0
+Fill Map Data:
+33,41,0
+Fill Map Data:
+33,42,0
+Fill Map Data:
+33,43,0
+Fill Map Data:
+33,44,0
+Fill Map Data:
+33,45,0
+Fill Map Data:
+33,46,0
+Fill Map Data:
+33,47,0
+Fill Map Data:
+33,48,0
+Fill Map Data:
+33,49,0
+Fill Map Data:
+33,50,0
+Fill Map Data:
+33,51,0
+Fill Map Data:
+33,52,0
+Fill Map Data:
+33,53,3
+Fill Map Data:
+33,54,0
+Fill Map Data:
+33,55,0
+Fill Map Data:
+33,56,0
+Fill Map Data:
+33,57,3
+Fill Map Data:
+33,58,0
+Fill Map Data:
+33,59,0
+Fill Map Data:
+33,60,0
+Fill Map Data:
+33,61,0
+Fill Map Data:
+33,62,1
+Fill Map Data:
+33,63,1
+Fill Map Data:
+34,0,0
+Fill Map Data:
+34,1,1
+Fill Map Data:
+34,2,1
+Fill Map Data:
+34,3,1
+Fill Map Data:
+34,4,1
+Fill Map Data:
+34,5,1
+Fill Map Data:
+34,6,1
+Fill Map Data:
+34,7,0
+Fill Map Data:
+34,8,0
+Fill Map Data:
+34,9,0
+Fill Map Data:
+34,10,0
+Fill Map Data:
+34,11,0
+Fill Map Data:
+34,12,0
+Fill Map Data:
+34,13,0
+Fill Map Data:
+34,14,0
+Fill Map Data:
+34,15,0
+Fill Map Data:
+34,16,0
+Fill Map Data:
+34,17,0
+Fill Map Data:
+34,18,0
+Fill Map Data:
+34,19,0
+Fill Map Data:
+34,20,0
+Fill Map Data:
+34,21,0
+Fill Map Data:
+34,22,0
+Fill Map Data:
+34,23,0
+Fill Map Data:
+34,24,0
+Fill Map Data:
+34,25,0
+Fill Map Data:
+34,26,0
+Fill Map Data:
+34,27,0
+Fill Map Data:
+34,28,0
+Fill Map Data:
+34,29,0
+Fill Map Data:
+34,30,0
+Fill Map Data:
+34,31,0
+Fill Map Data:
+34,32,0
+Fill Map Data:
+34,33,0
+Fill Map Data:
+34,34,0
+Fill Map Data:
+34,35,0
+Fill Map Data:
+34,36,0
+Fill Map Data:
+34,37,0
+Fill Map Data:
+34,38,0
+Fill Map Data:
+34,39,0
+Fill Map Data:
+34,40,0
+Fill Map Data:
+34,41,0
+Fill Map Data:
+34,42,0
+Fill Map Data:
+34,43,0
+Fill Map Data:
+34,44,0
+Fill Map Data:
+34,45,0
+Fill Map Data:
+34,46,0
+Fill Map Data:
+34,47,0
+Fill Map Data:
+34,48,0
+Fill Map Data:
+34,49,0
+Fill Map Data:
+34,50,0
+Fill Map Data:
+34,51,0
+Fill Map Data:
+34,52,0
+Fill Map Data:
+34,53,0
+Fill Map Data:
+34,54,0
+Fill Map Data:
+34,55,0
+Fill Map Data:
+34,56,0
+Fill Map Data:
+34,57,0
+Fill Map Data:
+34,58,0
+Fill Map Data:
+34,59,3
+Fill Map Data:
+34,60,0
+Fill Map Data:
+34,61,1
+Fill Map Data:
+34,62,1
+Fill Map Data:
+34,63,1
+Fill Map Data:
+35,0,0
+Fill Map Data:
+35,1,1
+Fill Map Data:
+35,2,1
+Fill Map Data:
+35,3,1
+Fill Map Data:
+35,4,0
+Fill Map Data:
+35,5,1
+Fill Map Data:
+35,6,1
+Fill Map Data:
+35,7,0
+Fill Map Data:
+35,8,0
+Fill Map Data:
+35,9,0
+Fill Map Data:
+35,10,0
+Fill Map Data:
+35,11,0
+Fill Map Data:
+35,12,0
+Fill Map Data:
+35,13,0
+Fill Map Data:
+35,14,0
+Fill Map Data:
+35,15,0
+Fill Map Data:
+35,16,0
+Fill Map Data:
+35,17,0
+Fill Map Data:
+35,18,0
+Fill Map Data:
+35,19,0
+Fill Map Data:
+35,20,0
+Fill Map Data:
+35,21,0
+Fill Map Data:
+35,22,0
+Fill Map Data:
+35,23,0
+Fill Map Data:
+35,24,0
+Fill Map Data:
+35,25,0
+Fill Map Data:
+35,26,0
+Fill Map Data:
+35,27,0
+Fill Map Data:
+35,28,0
+Fill Map Data:
+35,29,0
+Fill Map Data:
+35,30,0
+Fill Map Data:
+35,31,0
+Fill Map Data:
+35,32,0
+Fill Map Data:
+35,33,0
+Fill Map Data:
+35,34,0
+Fill Map Data:
+35,35,0
+Fill Map Data:
+35,36,0
+Fill Map Data:
+35,37,0
+Fill Map Data:
+35,38,0
+Fill Map Data:
+35,39,0
+Fill Map Data:
+35,40,0
+Fill Map Data:
+35,41,0
+Fill Map Data:
+35,42,0
+Fill Map Data:
+35,43,0
+Fill Map Data:
+35,44,0
+Fill Map Data:
+35,45,0
+Fill Map Data:
+35,46,0
+Fill Map Data:
+35,47,0
+Fill Map Data:
+35,48,3
+Fill Map Data:
+35,49,0
+Fill Map Data:
+35,50,0
+Fill Map Data:
+35,51,0
+Fill Map Data:
+35,52,0
+Fill Map Data:
+35,53,0
+Fill Map Data:
+35,54,0
+Fill Map Data:
+35,55,0
+Fill Map Data:
+35,56,0
+Fill Map Data:
+35,57,0
+Fill Map Data:
+35,58,0
+Fill Map Data:
+35,59,0
+Fill Map Data:
+35,60,0
+Fill Map Data:
+35,61,0
+Fill Map Data:
+35,62,1
+Fill Map Data:
+35,63,1
+Fill Map Data:
+36,0,1
+Fill Map Data:
+36,1,1
+Fill Map Data:
+36,2,1
+Fill Map Data:
+36,3,1
+Fill Map Data:
+36,4,1
+Fill Map Data:
+36,5,1
+Fill Map Data:
+36,6,1
+Fill Map Data:
+36,7,0
+Fill Map Data:
+36,8,0
+Fill Map Data:
+36,9,0
+Fill Map Data:
+36,10,0
+Fill Map Data:
+36,11,0
+Fill Map Data:
+36,12,0
+Fill Map Data:
+36,13,0
+Fill Map Data:
+36,14,0
+Fill Map Data:
+36,15,0
+Fill Map Data:
+36,16,0
+Fill Map Data:
+36,17,0
+Fill Map Data:
+36,18,0
+Fill Map Data:
+36,19,0
+Fill Map Data:
+36,20,0
+Fill Map Data:
+36,21,0
+Fill Map Data:
+36,22,0
+Fill Map Data:
+36,23,0
+Fill Map Data:
+36,24,0
+Fill Map Data:
+36,25,0
+Fill Map Data:
+36,26,0
+Fill Map Data:
+36,27,0
+Fill Map Data:
+36,28,0
+Fill Map Data:
+36,29,0
+Fill Map Data:
+36,30,0
+Fill Map Data:
+36,31,0
+Fill Map Data:
+36,32,0
+Fill Map Data:
+36,33,0
+Fill Map Data:
+36,34,0
+Fill Map Data:
+36,35,0
+Fill Map Data:
+36,36,0
+Fill Map Data:
+36,37,0
+Fill Map Data:
+36,38,0
+Fill Map Data:
+36,39,0
+Fill Map Data:
+36,40,0
+Fill Map Data:
+36,41,0
+Fill Map Data:
+36,42,0
+Fill Map Data:
+36,43,0
+Fill Map Data:
+36,44,0
+Fill Map Data:
+36,45,0
+Fill Map Data:
+36,46,0
+Fill Map Data:
+36,47,0
+Fill Map Data:
+36,48,0
+Fill Map Data:
+36,49,0
+Fill Map Data:
+36,50,0
+Fill Map Data:
+36,51,0
+Fill Map Data:
+36,52,0
+Fill Map Data:
+36,53,3
+Fill Map Data:
+36,54,0
+Fill Map Data:
+36,55,0
+Fill Map Data:
+36,56,3
+Fill Map Data:
+36,57,0
+Fill Map Data:
+36,58,0
+Fill Map Data:
+36,59,3
+Fill Map Data:
+36,60,0
+Fill Map Data:
+36,61,0
+Fill Map Data:
+36,62,0
+Fill Map Data:
+36,63,1
+Fill Map Data:
+37,0,0
+Fill Map Data:
+37,1,1
+Fill Map Data:
+37,2,1
+Fill Map Data:
+37,3,1
+Fill Map Data:
+37,4,1
+Fill Map Data:
+37,5,1
+Fill Map Data:
+37,6,0
+Fill Map Data:
+37,7,0
+Fill Map Data:
+37,8,0
+Fill Map Data:
+37,9,0
+Fill Map Data:
+37,10,0
+Fill Map Data:
+37,11,0
+Fill Map Data:
+37,12,0
+Fill Map Data:
+37,13,0
+Fill Map Data:
+37,14,0
+Fill Map Data:
+37,15,0
+Fill Map Data:
+37,16,0
+Fill Map Data:
+37,17,0
+Fill Map Data:
+37,18,0
+Fill Map Data:
+37,19,0
+Fill Map Data:
+37,20,0
+Fill Map Data:
+37,21,0
+Fill Map Data:
+37,22,0
+Fill Map Data:
+37,23,0
+Fill Map Data:
+37,24,0
+Fill Map Data:
+37,25,0
+Fill Map Data:
+37,26,0
+Fill Map Data:
+37,27,0
+Fill Map Data:
+37,28,0
+Fill Map Data:
+37,29,0
+Fill Map Data:
+37,30,0
+Fill Map Data:
+37,31,0
+Fill Map Data:
+37,32,0
+Fill Map Data:
+37,33,0
+Fill Map Data:
+37,34,0
+Fill Map Data:
+37,35,0
+Fill Map Data:
+37,36,0
+Fill Map Data:
+37,37,0
+Fill Map Data:
+37,38,0
+Fill Map Data:
+37,39,0
+Fill Map Data:
+37,40,0
+Fill Map Data:
+37,41,0
+Fill Map Data:
+37,42,0
+Fill Map Data:
+37,43,0
+Fill Map Data:
+37,44,0
+Fill Map Data:
+37,45,0
+Fill Map Data:
+37,46,0
+Fill Map Data:
+37,47,0
+Fill Map Data:
+37,48,0
+Fill Map Data:
+37,49,0
+Fill Map Data:
+37,50,0
+Fill Map Data:
+37,51,0
+Fill Map Data:
+37,52,0
+Fill Map Data:
+37,53,0
+Fill Map Data:
+37,54,0
+Fill Map Data:
+37,55,0
+Fill Map Data:
+37,56,0
+Fill Map Data:
+37,57,0
+Fill Map Data:
+37,58,0
+Fill Map Data:
+37,59,0
+Fill Map Data:
+37,60,0
+Fill Map Data:
+37,61,0
+Fill Map Data:
+37,62,1
+Fill Map Data:
+37,63,1
+Fill Map Data:
+38,0,0
+Fill Map Data:
+38,1,1
+Fill Map Data:
+38,2,1
+Fill Map Data:
+38,3,1
+Fill Map Data:
+38,4,0
+Fill Map Data:
+38,5,1
+Fill Map Data:
+38,6,1
+Fill Map Data:
+38,7,0
+Fill Map Data:
+38,8,0
+Fill Map Data:
+38,9,0
+Fill Map Data:
+38,10,0
+Fill Map Data:
+38,11,0
+Fill Map Data:
+38,12,0
+Fill Map Data:
+38,13,0
+Fill Map Data:
+38,14,0
+Fill Map Data:
+38,15,0
+Fill Map Data:
+38,16,0
+Fill Map Data:
+38,17,0
+Fill Map Data:
+38,18,0
+Fill Map Data:
+38,19,0
+Fill Map Data:
+38,20,0
+Fill Map Data:
+38,21,0
+Fill Map Data:
+38,22,0
+Fill Map Data:
+38,23,0
+Fill Map Data:
+38,24,0
+Fill Map Data:
+38,25,0
+Fill Map Data:
+38,26,0
+Fill Map Data:
+38,27,0
+Fill Map Data:
+38,28,0
+Fill Map Data:
+38,29,0
+Fill Map Data:
+38,30,0
+Fill Map Data:
+38,31,0
+Fill Map Data:
+38,32,0
+Fill Map Data:
+38,33,0
+Fill Map Data:
+38,34,0
+Fill Map Data:
+38,35,0
+Fill Map Data:
+38,36,0
+Fill Map Data:
+38,37,0
+Fill Map Data:
+38,38,0
+Fill Map Data:
+38,39,0
+Fill Map Data:
+38,40,0
+Fill Map Data:
+38,41,0
+Fill Map Data:
+38,42,0
+Fill Map Data:
+38,43,0
+Fill Map Data:
+38,44,0
+Fill Map Data:
+38,45,0
+Fill Map Data:
+38,46,0
+Fill Map Data:
+38,47,0
+Fill Map Data:
+38,48,0
+Fill Map Data:
+38,49,0
+Fill Map Data:
+38,50,0
+Fill Map Data:
+38,51,0
+Fill Map Data:
+38,52,0
+Fill Map Data:
+38,53,0
+Fill Map Data:
+38,54,0
+Fill Map Data:
+38,55,0
+Fill Map Data:
+38,56,0
+Fill Map Data:
+38,57,0
+Fill Map Data:
+38,58,0
+Fill Map Data:
+38,59,0
+Fill Map Data:
+38,60,0
+Fill Map Data:
+38,61,1
+Fill Map Data:
+38,62,1
+Fill Map Data:
+38,63,0
+Fill Map Data:
+39,0,1
+Fill Map Data:
+39,1,1
+Fill Map Data:
+39,2,1
+Fill Map Data:
+39,3,1
+Fill Map Data:
+39,4,1
+Fill Map Data:
+39,5,1
+Fill Map Data:
+39,6,1
+Fill Map Data:
+39,7,0
+Fill Map Data:
+39,8,0
+Fill Map Data:
+39,9,0
+Fill Map Data:
+39,10,0
+Fill Map Data:
+39,11,0
+Fill Map Data:
+39,12,0
+Fill Map Data:
+39,13,0
+Fill Map Data:
+39,14,0
+Fill Map Data:
+39,15,0
+Fill Map Data:
+39,16,0
+Fill Map Data:
+39,17,0
+Fill Map Data:
+39,18,0
+Fill Map Data:
+39,19,0
+Fill Map Data:
+39,20,0
+Fill Map Data:
+39,21,0
+Fill Map Data:
+39,22,0
+Fill Map Data:
+39,23,0
+Fill Map Data:
+39,24,0
+Fill Map Data:
+39,25,0
+Fill Map Data:
+39,26,0
+Fill Map Data:
+39,27,0
+Fill Map Data:
+39,28,0
+Fill Map Data:
+39,29,0
+Fill Map Data:
+39,30,0
+Fill Map Data:
+39,31,0
+Fill Map Data:
+39,32,0
+Fill Map Data:
+39,33,0
+Fill Map Data:
+39,34,0
+Fill Map Data:
+39,35,0
+Fill Map Data:
+39,36,0
+Fill Map Data:
+39,37,0
+Fill Map Data:
+39,38,0
+Fill Map Data:
+39,39,0
+Fill Map Data:
+39,40,0
+Fill Map Data:
+39,41,0
+Fill Map Data:
+39,42,0
+Fill Map Data:
+39,43,0
+Fill Map Data:
+39,44,0
+Fill Map Data:
+39,45,0
+Fill Map Data:
+39,46,0
+Fill Map Data:
+39,47,0
+Fill Map Data:
+39,48,0
+Fill Map Data:
+39,49,0
+Fill Map Data:
+39,50,0
+Fill Map Data:
+39,51,0
+Fill Map Data:
+39,52,0
+Fill Map Data:
+39,53,0
+Fill Map Data:
+39,54,0
+Fill Map Data:
+39,55,0
+Fill Map Data:
+39,56,3
+Fill Map Data:
+39,57,0
+Fill Map Data:
+39,58,3
+Fill Map Data:
+39,59,0
+Fill Map Data:
+39,60,0
+Fill Map Data:
+39,61,1
+Fill Map Data:
+39,62,1
+Fill Map Data:
+39,63,1
+Fill Map Data:
+40,0,0
+Fill Map Data:
+40,1,1
+Fill Map Data:
+40,2,1
+Fill Map Data:
+40,3,1
+Fill Map Data:
+40,4,1
+Fill Map Data:
+40,5,0
+Fill Map Data:
+40,6,1
+Fill Map Data:
+40,7,0
+Fill Map Data:
+40,8,0
+Fill Map Data:
+40,9,0
+Fill Map Data:
+40,10,0
+Fill Map Data:
+40,11,0
+Fill Map Data:
+40,12,0
+Fill Map Data:
+40,13,0
+Fill Map Data:
+40,14,0
+Fill Map Data:
+40,15,0
+Fill Map Data:
+40,16,0
+Fill Map Data:
+40,17,0
+Fill Map Data:
+40,18,0
+Fill Map Data:
+40,19,0
+Fill Map Data:
+40,20,0
+Fill Map Data:
+40,21,0
+Fill Map Data:
+40,22,0
+Fill Map Data:
+40,23,0
+Fill Map Data:
+40,24,0
+Fill Map Data:
+40,25,0
+Fill Map Data:
+40,26,0
+Fill Map Data:
+40,27,0
+Fill Map Data:
+40,28,0
+Fill Map Data:
+40,29,0
+Fill Map Data:
+40,30,0
+Fill Map Data:
+40,31,0
+Fill Map Data:
+40,32,0
+Fill Map Data:
+40,33,0
+Fill Map Data:
+40,34,0
+Fill Map Data:
+40,35,0
+Fill Map Data:
+40,36,0
+Fill Map Data:
+40,37,0
+Fill Map Data:
+40,38,0
+Fill Map Data:
+40,39,0
+Fill Map Data:
+40,40,0
+Fill Map Data:
+40,41,0
+Fill Map Data:
+40,42,0
+Fill Map Data:
+40,43,0
+Fill Map Data:
+40,44,0
+Fill Map Data:
+40,45,0
+Fill Map Data:
+40,46,0
+Fill Map Data:
+40,47,0
+Fill Map Data:
+40,48,0
+Fill Map Data:
+40,49,0
+Fill Map Data:
+40,50,0
+Fill Map Data:
+40,51,0
+Fill Map Data:
+40,52,0
+Fill Map Data:
+40,53,3
+Fill Map Data:
+40,54,0
+Fill Map Data:
+40,55,0
+Fill Map Data:
+40,56,0
+Fill Map Data:
+40,57,0
+Fill Map Data:
+40,58,0
+Fill Map Data:
+40,59,0
+Fill Map Data:
+40,60,0
+Fill Map Data:
+40,61,1
+Fill Map Data:
+40,62,1
+Fill Map Data:
+40,63,1
+Fill Map Data:
+41,0,0
+Fill Map Data:
+41,1,1
+Fill Map Data:
+41,2,1
+Fill Map Data:
+41,3,1
+Fill Map Data:
+41,4,1
+Fill Map Data:
+41,5,1
+Fill Map Data:
+41,6,1
+Fill Map Data:
+41,7,0
+Fill Map Data:
+41,8,0
+Fill Map Data:
+41,9,0
+Fill Map Data:
+41,10,0
+Fill Map Data:
+41,11,0
+Fill Map Data:
+41,12,0
+Fill Map Data:
+41,13,0
+Fill Map Data:
+41,14,0
+Fill Map Data:
+41,15,0
+Fill Map Data:
+41,16,0
+Fill Map Data:
+41,17,0
+Fill Map Data:
+41,18,0
+Fill Map Data:
+41,19,0
+Fill Map Data:
+41,20,0
+Fill Map Data:
+41,21,0
+Fill Map Data:
+41,22,0
+Fill Map Data:
+41,23,0
+Fill Map Data:
+41,24,0
+Fill Map Data:
+41,25,0
+Fill Map Data:
+41,26,0
+Fill Map Data:
+41,27,0
+Fill Map Data:
+41,28,0
+Fill Map Data:
+41,29,0
+Fill Map Data:
+41,30,0
+Fill Map Data:
+41,31,0
+Fill Map Data:
+41,32,0
+Fill Map Data:
+41,33,0
+Fill Map Data:
+41,34,0
+Fill Map Data:
+41,35,0
+Fill Map Data:
+41,36,0
+Fill Map Data:
+41,37,0
+Fill Map Data:
+41,38,0
+Fill Map Data:
+41,39,0
+Fill Map Data:
+41,40,0
+Fill Map Data:
+41,41,0
+Fill Map Data:
+41,42,0
+Fill Map Data:
+41,43,0
+Fill Map Data:
+41,44,0
+Fill Map Data:
+41,45,0
+Fill Map Data:
+41,46,0
+Fill Map Data:
+41,47,0
+Fill Map Data:
+41,48,0
+Fill Map Data:
+41,49,0
+Fill Map Data:
+41,50,0
+Fill Map Data:
+41,51,0
+Fill Map Data:
+41,52,0
+Fill Map Data:
+41,53,0
+Fill Map Data:
+41,54,0
+Fill Map Data:
+41,55,0
+Fill Map Data:
+41,56,0
+Fill Map Data:
+41,57,3
+Fill Map Data:
+41,58,0
+Fill Map Data:
+41,59,0
+Fill Map Data:
+41,60,0
+Fill Map Data:
+41,61,0
+Fill Map Data:
+41,62,1
+Fill Map Data:
+41,63,1
+Fill Map Data:
+42,0,1
+Fill Map Data:
+42,1,1
+Fill Map Data:
+42,2,1
+Fill Map Data:
+42,3,1
+Fill Map Data:
+42,4,1
+Fill Map Data:
+42,5,1
+Fill Map Data:
+42,6,1
+Fill Map Data:
+42,7,0
+Fill Map Data:
+42,8,0
+Fill Map Data:
+42,9,0
+Fill Map Data:
+42,10,0
+Fill Map Data:
+42,11,0
+Fill Map Data:
+42,12,0
+Fill Map Data:
+42,13,0
+Fill Map Data:
+42,14,0
+Fill Map Data:
+42,15,0
+Fill Map Data:
+42,16,0
+Fill Map Data:
+42,17,0
+Fill Map Data:
+42,18,0
+Fill Map Data:
+42,19,0
+Fill Map Data:
+42,20,0
+Fill Map Data:
+42,21,0
+Fill Map Data:
+42,22,0
+Fill Map Data:
+42,23,0
+Fill Map Data:
+42,24,0
+Fill Map Data:
+42,25,0
+Fill Map Data:
+42,26,0
+Fill Map Data:
+42,27,0
+Fill Map Data:
+42,28,0
+Fill Map Data:
+42,29,0
+Fill Map Data:
+42,30,0
+Fill Map Data:
+42,31,0
+Fill Map Data:
+42,32,0
+Fill Map Data:
+42,33,0
+Fill Map Data:
+42,34,0
+Fill Map Data:
+42,35,0
+Fill Map Data:
+42,36,0
+Fill Map Data:
+42,37,0
+Fill Map Data:
+42,38,0
+Fill Map Data:
+42,39,0
+Fill Map Data:
+42,40,0
+Fill Map Data:
+42,41,0
+Fill Map Data:
+42,42,0
+Fill Map Data:
+42,43,0
+Fill Map Data:
+42,44,0
+Fill Map Data:
+42,45,0
+Fill Map Data:
+42,46,0
+Fill Map Data:
+42,47,0
+Fill Map Data:
+42,48,0
+Fill Map Data:
+42,49,0
+Fill Map Data:
+42,50,0
+Fill Map Data:
+42,51,0
+Fill Map Data:
+42,52,0
+Fill Map Data:
+42,53,0
+Fill Map Data:
+42,54,0
+Fill Map Data:
+42,55,0
+Fill Map Data:
+42,56,0
+Fill Map Data:
+42,57,0
+Fill Map Data:
+42,58,0
+Fill Map Data:
+42,59,0
+Fill Map Data:
+42,60,0
+Fill Map Data:
+42,61,0
+Fill Map Data:
+42,62,1
+Fill Map Data:
+42,63,1
+Fill Map Data:
+43,0,0
+Fill Map Data:
+43,1,1
+Fill Map Data:
+43,2,1
+Fill Map Data:
+43,3,1
+Fill Map Data:
+43,4,1
+Fill Map Data:
+43,5,1
+Fill Map Data:
+43,6,1
+Fill Map Data:
+43,7,0
+Fill Map Data:
+43,8,0
+Fill Map Data:
+43,9,0
+Fill Map Data:
+43,10,0
+Fill Map Data:
+43,11,0
+Fill Map Data:
+43,12,0
+Fill Map Data:
+43,13,0
+Fill Map Data:
+43,14,0
+Fill Map Data:
+43,15,0
+Fill Map Data:
+43,16,0
+Fill Map Data:
+43,17,0
+Fill Map Data:
+43,18,0
+Fill Map Data:
+43,19,0
+Fill Map Data:
+43,20,0
+Fill Map Data:
+43,21,0
+Fill Map Data:
+43,22,0
+Fill Map Data:
+43,23,0
+Fill Map Data:
+43,24,0
+Fill Map Data:
+43,25,0
+Fill Map Data:
+43,26,0
+Fill Map Data:
+43,27,0
+Fill Map Data:
+43,28,0
+Fill Map Data:
+43,29,0
+Fill Map Data:
+43,30,0
+Fill Map Data:
+43,31,0
+Fill Map Data:
+43,32,0
+Fill Map Data:
+43,33,0
+Fill Map Data:
+43,34,0
+Fill Map Data:
+43,35,0
+Fill Map Data:
+43,36,0
+Fill Map Data:
+43,37,0
+Fill Map Data:
+43,38,0
+Fill Map Data:
+43,39,0
+Fill Map Data:
+43,40,0
+Fill Map Data:
+43,41,0
+Fill Map Data:
+43,42,0
+Fill Map Data:
+43,43,0
+Fill Map Data:
+43,44,0
+Fill Map Data:
+43,45,0
+Fill Map Data:
+43,46,0
+Fill Map Data:
+43,47,0
+Fill Map Data:
+43,48,0
+Fill Map Data:
+43,49,0
+Fill Map Data:
+43,50,0
+Fill Map Data:
+43,51,0
+Fill Map Data:
+43,52,0
+Fill Map Data:
+43,53,0
+Fill Map Data:
+43,54,0
+Fill Map Data:
+43,55,0
+Fill Map Data:
+43,56,0
+Fill Map Data:
+43,57,0
+Fill Map Data:
+43,58,0
+Fill Map Data:
+43,59,0
+Fill Map Data:
+43,60,3
+Fill Map Data:
+43,61,1
+Fill Map Data:
+43,62,1
+Fill Map Data:
+43,63,1
+Fill Map Data:
+44,0,0
+Fill Map Data:
+44,1,1
+Fill Map Data:
+44,2,1
+Fill Map Data:
+44,3,1
+Fill Map Data:
+44,4,1
+Fill Map Data:
+44,5,1
+Fill Map Data:
+44,6,0
+Fill Map Data:
+44,7,0
+Fill Map Data:
+44,8,0
+Fill Map Data:
+44,9,0
+Fill Map Data:
+44,10,0
+Fill Map Data:
+44,11,0
+Fill Map Data:
+44,12,0
+Fill Map Data:
+44,13,0
+Fill Map Data:
+44,14,0
+Fill Map Data:
+44,15,0
+Fill Map Data:
+44,16,0
+Fill Map Data:
+44,17,0
+Fill Map Data:
+44,18,0
+Fill Map Data:
+44,19,0
+Fill Map Data:
+44,20,0
+Fill Map Data:
+44,21,0
+Fill Map Data:
+44,22,0
+Fill Map Data:
+44,23,0
+Fill Map Data:
+44,24,0
+Fill Map Data:
+44,25,0
+Fill Map Data:
+44,26,0
+Fill Map Data:
+44,27,0
+Fill Map Data:
+44,28,0
+Fill Map Data:
+44,29,0
+Fill Map Data:
+44,30,0
+Fill Map Data:
+44,31,0
+Fill Map Data:
+44,32,0
+Fill Map Data:
+44,33,0
+Fill Map Data:
+44,34,0
+Fill Map Data:
+44,35,0
+Fill Map Data:
+44,36,0
+Fill Map Data:
+44,37,0
+Fill Map Data:
+44,38,0
+Fill Map Data:
+44,39,0
+Fill Map Data:
+44,40,0
+Fill Map Data:
+44,41,0
+Fill Map Data:
+44,42,0
+Fill Map Data:
+44,43,0
+Fill Map Data:
+44,44,0
+Fill Map Data:
+44,45,0
+Fill Map Data:
+44,46,0
+Fill Map Data:
+44,47,0
+Fill Map Data:
+44,48,0
+Fill Map Data:
+44,49,0
+Fill Map Data:
+44,50,0
+Fill Map Data:
+44,51,0
+Fill Map Data:
+44,52,0
+Fill Map Data:
+44,53,0
+Fill Map Data:
+44,54,0
+Fill Map Data:
+44,55,1
+Fill Map Data:
+44,56,1
+Fill Map Data:
+44,57,1
+Fill Map Data:
+44,58,0
+Fill Map Data:
+44,59,0
+Fill Map Data:
+44,60,0
+Fill Map Data:
+44,61,0
+Fill Map Data:
+44,62,0
+Fill Map Data:
+44,63,1
+Fill Map Data:
+45,0,1
+Fill Map Data:
+45,1,1
+Fill Map Data:
+45,2,1
+Fill Map Data:
+45,3,1
+Fill Map Data:
+45,4,1
+Fill Map Data:
+45,5,1
+Fill Map Data:
+45,6,0
+Fill Map Data:
+45,7,0
+Fill Map Data:
+45,8,0
+Fill Map Data:
+45,9,0
+Fill Map Data:
+45,10,0
+Fill Map Data:
+45,11,0
+Fill Map Data:
+45,12,0
+Fill Map Data:
+45,13,0
+Fill Map Data:
+45,14,0
+Fill Map Data:
+45,15,0
+Fill Map Data:
+45,16,0
+Fill Map Data:
+45,17,0
+Fill Map Data:
+45,18,0
+Fill Map Data:
+45,19,0
+Fill Map Data:
+45,20,0
+Fill Map Data:
+45,21,0
+Fill Map Data:
+45,22,0
+Fill Map Data:
+45,23,0
+Fill Map Data:
+45,24,0
+Fill Map Data:
+45,25,0
+Fill Map Data:
+45,26,0
+Fill Map Data:
+45,27,0
+Fill Map Data:
+45,28,0
+Fill Map Data:
+45,29,0
+Fill Map Data:
+45,30,0
+Fill Map Data:
+45,31,0
+Fill Map Data:
+45,32,0
+Fill Map Data:
+45,33,0
+Fill Map Data:
+45,34,0
+Fill Map Data:
+45,35,0
+Fill Map Data:
+45,36,0
+Fill Map Data:
+45,37,0
+Fill Map Data:
+45,38,0
+Fill Map Data:
+45,39,0
+Fill Map Data:
+45,40,0
+Fill Map Data:
+45,41,0
+Fill Map Data:
+45,42,0
+Fill Map Data:
+45,43,0
+Fill Map Data:
+45,44,0
+Fill Map Data:
+45,45,0
+Fill Map Data:
+45,46,0
+Fill Map Data:
+45,47,0
+Fill Map Data:
+45,48,0
+Fill Map Data:
+45,49,0
+Fill Map Data:
+45,50,0
+Fill Map Data:
+45,51,0
+Fill Map Data:
+45,52,0
+Fill Map Data:
+45,53,1
+Fill Map Data:
+45,54,1
+Fill Map Data:
+45,55,0
+Fill Map Data:
+45,56,0
+Fill Map Data:
+45,57,0
+Fill Map Data:
+45,58,1
+Fill Map Data:
+45,59,1
+Fill Map Data:
+45,60,0
+Fill Map Data:
+45,61,0
+Fill Map Data:
+45,62,1
+Fill Map Data:
+45,63,1
+Fill Map Data:
+46,0,1
+Fill Map Data:
+46,1,1
+Fill Map Data:
+46,2,1
+Fill Map Data:
+46,3,1
+Fill Map Data:
+46,4,0
+Fill Map Data:
+46,5,1
+Fill Map Data:
+46,6,0
+Fill Map Data:
+46,7,1
+Fill Map Data:
+46,8,0
+Fill Map Data:
+46,9,0
+Fill Map Data:
+46,10,0
+Fill Map Data:
+46,11,0
+Fill Map Data:
+46,12,0
+Fill Map Data:
+46,13,0
+Fill Map Data:
+46,14,0
+Fill Map Data:
+46,15,0
+Fill Map Data:
+46,16,0
+Fill Map Data:
+46,17,0
+Fill Map Data:
+46,18,0
+Fill Map Data:
+46,19,0
+Fill Map Data:
+46,20,0
+Fill Map Data:
+46,21,0
+Fill Map Data:
+46,22,0
+Fill Map Data:
+46,23,0
+Fill Map Data:
+46,24,0
+Fill Map Data:
+46,25,0
+Fill Map Data:
+46,26,0
+Fill Map Data:
+46,27,0
+Fill Map Data:
+46,28,0
+Fill Map Data:
+46,29,0
+Fill Map Data:
+46,30,0
+Fill Map Data:
+46,31,0
+Fill Map Data:
+46,32,0
+Fill Map Data:
+46,33,0
+Fill Map Data:
+46,34,0
+Fill Map Data:
+46,35,0
+Fill Map Data:
+46,36,0
+Fill Map Data:
+46,37,0
+Fill Map Data:
+46,38,0
+Fill Map Data:
+46,39,0
+Fill Map Data:
+46,40,0
+Fill Map Data:
+46,41,0
+Fill Map Data:
+46,42,0
+Fill Map Data:
+46,43,0
+Fill Map Data:
+46,44,0
+Fill Map Data:
+46,45,0
+Fill Map Data:
+46,46,0
+Fill Map Data:
+46,47,0
+Fill Map Data:
+46,48,0
+Fill Map Data:
+46,49,0
+Fill Map Data:
+46,50,0
+Fill Map Data:
+46,51,0
+Fill Map Data:
+46,52,0
+Fill Map Data:
+46,53,1
+Fill Map Data:
+46,54,0
+Fill Map Data:
+46,55,0
+Fill Map Data:
+46,56,0
+Fill Map Data:
+46,57,0
+Fill Map Data:
+46,58,0
+Fill Map Data:
+46,59,1
+Fill Map Data:
+46,60,0
+Fill Map Data:
+46,61,1
+Fill Map Data:
+46,62,0
+Fill Map Data:
+46,63,1
+Fill Map Data:
+47,0,0
+Fill Map Data:
+47,1,1
+Fill Map Data:
+47,2,1
+Fill Map Data:
+47,3,1
+Fill Map Data:
+47,4,1
+Fill Map Data:
+47,5,1
+Fill Map Data:
+47,6,0
+Fill Map Data:
+47,7,0
+Fill Map Data:
+47,8,0
+Fill Map Data:
+47,9,0
+Fill Map Data:
+47,10,0
+Fill Map Data:
+47,11,0
+Fill Map Data:
+47,12,0
+Fill Map Data:
+47,13,0
+Fill Map Data:
+47,14,0
+Fill Map Data:
+47,15,0
+Fill Map Data:
+47,16,0
+Fill Map Data:
+47,17,0
+Fill Map Data:
+47,18,0
+Fill Map Data:
+47,19,0
+Fill Map Data:
+47,20,0
+Fill Map Data:
+47,21,0
+Fill Map Data:
+47,22,0
+Fill Map Data:
+47,23,0
+Fill Map Data:
+47,24,0
+Fill Map Data:
+47,25,0
+Fill Map Data:
+47,26,0
+Fill Map Data:
+47,27,0
+Fill Map Data:
+47,28,0
+Fill Map Data:
+47,29,0
+Fill Map Data:
+47,30,0
+Fill Map Data:
+47,31,0
+Fill Map Data:
+47,32,0
+Fill Map Data:
+47,33,0
+Fill Map Data:
+47,34,0
+Fill Map Data:
+47,35,0
+Fill Map Data:
+47,36,0
+Fill Map Data:
+47,37,0
+Fill Map Data:
+47,38,0
+Fill Map Data:
+47,39,0
+Fill Map Data:
+47,40,0
+Fill Map Data:
+47,41,0
+Fill Map Data:
+47,42,0
+Fill Map Data:
+47,43,0
+Fill Map Data:
+47,44,0
+Fill Map Data:
+47,45,0
+Fill Map Data:
+47,46,0
+Fill Map Data:
+47,47,0
+Fill Map Data:
+47,48,0
+Fill Map Data:
+47,49,0
+Fill Map Data:
+47,50,0
+Fill Map Data:
+47,51,0
+Fill Map Data:
+47,52,0
+Fill Map Data:
+47,53,1
+Fill Map Data:
+47,54,0
+Fill Map Data:
+47,55,0
+Fill Map Data:
+47,56,0
+Fill Map Data:
+47,57,0
+Fill Map Data:
+47,58,0
+Fill Map Data:
+47,59,1
+Fill Map Data:
+47,60,0
+Fill Map Data:
+47,61,0
+Fill Map Data:
+47,62,1
+Fill Map Data:
+47,63,1
+Fill Map Data:
+48,0,1
+Fill Map Data:
+48,1,0
+Fill Map Data:
+48,2,1
+Fill Map Data:
+48,3,1
+Fill Map Data:
+48,4,1
+Fill Map Data:
+48,5,1
+Fill Map Data:
+48,6,0
+Fill Map Data:
+48,7,1
+Fill Map Data:
+48,8,0
+Fill Map Data:
+48,9,0
+Fill Map Data:
+48,10,0
+Fill Map Data:
+48,11,0
+Fill Map Data:
+48,12,0
+Fill Map Data:
+48,13,0
+Fill Map Data:
+48,14,0
+Fill Map Data:
+48,15,0
+Fill Map Data:
+48,16,0
+Fill Map Data:
+48,17,0
+Fill Map Data:
+48,18,0
+Fill Map Data:
+48,19,0
+Fill Map Data:
+48,20,0
+Fill Map Data:
+48,21,0
+Fill Map Data:
+48,22,0
+Fill Map Data:
+48,23,0
+Fill Map Data:
+48,24,0
+Fill Map Data:
+48,25,0
+Fill Map Data:
+48,26,0
+Fill Map Data:
+48,27,0
+Fill Map Data:
+48,28,0
+Fill Map Data:
+48,29,0
+Fill Map Data:
+48,30,0
+Fill Map Data:
+48,31,0
+Fill Map Data:
+48,32,0
+Fill Map Data:
+48,33,0
+Fill Map Data:
+48,34,0
+Fill Map Data:
+48,35,0
+Fill Map Data:
+48,36,0
+Fill Map Data:
+48,37,0
+Fill Map Data:
+48,38,0
+Fill Map Data:
+48,39,0
+Fill Map Data:
+48,40,0
+Fill Map Data:
+48,41,0
+Fill Map Data:
+48,42,0
+Fill Map Data:
+48,43,0
+Fill Map Data:
+48,44,0
+Fill Map Data:
+48,45,0
+Fill Map Data:
+48,46,0
+Fill Map Data:
+48,47,0
+Fill Map Data:
+48,48,0
+Fill Map Data:
+48,49,0
+Fill Map Data:
+48,50,0
+Fill Map Data:
+48,51,0
+Fill Map Data:
+48,52,0
+Fill Map Data:
+48,53,1
+Fill Map Data:
+48,54,0
+Fill Map Data:
+48,55,0
+Fill Map Data:
+48,56,0
+Fill Map Data:
+48,57,0
+Fill Map Data:
+48,58,0
+Fill Map Data:
+48,59,1
+Fill Map Data:
+48,60,0
+Fill Map Data:
+48,61,0
+Fill Map Data:
+48,62,1
+Fill Map Data:
+48,63,0
+Fill Map Data:
+49,0,0
+Fill Map Data:
+49,1,1
+Fill Map Data:
+49,2,1
+Fill Map Data:
+49,3,1
+Fill Map Data:
+49,4,0
+Fill Map Data:
+49,5,0
+Fill Map Data:
+49,6,0
+Fill Map Data:
+49,7,0
+Fill Map Data:
+49,8,0
+Fill Map Data:
+49,9,0
+Fill Map Data:
+49,10,0
+Fill Map Data:
+49,11,0
+Fill Map Data:
+49,12,0
+Fill Map Data:
+49,13,0
+Fill Map Data:
+49,14,0
+Fill Map Data:
+49,15,0
+Fill Map Data:
+49,16,0
+Fill Map Data:
+49,17,0
+Fill Map Data:
+49,18,0
+Fill Map Data:
+49,19,0
+Fill Map Data:
+49,20,0
+Fill Map Data:
+49,21,0
+Fill Map Data:
+49,22,0
+Fill Map Data:
+49,23,0
+Fill Map Data:
+49,24,0
+Fill Map Data:
+49,25,0
+Fill Map Data:
+49,26,0
+Fill Map Data:
+49,27,0
+Fill Map Data:
+49,28,0
+Fill Map Data:
+49,29,0
+Fill Map Data:
+49,30,0
+Fill Map Data:
+49,31,0
+Fill Map Data:
+49,32,0
+Fill Map Data:
+49,33,0
+Fill Map Data:
+49,34,0
+Fill Map Data:
+49,35,0
+Fill Map Data:
+49,36,0
+Fill Map Data:
+49,37,0
+Fill Map Data:
+49,38,0
+Fill Map Data:
+49,39,0
+Fill Map Data:
+49,40,0
+Fill Map Data:
+49,41,0
+Fill Map Data:
+49,42,0
+Fill Map Data:
+49,43,0
+Fill Map Data:
+49,44,0
+Fill Map Data:
+49,45,0
+Fill Map Data:
+49,46,0
+Fill Map Data:
+49,47,0
+Fill Map Data:
+49,48,0
+Fill Map Data:
+49,49,0
+Fill Map Data:
+49,50,0
+Fill Map Data:
+49,51,0
+Fill Map Data:
+49,52,0
+Fill Map Data:
+49,53,1
+Fill Map Data:
+49,54,0
+Fill Map Data:
+49,55,0
+Fill Map Data:
+49,56,0
+Fill Map Data:
+49,57,0
+Fill Map Data:
+49,58,0
+Fill Map Data:
+49,59,1
+Fill Map Data:
+49,60,0
+Fill Map Data:
+49,61,0
+Fill Map Data:
+49,62,1
+Fill Map Data:
+49,63,1
+Fill Map Data:
+50,0,1
+Fill Map Data:
+50,1,1
+Fill Map Data:
+50,2,1
+Fill Map Data:
+50,3,1
+Fill Map Data:
+50,4,1
+Fill Map Data:
+50,5,0
+Fill Map Data:
+50,6,0
+Fill Map Data:
+50,7,0
+Fill Map Data:
+50,8,0
+Fill Map Data:
+50,9,0
+Fill Map Data:
+50,10,0
+Fill Map Data:
+50,11,0
+Fill Map Data:
+50,12,0
+Fill Map Data:
+50,13,0
+Fill Map Data:
+50,14,0
+Fill Map Data:
+50,15,0
+Fill Map Data:
+50,16,0
+Fill Map Data:
+50,17,0
+Fill Map Data:
+50,18,0
+Fill Map Data:
+50,19,0
+Fill Map Data:
+50,20,0
+Fill Map Data:
+50,21,0
+Fill Map Data:
+50,22,0
+Fill Map Data:
+50,23,0
+Fill Map Data:
+50,24,0
+Fill Map Data:
+50,25,0
+Fill Map Data:
+50,26,0
+Fill Map Data:
+50,27,0
+Fill Map Data:
+50,28,0
+Fill Map Data:
+50,29,0
+Fill Map Data:
+50,30,0
+Fill Map Data:
+50,31,0
+Fill Map Data:
+50,32,0
+Fill Map Data:
+50,33,0
+Fill Map Data:
+50,34,0
+Fill Map Data:
+50,35,0
+Fill Map Data:
+50,36,0
+Fill Map Data:
+50,37,0
+Fill Map Data:
+50,38,0
+Fill Map Data:
+50,39,0
+Fill Map Data:
+50,40,0
+Fill Map Data:
+50,41,0
+Fill Map Data:
+50,42,0
+Fill Map Data:
+50,43,0
+Fill Map Data:
+50,44,0
+Fill Map Data:
+50,45,0
+Fill Map Data:
+50,46,0
+Fill Map Data:
+50,47,0
+Fill Map Data:
+50,48,0
+Fill Map Data:
+50,49,0
+Fill Map Data:
+50,50,0
+Fill Map Data:
+50,51,0
+Fill Map Data:
+50,52,0
+Fill Map Data:
+50,53,0
+Fill Map Data:
+50,54,1
+Fill Map Data:
+50,55,1
+Fill Map Data:
+50,56,0
+Fill Map Data:
+50,57,1
+Fill Map Data:
+50,58,1
+Fill Map Data:
+50,59,0
+Fill Map Data:
+50,60,0
+Fill Map Data:
+50,61,1
+Fill Map Data:
+50,62,1
+Fill Map Data:
+50,63,1
+Fill Map Data:
+51,0,0
+Fill Map Data:
+51,1,0
+Fill Map Data:
+51,2,1
+Fill Map Data:
+51,3,0
+Fill Map Data:
+51,4,0
+Fill Map Data:
+51,5,1
+Fill Map Data:
+51,6,1
+Fill Map Data:
+51,7,0
+Fill Map Data:
+51,8,0
+Fill Map Data:
+51,9,0
+Fill Map Data:
+51,10,0
+Fill Map Data:
+51,11,0
+Fill Map Data:
+51,12,0
+Fill Map Data:
+51,13,0
+Fill Map Data:
+51,14,0
+Fill Map Data:
+51,15,0
+Fill Map Data:
+51,16,0
+Fill Map Data:
+51,17,0
+Fill Map Data:
+51,18,0
+Fill Map Data:
+51,19,0
+Fill Map Data:
+51,20,0
+Fill Map Data:
+51,21,0
+Fill Map Data:
+51,22,0
+Fill Map Data:
+51,23,0
+Fill Map Data:
+51,24,0
+Fill Map Data:
+51,25,0
+Fill Map Data:
+51,26,0
+Fill Map Data:
+51,27,0
+Fill Map Data:
+51,28,0
+Fill Map Data:
+51,29,0
+Fill Map Data:
+51,30,0
+Fill Map Data:
+51,31,0
+Fill Map Data:
+51,32,0
+Fill Map Data:
+51,33,0
+Fill Map Data:
+51,34,0
+Fill Map Data:
+51,35,0
+Fill Map Data:
+51,36,0
+Fill Map Data:
+51,37,0
+Fill Map Data:
+51,38,0
+Fill Map Data:
+51,39,0
+Fill Map Data:
+51,40,0
+Fill Map Data:
+51,41,0
+Fill Map Data:
+51,42,0
+Fill Map Data:
+51,43,0
+Fill Map Data:
+51,44,0
+Fill Map Data:
+51,45,0
+Fill Map Data:
+51,46,0
+Fill Map Data:
+51,47,0
+Fill Map Data:
+51,48,0
+Fill Map Data:
+51,49,0
+Fill Map Data:
+51,50,0
+Fill Map Data:
+51,51,0
+Fill Map Data:
+51,52,0
+Fill Map Data:
+51,53,0
+Fill Map Data:
+51,54,1
+Fill Map Data:
+51,55,1
+Fill Map Data:
+51,56,0
+Fill Map Data:
+51,57,1
+Fill Map Data:
+51,58,1
+Fill Map Data:
+51,59,0
+Fill Map Data:
+51,60,0
+Fill Map Data:
+51,61,0
+Fill Map Data:
+51,62,0
+Fill Map Data:
+51,63,1
+Fill Map Data:
+52,0,1
+Fill Map Data:
+52,1,1
+Fill Map Data:
+52,2,1
+Fill Map Data:
+52,3,1
+Fill Map Data:
+52,4,1
+Fill Map Data:
+52,5,0
+Fill Map Data:
+52,6,0
+Fill Map Data:
+52,7,0
+Fill Map Data:
+52,8,0
+Fill Map Data:
+52,9,0
+Fill Map Data:
+52,10,0
+Fill Map Data:
+52,11,0
+Fill Map Data:
+52,12,0
+Fill Map Data:
+52,13,0
+Fill Map Data:
+52,14,0
+Fill Map Data:
+52,15,0
+Fill Map Data:
+52,16,0
+Fill Map Data:
+52,17,0
+Fill Map Data:
+52,18,0
+Fill Map Data:
+52,19,0
+Fill Map Data:
+52,20,0
+Fill Map Data:
+52,21,0
+Fill Map Data:
+52,22,0
+Fill Map Data:
+52,23,0
+Fill Map Data:
+52,24,0
+Fill Map Data:
+52,25,0
+Fill Map Data:
+52,26,0
+Fill Map Data:
+52,27,0
+Fill Map Data:
+52,28,0
+Fill Map Data:
+52,29,0
+Fill Map Data:
+52,30,0
+Fill Map Data:
+52,31,0
+Fill Map Data:
+52,32,0
+Fill Map Data:
+52,33,0
+Fill Map Data:
+52,34,0
+Fill Map Data:
+52,35,0
+Fill Map Data:
+52,36,0
+Fill Map Data:
+52,37,0
+Fill Map Data:
+52,38,0
+Fill Map Data:
+52,39,0
+Fill Map Data:
+52,40,0
+Fill Map Data:
+52,41,0
+Fill Map Data:
+52,42,0
+Fill Map Data:
+52,43,0
+Fill Map Data:
+52,44,0
+Fill Map Data:
+52,45,0
+Fill Map Data:
+52,46,0
+Fill Map Data:
+52,47,0
+Fill Map Data:
+52,48,0
+Fill Map Data:
+52,49,0
+Fill Map Data:
+52,50,0
+Fill Map Data:
+52,51,0
+Fill Map Data:
+52,52,0
+Fill Map Data:
+52,53,0
+Fill Map Data:
+52,54,1
+Fill Map Data:
+52,55,1
+Fill Map Data:
+52,56,0
+Fill Map Data:
+52,57,1
+Fill Map Data:
+52,58,1
+Fill Map Data:
+52,59,0
+Fill Map Data:
+52,60,0
+Fill Map Data:
+52,61,1
+Fill Map Data:
+52,62,1
+Fill Map Data:
+52,63,1
+Fill Map Data:
+53,0,1
+Fill Map Data:
+53,1,1
+Fill Map Data:
+53,2,1
+Fill Map Data:
+53,3,1
+Fill Map Data:
+53,4,1
+Fill Map Data:
+53,5,1
+Fill Map Data:
+53,6,1
+Fill Map Data:
+53,7,0
+Fill Map Data:
+53,8,0
+Fill Map Data:
+53,9,0
+Fill Map Data:
+53,10,0
+Fill Map Data:
+53,11,0
+Fill Map Data:
+53,12,0
+Fill Map Data:
+53,13,0
+Fill Map Data:
+53,14,0
+Fill Map Data:
+53,15,0
+Fill Map Data:
+53,16,0
+Fill Map Data:
+53,17,0
+Fill Map Data:
+53,18,0
+Fill Map Data:
+53,19,0
+Fill Map Data:
+53,20,0
+Fill Map Data:
+53,21,0
+Fill Map Data:
+53,22,0
+Fill Map Data:
+53,23,0
+Fill Map Data:
+53,24,0
+Fill Map Data:
+53,25,0
+Fill Map Data:
+53,26,0
+Fill Map Data:
+53,27,0
+Fill Map Data:
+53,28,0
+Fill Map Data:
+53,29,0
+Fill Map Data:
+53,30,0
+Fill Map Data:
+53,31,0
+Fill Map Data:
+53,32,0
+Fill Map Data:
+53,33,0
+Fill Map Data:
+53,34,0
+Fill Map Data:
+53,35,0
+Fill Map Data:
+53,36,0
+Fill Map Data:
+53,37,0
+Fill Map Data:
+53,38,0
+Fill Map Data:
+53,39,0
+Fill Map Data:
+53,40,0
+Fill Map Data:
+53,41,0
+Fill Map Data:
+53,42,0
+Fill Map Data:
+53,43,0
+Fill Map Data:
+53,44,0
+Fill Map Data:
+53,45,0
+Fill Map Data:
+53,46,0
+Fill Map Data:
+53,47,0
+Fill Map Data:
+53,48,0
+Fill Map Data:
+53,49,0
+Fill Map Data:
+53,50,0
+Fill Map Data:
+53,51,0
+Fill Map Data:
+53,52,0
+Fill Map Data:
+53,53,0
+Fill Map Data:
+53,54,0
+Fill Map Data:
+53,55,1
+Fill Map Data:
+53,56,0
+Fill Map Data:
+53,57,1
+Fill Map Data:
+53,58,0
+Fill Map Data:
+53,59,0
+Fill Map Data:
+53,60,0
+Fill Map Data:
+53,61,1
+Fill Map Data:
+53,62,1
+Fill Map Data:
+53,63,0
+Fill Map Data:
+54,0,1
+Fill Map Data:
+54,1,1
+Fill Map Data:
+54,2,1
+Fill Map Data:
+54,3,1
+Fill Map Data:
+54,4,1
+Fill Map Data:
+54,5,1
+Fill Map Data:
+54,6,0
+Fill Map Data:
+54,7,0
+Fill Map Data:
+54,8,0
+Fill Map Data:
+54,9,0
+Fill Map Data:
+54,10,0
+Fill Map Data:
+54,11,0
+Fill Map Data:
+54,12,0
+Fill Map Data:
+54,13,0
+Fill Map Data:
+54,14,0
+Fill Map Data:
+54,15,0
+Fill Map Data:
+54,16,0
+Fill Map Data:
+54,17,0
+Fill Map Data:
+54,18,0
+Fill Map Data:
+54,19,0
+Fill Map Data:
+54,20,0
+Fill Map Data:
+54,21,0
+Fill Map Data:
+54,22,0
+Fill Map Data:
+54,23,0
+Fill Map Data:
+54,24,0
+Fill Map Data:
+54,25,0
+Fill Map Data:
+54,26,0
+Fill Map Data:
+54,27,0
+Fill Map Data:
+54,28,0
+Fill Map Data:
+54,29,0
+Fill Map Data:
+54,30,0
+Fill Map Data:
+54,31,0
+Fill Map Data:
+54,32,0
+Fill Map Data:
+54,33,0
+Fill Map Data:
+54,34,0
+Fill Map Data:
+54,35,0
+Fill Map Data:
+54,36,0
+Fill Map Data:
+54,37,0
+Fill Map Data:
+54,38,0
+Fill Map Data:
+54,39,0
+Fill Map Data:
+54,40,0
+Fill Map Data:
+54,41,0
+Fill Map Data:
+54,42,0
+Fill Map Data:
+54,43,0
+Fill Map Data:
+54,44,0
+Fill Map Data:
+54,45,0
+Fill Map Data:
+54,46,0
+Fill Map Data:
+54,47,0
+Fill Map Data:
+54,48,0
+Fill Map Data:
+54,49,0
+Fill Map Data:
+54,50,0
+Fill Map Data:
+54,51,0
+Fill Map Data:
+54,52,0
+Fill Map Data:
+54,53,0
+Fill Map Data:
+54,54,0
+Fill Map Data:
+54,55,0
+Fill Map Data:
+54,56,0
+Fill Map Data:
+54,57,0
+Fill Map Data:
+54,58,0
+Fill Map Data:
+54,59,0
+Fill Map Data:
+54,60,0
+Fill Map Data:
+54,61,0
+Fill Map Data:
+54,62,1
+Fill Map Data:
+54,63,1
+Fill Map Data:
+55,0,1
+Fill Map Data:
+55,1,1
+Fill Map Data:
+55,2,1
+Fill Map Data:
+55,3,1
+Fill Map Data:
+55,4,1
+Fill Map Data:
+55,5,1
+Fill Map Data:
+55,6,0
+Fill Map Data:
+55,7,0
+Fill Map Data:
+55,8,0
+Fill Map Data:
+55,9,0
+Fill Map Data:
+55,10,0
+Fill Map Data:
+55,11,0
+Fill Map Data:
+55,12,0
+Fill Map Data:
+55,13,0
+Fill Map Data:
+55,14,0
+Fill Map Data:
+55,15,0
+Fill Map Data:
+55,16,0
+Fill Map Data:
+55,17,0
+Fill Map Data:
+55,18,0
+Fill Map Data:
+55,19,0
+Fill Map Data:
+55,20,0
+Fill Map Data:
+55,21,0
+Fill Map Data:
+55,22,0
+Fill Map Data:
+55,23,0
+Fill Map Data:
+55,24,0
+Fill Map Data:
+55,25,0
+Fill Map Data:
+55,26,0
+Fill Map Data:
+55,27,0
+Fill Map Data:
+55,28,0
+Fill Map Data:
+55,29,0
+Fill Map Data:
+55,30,0
+Fill Map Data:
+55,31,0
+Fill Map Data:
+55,32,0
+Fill Map Data:
+55,33,0
+Fill Map Data:
+55,34,0
+Fill Map Data:
+55,35,0
+Fill Map Data:
+55,36,0
+Fill Map Data:
+55,37,0
+Fill Map Data:
+55,38,0
+Fill Map Data:
+55,39,0
+Fill Map Data:
+55,40,0
+Fill Map Data:
+55,41,0
+Fill Map Data:
+55,42,0
+Fill Map Data:
+55,43,0
+Fill Map Data:
+55,44,0
+Fill Map Data:
+55,45,0
+Fill Map Data:
+55,46,0
+Fill Map Data:
+55,47,0
+Fill Map Data:
+55,48,0
+Fill Map Data:
+55,49,0
+Fill Map Data:
+55,50,0
+Fill Map Data:
+55,51,0
+Fill Map Data:
+55,52,0
+Fill Map Data:
+55,53,0
+Fill Map Data:
+55,54,2
+Fill Map Data:
+55,55,0
+Fill Map Data:
+55,56,0
+Fill Map Data:
+55,57,0
+Fill Map Data:
+55,58,0
+Fill Map Data:
+55,59,0
+Fill Map Data:
+55,60,0
+Fill Map Data:
+55,61,0
+Fill Map Data:
+55,62,1
+Fill Map Data:
+55,63,0
+Fill Map Data:
+56,0,1
+Fill Map Data:
+56,1,1
+Fill Map Data:
+56,2,1
+Fill Map Data:
+56,3,1
+Fill Map Data:
+56,4,0
+Fill Map Data:
+56,5,0
+Fill Map Data:
+56,6,0
+Fill Map Data:
+56,7,1
+Fill Map Data:
+56,8,0
+Fill Map Data:
+56,9,1
+Fill Map Data:
+56,10,0
+Fill Map Data:
+56,11,0
+Fill Map Data:
+56,12,0
+Fill Map Data:
+56,13,0
+Fill Map Data:
+56,14,0
+Fill Map Data:
+56,15,1
+Fill Map Data:
+56,16,1
+Fill Map Data:
+56,17,0
+Fill Map Data:
+56,18,0
+Fill Map Data:
+56,19,0
+Fill Map Data:
+56,20,0
+Fill Map Data:
+56,21,1
+Fill Map Data:
+56,22,0
+Fill Map Data:
+56,23,0
+Fill Map Data:
+56,24,0
+Fill Map Data:
+56,25,0
+Fill Map Data:
+56,26,0
+Fill Map Data:
+56,27,1
+Fill Map Data:
+56,28,0
+Fill Map Data:
+56,29,0
+Fill Map Data:
+56,30,0
+Fill Map Data:
+56,31,0
+Fill Map Data:
+56,32,0
+Fill Map Data:
+56,33,1
+Fill Map Data:
+56,34,0
+Fill Map Data:
+56,35,0
+Fill Map Data:
+56,36,0
+Fill Map Data:
+56,37,1
+Fill Map Data:
+56,38,0
+Fill Map Data:
+56,39,1
+Fill Map Data:
+56,40,2
+Fill Map Data:
+56,41,0
+Fill Map Data:
+56,42,0
+Fill Map Data:
+56,43,0
+Fill Map Data:
+56,44,0
+Fill Map Data:
+56,45,0
+Fill Map Data:
+56,46,0
+Fill Map Data:
+56,47,0
+Fill Map Data:
+56,48,0
+Fill Map Data:
+56,49,0
+Fill Map Data:
+56,50,0
+Fill Map Data:
+56,51,0
+Fill Map Data:
+56,52,2
+Fill Map Data:
+56,53,0
+Fill Map Data:
+56,54,0
+Fill Map Data:
+56,55,0
+Fill Map Data:
+56,56,0
+Fill Map Data:
+56,57,0
+Fill Map Data:
+56,58,0
+Fill Map Data:
+56,59,0
+Fill Map Data:
+56,60,0
+Fill Map Data:
+56,61,0
+Fill Map Data:
+56,62,1
+Fill Map Data:
+56,63,0
+Fill Map Data:
+57,0,1
+Fill Map Data:
+57,1,1
+Fill Map Data:
+57,2,1
+Fill Map Data:
+57,3,1
+Fill Map Data:
+57,4,0
+Fill Map Data:
+57,5,1
+Fill Map Data:
+57,6,1
+Fill Map Data:
+57,7,1
+Fill Map Data:
+57,8,1
+Fill Map Data:
+57,9,1
+Fill Map Data:
+57,10,0
+Fill Map Data:
+57,11,0
+Fill Map Data:
+57,12,1
+Fill Map Data:
+57,13,0
+Fill Map Data:
+57,14,1
+Fill Map Data:
+57,15,1
+Fill Map Data:
+57,16,1
+Fill Map Data:
+57,17,1
+Fill Map Data:
+57,18,1
+Fill Map Data:
+57,19,0
+Fill Map Data:
+57,20,0
+Fill Map Data:
+57,21,0
+Fill Map Data:
+57,22,0
+Fill Map Data:
+57,23,1
+Fill Map Data:
+57,24,0
+Fill Map Data:
+57,25,0
+Fill Map Data:
+57,26,1
+Fill Map Data:
+57,27,0
+Fill Map Data:
+57,28,1
+Fill Map Data:
+57,29,0
+Fill Map Data:
+57,30,0
+Fill Map Data:
+57,31,1
+Fill Map Data:
+57,32,0
+Fill Map Data:
+57,33,0
+Fill Map Data:
+57,34,0
+Fill Map Data:
+57,35,0
+Fill Map Data:
+57,36,1
+Fill Map Data:
+57,37,0
+Fill Map Data:
+57,38,1
+Fill Map Data:
+57,39,2
+Fill Map Data:
+57,40,1
+Fill Map Data:
+57,41,2
+Fill Map Data:
+57,42,1
+Fill Map Data:
+57,43,0
+Fill Map Data:
+57,44,0
+Fill Map Data:
+57,45,0
+Fill Map Data:
+57,46,0
+Fill Map Data:
+57,47,0
+Fill Map Data:
+57,48,0
+Fill Map Data:
+57,49,1
+Fill Map Data:
+57,50,0
+Fill Map Data:
+57,51,0
+Fill Map Data:
+57,52,2
+Fill Map Data:
+57,53,2
+Fill Map Data:
+57,54,0
+Fill Map Data:
+57,55,2
+Fill Map Data:
+57,56,0
+Fill Map Data:
+57,57,0
+Fill Map Data:
+57,58,1
+Fill Map Data:
+57,59,0
+Fill Map Data:
+57,60,0
+Fill Map Data:
+57,61,0
+Fill Map Data:
+57,62,1
+Fill Map Data:
+57,63,0
+Fill Map Data:
+58,0,1
+Fill Map Data:
+58,1,1
+Fill Map Data:
+58,2,1
+Fill Map Data:
+58,3,1
+Fill Map Data:
+58,4,1
+Fill Map Data:
+58,5,1
+Fill Map Data:
+58,6,1
+Fill Map Data:
+58,7,1
+Fill Map Data:
+58,8,1
+Fill Map Data:
+58,9,1
+Fill Map Data:
+58,10,0
+Fill Map Data:
+58,11,0
+Fill Map Data:
+58,12,1
+Fill Map Data:
+58,13,1
+Fill Map Data:
+58,14,1
+Fill Map Data:
+58,15,0
+Fill Map Data:
+58,16,0
+Fill Map Data:
+58,17,1
+Fill Map Data:
+58,18,1
+Fill Map Data:
+58,19,0
+Fill Map Data:
+58,20,1
+Fill Map Data:
+58,21,0
+Fill Map Data:
+58,22,1
+Fill Map Data:
+58,23,1
+Fill Map Data:
+58,24,0
+Fill Map Data:
+58,25,1
+Fill Map Data:
+58,26,1
+Fill Map Data:
+58,27,1
+Fill Map Data:
+58,28,1
+Fill Map Data:
+58,29,1
+Fill Map Data:
+58,30,1
+Fill Map Data:
+58,31,1
+Fill Map Data:
+58,32,1
+Fill Map Data:
+58,33,1
+Fill Map Data:
+58,34,0
+Fill Map Data:
+58,35,0
+Fill Map Data:
+58,36,1
+Fill Map Data:
+58,37,1
+Fill Map Data:
+58,38,1
+Fill Map Data:
+58,39,1
+Fill Map Data:
+58,40,1
+Fill Map Data:
+58,41,1
+Fill Map Data:
+58,42,0
+Fill Map Data:
+58,43,0
+Fill Map Data:
+58,44,1
+Fill Map Data:
+58,45,0
+Fill Map Data:
+58,46,0
+Fill Map Data:
+58,47,1
+Fill Map Data:
+58,48,1
+Fill Map Data:
+58,49,1
+Fill Map Data:
+58,50,0
+Fill Map Data:
+58,51,0
+Fill Map Data:
+58,52,2
+Fill Map Data:
+58,53,1
+Fill Map Data:
+58,54,2
+Fill Map Data:
+58,55,2
+Fill Map Data:
+58,56,1
+Fill Map Data:
+58,57,0
+Fill Map Data:
+58,58,1
+Fill Map Data:
+58,59,1
+Fill Map Data:
+58,60,1
+Fill Map Data:
+58,61,1
+Fill Map Data:
+58,62,1
+Fill Map Data:
+58,63,1
+Fill Map Data:
+59,0,0
+Fill Map Data:
+59,1,1
+Fill Map Data:
+59,2,1
+Fill Map Data:
+59,3,1
+Fill Map Data:
+59,4,1
+Fill Map Data:
+59,5,1
+Fill Map Data:
+59,6,1
+Fill Map Data:
+59,7,1
+Fill Map Data:
+59,8,1
+Fill Map Data:
+59,9,1
+Fill Map Data:
+59,10,1
+Fill Map Data:
+59,11,0
+Fill Map Data:
+59,12,1
+Fill Map Data:
+59,13,0
+Fill Map Data:
+59,14,1
+Fill Map Data:
+59,15,1
+Fill Map Data:
+59,16,0
+Fill Map Data:
+59,17,1
+Fill Map Data:
+59,18,1
+Fill Map Data:
+59,19,0
+Fill Map Data:
+59,20,0
+Fill Map Data:
+59,21,1
+Fill Map Data:
+59,22,1
+Fill Map Data:
+59,23,0
+Fill Map Data:
+59,24,1
+Fill Map Data:
+59,25,0
+Fill Map Data:
+59,26,1
+Fill Map Data:
+59,27,1
+Fill Map Data:
+59,28,1
+Fill Map Data:
+59,29,1
+Fill Map Data:
+59,30,1
+Fill Map Data:
+59,31,1
+Fill Map Data:
+59,32,1
+Fill Map Data:
+59,33,1
+Fill Map Data:
+59,34,1
+Fill Map Data:
+59,35,1
+Fill Map Data:
+59,36,1
+Fill Map Data:
+59,37,1
+Fill Map Data:
+59,38,2
+Fill Map Data:
+59,39,2
+Fill Map Data:
+59,40,2
+Fill Map Data:
+59,41,2
+Fill Map Data:
+59,42,2
+Fill Map Data:
+59,43,0
+Fill Map Data:
+59,44,0
+Fill Map Data:
+59,45,0
+Fill Map Data:
+59,46,2
+Fill Map Data:
+59,47,2
+Fill Map Data:
+59,48,1
+Fill Map Data:
+59,49,1
+Fill Map Data:
+59,50,1
+Fill Map Data:
+59,51,2
+Fill Map Data:
+59,52,0
+Fill Map Data:
+59,53,1
+Fill Map Data:
+59,54,2
+Fill Map Data:
+59,55,0
+Fill Map Data:
+59,56,1
+Fill Map Data:
+59,57,1
+Fill Map Data:
+59,58,1
+Fill Map Data:
+59,59,1
+Fill Map Data:
+59,60,1
+Fill Map Data:
+59,61,1
+Fill Map Data:
+59,62,1
+Fill Map Data:
+59,63,1
+Fill Map Data:
+60,0,1
+Fill Map Data:
+60,1,1
+Fill Map Data:
+60,2,1
+Fill Map Data:
+60,3,1
+Fill Map Data:
+60,4,1
+Fill Map Data:
+60,5,1
+Fill Map Data:
+60,6,1
+Fill Map Data:
+60,7,1
+Fill Map Data:
+60,8,1
+Fill Map Data:
+60,9,1
+Fill Map Data:
+60,10,1
+Fill Map Data:
+60,11,1
+Fill Map Data:
+60,12,1
+Fill Map Data:
+60,13,0
+Fill Map Data:
+60,14,1
+Fill Map Data:
+60,15,0
+Fill Map Data:
+60,16,1
+Fill Map Data:
+60,17,1
+Fill Map Data:
+60,18,1
+Fill Map Data:
+60,19,0
+Fill Map Data:
+60,20,1
+Fill Map Data:
+60,21,0
+Fill Map Data:
+60,22,0
+Fill Map Data:
+60,23,1
+Fill Map Data:
+60,24,1
+Fill Map Data:
+60,25,1
+Fill Map Data:
+60,26,1
+Fill Map Data:
+60,27,1
+Fill Map Data:
+60,28,1
+Fill Map Data:
+60,29,1
+Fill Map Data:
+60,30,1
+Fill Map Data:
+60,31,0
+Fill Map Data:
+60,32,1
+Fill Map Data:
+60,33,1
+Fill Map Data:
+60,34,1
+Fill Map Data:
+60,35,1
+Fill Map Data:
+60,36,0
+Fill Map Data:
+60,37,1
+Fill Map Data:
+60,38,1
+Fill Map Data:
+60,39,1
+Fill Map Data:
+60,40,1
+Fill Map Data:
+60,41,1
+Fill Map Data:
+60,42,0
+Fill Map Data:
+60,43,0
+Fill Map Data:
+60,44,0
+Fill Map Data:
+60,45,2
+Fill Map Data:
+60,46,1
+Fill Map Data:
+60,47,0
+Fill Map Data:
+60,48,0
+Fill Map Data:
+60,49,1
+Fill Map Data:
+60,50,2
+Fill Map Data:
+60,51,0
+Fill Map Data:
+60,52,2
+Fill Map Data:
+60,53,2
+Fill Map Data:
+60,54,2
+Fill Map Data:
+60,55,2
+Fill Map Data:
+60,56,2
+Fill Map Data:
+60,57,1
+Fill Map Data:
+60,58,1
+Fill Map Data:
+60,59,1
+Fill Map Data:
+60,60,1
+Fill Map Data:
+60,61,1
+Fill Map Data:
+60,62,1
+Fill Map Data:
+60,63,1
+Fill Map Data:
+61,0,1
+Fill Map Data:
+61,1,0
+Fill Map Data:
+61,2,1
+Fill Map Data:
+61,3,1
+Fill Map Data:
+61,4,0
+Fill Map Data:
+61,5,1
+Fill Map Data:
+61,6,1
+Fill Map Data:
+61,7,1
+Fill Map Data:
+61,8,1
+Fill Map Data:
+61,9,1
+Fill Map Data:
+61,10,1
+Fill Map Data:
+61,11,1
+Fill Map Data:
+61,12,1
+Fill Map Data:
+61,13,0
+Fill Map Data:
+61,14,1
+Fill Map Data:
+61,15,1
+Fill Map Data:
+61,16,1
+Fill Map Data:
+61,17,1
+Fill Map Data:
+61,18,0
+Fill Map Data:
+61,19,1
+Fill Map Data:
+61,20,0
+Fill Map Data:
+61,21,1
+Fill Map Data:
+61,22,1
+Fill Map Data:
+61,23,1
+Fill Map Data:
+61,24,1
+Fill Map Data:
+61,25,1
+Fill Map Data:
+61,26,1
+Fill Map Data:
+61,27,1
+Fill Map Data:
+61,28,1
+Fill Map Data:
+61,29,1
+Fill Map Data:
+61,30,0
+Fill Map Data:
+61,31,0
+Fill Map Data:
+61,32,1
+Fill Map Data:
+61,33,1
+Fill Map Data:
+61,34,1
+Fill Map Data:
+61,35,1
+Fill Map Data:
+61,36,0
+Fill Map Data:
+61,37,1
+Fill Map Data:
+61,38,1
+Fill Map Data:
+61,39,2
+Fill Map Data:
+61,40,1
+Fill Map Data:
+61,41,1
+Fill Map Data:
+61,42,0
+Fill Map Data:
+61,43,2
+Fill Map Data:
+61,44,1
+Fill Map Data:
+61,45,1
+Fill Map Data:
+61,46,2
+Fill Map Data:
+61,47,0
+Fill Map Data:
+61,48,1
+Fill Map Data:
+61,49,1
+Fill Map Data:
+61,50,1
+Fill Map Data:
+61,51,2
+Fill Map Data:
+61,52,1
+Fill Map Data:
+61,53,1
+Fill Map Data:
+61,54,2
+Fill Map Data:
+61,55,1
+Fill Map Data:
+61,56,1
+Fill Map Data:
+61,57,1
+Fill Map Data:
+61,58,0
+Fill Map Data:
+61,59,1
+Fill Map Data:
+61,60,0
+Fill Map Data:
+61,61,1
+Fill Map Data:
+61,62,1
+Fill Map Data:
+61,63,1
+Fill Map Data:
+62,0,1
+Fill Map Data:
+62,1,1
+Fill Map Data:
+62,2,1
+Fill Map Data:
+62,3,1
+Fill Map Data:
+62,4,1
+Fill Map Data:
+62,5,1
+Fill Map Data:
+62,6,0
+Fill Map Data:
+62,7,1
+Fill Map Data:
+62,8,1
+Fill Map Data:
+62,9,1
+Fill Map Data:
+62,10,1
+Fill Map Data:
+62,11,0
+Fill Map Data:
+62,12,1
+Fill Map Data:
+62,13,1
+Fill Map Data:
+62,14,1
+Fill Map Data:
+62,15,0
+Fill Map Data:
+62,16,1
+Fill Map Data:
+62,17,1
+Fill Map Data:
+62,18,1
+Fill Map Data:
+62,19,1
+Fill Map Data:
+62,20,1
+Fill Map Data:
+62,21,0
+Fill Map Data:
+62,22,1
+Fill Map Data:
+62,23,1
+Fill Map Data:
+62,24,1
+Fill Map Data:
+62,25,1
+Fill Map Data:
+62,26,1
+Fill Map Data:
+62,27,0
+Fill Map Data:
+62,28,1
+Fill Map Data:
+62,29,0
+Fill Map Data:
+62,30,1
+Fill Map Data:
+62,31,1
+Fill Map Data:
+62,32,1
+Fill Map Data:
+62,33,1
+Fill Map Data:
+62,34,1
+Fill Map Data:
+62,35,1
+Fill Map Data:
+62,36,1
+Fill Map Data:
+62,37,1
+Fill Map Data:
+62,38,2
+Fill Map Data:
+62,39,1
+Fill Map Data:
+62,40,1
+Fill Map Data:
+62,41,1
+Fill Map Data:
+62,42,1
+Fill Map Data:
+62,43,2
+Fill Map Data:
+62,44,0
+Fill Map Data:
+62,45,2
+Fill Map Data:
+62,46,1
+Fill Map Data:
+62,47,1
+Fill Map Data:
+62,48,1
+Fill Map Data:
+62,49,1
+Fill Map Data:
+62,50,2
+Fill Map Data:
+62,51,2
+Fill Map Data:
+62,52,0
+Fill Map Data:
+62,53,2
+Fill Map Data:
+62,54,2
+Fill Map Data:
+62,55,2
+Fill Map Data:
+62,56,2
+Fill Map Data:
+62,57,0
+Fill Map Data:
+62,58,1
+Fill Map Data:
+62,59,1
+Fill Map Data:
+62,60,0
+Fill Map Data:
+62,61,1
+Fill Map Data:
+62,62,1
+Fill Map Data:
+62,63,1
+Fill Map Data:
+63,0,1
+Fill Map Data:
+63,1,1
+Fill Map Data:
+63,2,1
+Fill Map Data:
+63,3,1
+Fill Map Data:
+63,4,1
+Fill Map Data:
+63,5,1
+Fill Map Data:
+63,6,0
+Fill Map Data:
+63,7,1
+Fill Map Data:
+63,8,1
+Fill Map Data:
+63,9,1
+Fill Map Data:
+63,10,1
+Fill Map Data:
+63,11,0
+Fill Map Data:
+63,12,0
+Fill Map Data:
+63,13,1
+Fill Map Data:
+63,14,0
+Fill Map Data:
+63,15,1
+Fill Map Data:
+63,16,1
+Fill Map Data:
+63,17,1
+Fill Map Data:
+63,18,1
+Fill Map Data:
+63,19,0
+Fill Map Data:
+63,20,0
+Fill Map Data:
+63,21,1
+Fill Map Data:
+63,22,1
+Fill Map Data:
+63,23,1
+Fill Map Data:
+63,24,1
+Fill Map Data:
+63,25,1
+Fill Map Data:
+63,26,1
+Fill Map Data:
+63,27,1
+Fill Map Data:
+63,28,1
+Fill Map Data:
+63,29,0
+Fill Map Data:
+63,30,0
+Fill Map Data:
+63,31,1
+Fill Map Data:
+63,32,0
+Fill Map Data:
+63,33,1
+Fill Map Data:
+63,34,1
+Fill Map Data:
+63,35,0
+Fill Map Data:
+63,36,1
+Fill Map Data:
+63,37,0
+Fill Map Data:
+63,38,2
+Fill Map Data:
+63,39,2
+Fill Map Data:
+63,40,2
+Fill Map Data:
+63,41,1
+Fill Map Data:
+63,42,2
+Fill Map Data:
+63,43,2
+Fill Map Data:
+63,44,2
+Fill Map Data:
+63,45,2
+Fill Map Data:
+63,46,2
+Fill Map Data:
+63,47,0
+Fill Map Data:
+63,48,2
+Fill Map Data:
+63,49,2
+Fill Map Data:
+63,50,0
+Fill Map Data:
+63,51,1
+Fill Map Data:
+63,52,2
+Fill Map Data:
+63,53,2
+Fill Map Data:
+63,54,2
+Fill Map Data:
+63,55,2
+Fill Map Data:
+63,56,2
+Fill Map Data:
+63,57,1
+Fill Map Data:
+63,58,1
+Fill Map Data:
+63,59,0
+Fill Map Data:
+63,60,1
+Fill Map Data:
+63,61,1
+Fill Map Data:
+63,62,1
+Fill Map Data:
+63,63,1
+Fill Map Data:
+# - END MAP DATA -- #
+Taiyou.Utils.GC_COLLECT : Function Called
+Fogoso\Data/FONT\PressStart2P.ttf
+EverdayMessage_UpdateMessage : MessageID[6]
+Fogoso\Data/FONT\PressStart2P.ttf
+Fogoso\Data/FONT\PressStart2P.ttf
+ObjectCreation : UpDownButton created.
+ObjectCreation : UpDownButton created.
+-1
+NULL
+Fogoso\Data/FONT\PressStart2P.ttf
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+-1
+NULL
+Fogoso\Data/FONT\PressStart2P.ttf
+Fogoso\Data/FONT\PressStart2P.ttf
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Sprite.Render : Error while rendering sprite;
+Cannot scale to negative size
+Fogoso\Data/FONT\PressStart2P.ttf
+Fogoso\Data/FONT\PressStart2P.ttf
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/experience.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_per_click.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks_for_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_experience_per_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_minimun.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/click_last_best.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/welcome_message_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/lower_money_warning.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_day_trigger.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_per_day_value.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_base_price.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/microseconds.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/tutorials_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_name.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_id.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/0_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-1_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-2_level.sav] has been written.
+SaveItem : Saving Items Data...
+[<Fogoso.MAIN.GameItems.Item_Shop object at 0x000001BADECC94F0>]
+SaveItem : id:0
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items2.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/experience.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_per_click.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks_for_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_experience_per_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_minimun.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/click_last_best.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/welcome_message_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/lower_money_warning.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_day_trigger.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_per_day_value.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_base_price.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/microseconds.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/tutorials_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_name.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_id.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/0_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-1_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-2_level.sav] has been written.
+SaveItem : Saving Items Data...
+[<Fogoso.MAIN.GameItems.Item_Shop object at 0x000001BADECC94F0>]
+SaveItem : id:0
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items2.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/experience.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_per_click.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks_for_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_experience_per_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_minimun.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/click_last_best.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/welcome_message_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/lower_money_warning.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_day_trigger.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_per_day_value.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_base_price.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/microseconds.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/tutorials_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_name.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_id.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/0_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-1_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-2_level.sav] has been written.
+SaveItem : Saving Items Data...
+[<Fogoso.MAIN.GameItems.Item_Shop object at 0x000001BADECC94F0>]
+SaveItem : id:0
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items2.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/experience.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_per_click.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks_for_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_experience_per_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_minimun.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/click_last_best.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/welcome_message_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/lower_money_warning.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_day_trigger.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_per_day_value.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_base_price.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/microseconds.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/tutorials_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_name.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_id.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/0_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-1_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-2_level.sav] has been written.
+SaveItem : Saving Items Data...
+[<Fogoso.MAIN.GameItems.Item_Shop object at 0x000001BADECC94F0>, <Fogoso.MAIN.GameItems.Item_ExperienceStore object at 0x000001BACEC32310>]
+SaveItem : id:0
+SaveItem : id:1
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items2.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/experience.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_per_click.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_clicks_for_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/total_experience_per_each.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/money_minimun.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/click_last_best.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/welcome_message_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/lower_money_warning.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_day_trigger.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_per_day_value.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/maintenance_base_price.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/microseconds.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/day.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/month.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/year.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/minute.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/date/limiter/second.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/tutorials_triggered.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_name.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/planet_id.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/0_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-1_level.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/item_level/-2_level.sav] has been written.
+SaveItem : Saving Items Data...
+[<Fogoso.MAIN.GameItems.Item_Shop object at 0x000001BADECC94F0>, <Fogoso.MAIN.GameItems.Item_ExperienceStore object at 0x000001BACEC32310>]
+SaveItem : id:0
+SaveItem : id:1
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items.sav] has been written.
+Taiyou.Registry.WriteAppData : File[AppData\Fogoso/Items2.sav] has been written.
+Taiyou Game Engine has crashed! [name 'CONTENT_MANAGER' is not defined]
+Initializing Error Mode...
+Taiyou.GameExecution.SetGameObject : Loading Module: [Taiyou.ERROR.MAIN]
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.Utils.GC_COLLECT : Function Called
+Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:60
+TaiyouMessage: Command Processed:
+'0' with Argument: '60'
+Taiyou.GameExecution.ReceiveCommand : Set Resolution to: 800x600
+TaiyouMessage: Command Processed:
+'1' with Argument: '800x600'
+Taiyou.GameExecution.ReceiveCommand : Set CURSOR_VISIBLE to False
+TaiyouMessage: Command Processed:
+'6' with Argument: 'False'
+ContentManager.LoadSpritesInFolder : Loading all Sprites...
+[Taiyou\ERROR\\Data/SPRITE/background.png]
 ContentManager.LoadSpritesInFolder : ItemAdded[/background.png]; Index[-1] Transparent: True
 
-[Taiyou\Bootloader\RES/img/cursor.png]
+[Taiyou\ERROR\\Data/SPRITE/cursor.png]
 ContentManager.LoadSpritesInFolder : ItemAdded[/cursor.png]; Index[-1] Transparent: True
 
-[Taiyou\Bootloader\RES/img/warning.png]
+[Taiyou\ERROR\\Data/SPRITE/bar.png]
+ContentManager.LoadSpritesInFolder : ItemAdded[/bar.png]; Index[-1] Transparent: True
+
+[Taiyou\ERROR\\Data/SPRITE/warning.png]
 ContentManager.LoadSpritesInFolder : ItemAdded[/warning.png]; Index[-1] Transparent: True
 
 Sprite.LoadFonts : Directory does not have Font Packs to be installed.
@@ -111,30 +10637,28 @@ ContentManager.LoadSpritesInFolder : Operation Completed.
 Taiyou.ContentManager.UnloadRegistry : Unloading Registry
 Taiyou.Utils.GC_COLLECT : Function Called
 Taiyou.ContentManager.LoadRegistry : Loading Registry...
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_end_delay]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_next_delay]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\animation_speed]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\aragubas]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\game_boot_error]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\no_game_selected]
-Taiyou.ContentManager.LoadRegistry : KeyLoaded[\skip_intro]
-Taiyou.ContentManager.LoadRegistry : Total of 7 registry keys loaded. In 0.0170 seconds.
+Taiyou.ContentManager.LoadRegistry : KeyLoaded[\error_text]
+Taiyou.ContentManager.LoadRegistry : Total of 1 registry keys loaded. In 0.0130 seconds.
 Taiyou.Utils.GC_COLLECT : Function Called
 ContentManager.LoadSoundsInFolder : Loading Sounds
 
-ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\intro.wav] detected; Index[0]
-ContentManager.LoadSoundsInFolder : ItemAdded[\intro.wav]; Index[0]
-
-
-ContentManager.LoadSoundsInFolder : File[Taiyou\Bootloader\RES/sound\notify.wav] detected; Index[1]
-ContentManager.LoadSoundsInFolder : ItemAdded[\notify.wav]; Index[1]
+ContentManager.LoadSoundsInFolder : File[Taiyou\ERROR\\Data/SOUND\notify.wav] detected; Index[0]
+ContentManager.LoadSoundsInFolder : ItemAdded[\notify.wav]; Index[0]
 
 ContentManager.LoadSoundsInFolder : Operation Completed
-Sounds Loaded
-{'\\intro.wav': <Sound object at 0x0000023401247C00>, '\\notify.wav': <Sound object at 0x0000023401247C30>}
-Initialize Called
-Taiyou.GameExecution.ReceiveCommand : MaxFPS Set to:60
-TaiyouMessage: Command Processed:
-'0' with Argument: '60'
+Taiyou.CrashScreen : Initialized
+Traceback (most recent call last):
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\main.py", line 26, in <module>
+    Taiyou.Run()
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\ENGINE\MAIN\__init__.py", line 223, in Run
+    GameObject.GameDraw(DISPLAY)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\__init__.py", line 117, in GameDraw
+    CurrentUpdate.GameDraw(DefaultDisplay)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\Screens\Game\__init__.py", line 376, in GameDraw
+    expStoreWindow.Render(DISPLAY)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\Window\ExperienceStore\__init__.py", line 87, in Render
+    CONTENT_MANAGER.Shape_Rectangle(DrawnSurface, (0, 0, 0, 100), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset, DrawnSurface.get_width(), DownBar_BuyPanelYOffset))
+NameError: name 'CONTENT_MANAGER' is not defined
+
 Taiyou.Utils.GC_COLLECT : Function Called
-Taiyou\Bootloader\RES/font\Ubuntu_Bold.ttf
+Taiyou\ERROR\\Data\FONT\Ubuntu_Bold.ttf

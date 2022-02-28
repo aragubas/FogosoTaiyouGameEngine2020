@@ -464,12 +464,12 @@ def GrindClick():
     global CurrentDate_Microseconds
 
     Current_TotalClicks += 1
-    CurrentDate_Microseconds += Current_TotalClicks
+    CurrentDate_Microseconds += Current_TotalClicks / 32
 
-    # -- €xp Mining -- #
+    # -- Exp Mining -- #
     if Current_TotalClicks == Current_TotalClicksNext:
         Current_TotalClicksNext = Current_TotalClicks + Current_TotalClicksForEach
         Current_Experience += Current_ExperiencePerEach
-        IncomingLog.AddMessageText("€+{0}".format(str(Current_ExperiencePerEach)), False, (150,150,150))
+        IncomingLog.AddMessageText("E+{0}".format(str(Current_ExperiencePerEach)), False, (150,150,150))
 
     IncomingLog.AddMessageText("+{0}".format(str(Current_MoneyValuePerClick)), True, (20, 150, 25), Current_MoneyValuePerClick * Current_MoneyMultiplier)

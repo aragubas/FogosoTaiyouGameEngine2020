@@ -1,6 +1,6 @@
 -- TaiyouGameEngine has failed while booting an Application. --
 This log file has been written on:
-2022-02-28 01:38:24.531518
+2022-02-28 02:25:29.128919
 
 Traceback:
 NoneType: None

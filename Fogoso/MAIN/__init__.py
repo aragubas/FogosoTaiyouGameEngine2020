@@ -31,7 +31,6 @@ from Fogoso.MAIN.Screens import Settings as ScreenSettings
 from Fogoso.MAIN.Screens import Test as ScreenTest
 from Fogoso.MAIN import GameVariables as gameVar
 from Fogoso.MAIN.Screens import Intro as ScreenIntro
-from Fogoso.MAIN.Screens.Game import MapRender as ScreenMap
 from Fogoso.MAIN import GameVariables as save
 from Fogoso.MAIN import ScreenTransition as transition
 from Fogoso.MAIN import OverlayDialog as dialog
@@ -206,7 +205,6 @@ def ScreensInitialize(DISPLAY):
     ScreenMenu.Initialize(DISPLAY)
     ScreenGame.Initialize(DISPLAY)
     ScreenSettings.Initialize()
-    ScreenMap.Initialize()
 
 def SetScreen_ByID(ScreenID):
     global CurrentUpdate
@@ -225,9 +223,6 @@ def SetScreen_ByID(ScreenID):
 
     elif ScreenID == 2:
         CurrentUpdate = ScreenSettings
-
-    elif ScreenID == 3:
-        CurrentUpdate = ScreenMap
 
 def EventUpdate(event):  # -- Engine Required Function
     global Cursor_Position

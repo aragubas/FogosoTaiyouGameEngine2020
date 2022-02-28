@@ -23,11 +23,11 @@ from Fogoso.MAIN.Screens.Game import IncomingLog
 from ENGINE import UTILS as utils
 from random import randint
 
-print("Fogoso Maintenance , version 1.3")
+print("Fogoso Maintenance , version 1.4")
 
 # -- Variables -- #
 ItemsMaintenance = 0.0
-BaseMaintenance = 25.0
+BaseMaintenance = 10.0
 LastMaintenancePrice = 0.0
 
 DayTrigger = 1

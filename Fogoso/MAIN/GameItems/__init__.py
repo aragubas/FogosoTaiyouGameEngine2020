@@ -312,7 +312,7 @@ class Item_ExperienceStore:
         self.maintenance_cost = gameMain.DefaultCnt.Get_RegKey("/ItemData/-1/lv_" + str(self.ItemLevel) + "_cost_maintenance", float)
 
     def ItemAction(self):
-        gameMain.ScreenGame.IncomingLog.AddMessageText("€+{0}".format(str(self.ItemExpPerSecound)), False, (55, 45, 60))
+        gameMain.ScreenGame.IncomingLog.AddMessageText("E+{0}".format(str(self.ItemExpPerSecound)), False, (55, 45, 60))
         gameMain.save.Current_Experience += self.ItemExpPerSecound
 
         self.ReloadStatus()

@@ -1,22 +1,20 @@
 -- Taiyou Crash File--
 This log file has been written on:
-2022-02-28 01:57:48.975322
+2022-02-28 02:35:46.307107
 
 Traceback:
 Traceback (most recent call last):
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\main.py", line 26, in <module>
+  File "main.py", line 26, in <module>
     Taiyou.Run()
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\ENGINE\MAIN\__init__.py", line 217, in Run
-    GameObject.Update()
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\__init__.py", line 184, in Update
-    CurrentUpdate.Update()
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\Screens\MainMenu\__init__.py", line 121, in Update
-    tipsWindow.Update()
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\Fogoso\MAIN\Window\Tips\__init__.py", line 80, in Update
-    gameMain.DefaultCnt.Write_RegKey("/strings/main_menu/EMW/first_message", "False")
-  File "C:\Users\Ceira\Downloads\taiyou-game-engine-c5016d22dee3f9beb718ffd65314b6de2258026f\ENGINE\CONTENT_MANAGER\__init__.py", line 399, in Write_RegKey
-    Index = self.reg_keys.index(keyName)
-ValueError: '/strings/main_menu/EMW/first_message' is not in list
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\ENGINE\MAIN\__init__.py", line 223, in Run
+    GameObject.GameDraw(DISPLAY)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\__init__.py", line 117, in GameDraw
+    CurrentUpdate.GameDraw(DefaultDisplay)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\Screens\Game\__init__.py", line 376, in GameDraw
+    expStoreWindow.Render(DISPLAY)
+  File "C:\Users\Ceira\Documents\Programming\Python\FogosoTaiyouGameEngine2020\Fogoso\MAIN\Window\ExperienceStore\__init__.py", line 87, in Render
+    gameMain.DefaultCnt.Shape_Rectangle(DrawnSurface, (0, 0, 0, 100), (0, DrawnSurface.get_height() - DownBar_BuyPanelYOffset, DrawnSurface.get_width(), DownBar_BuyPanelYOffset))
+AttributeError: 'ContentManager' object has no attribute 'Shape_Rectangle'
 
 
 Modules Version:
